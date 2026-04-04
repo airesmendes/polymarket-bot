@@ -76,12 +76,11 @@ def get_wallets_from_trades_api(limit=30):
         if not items:
             continue
 
-        # Extrai traders únicos
+        # Extrai traders únicos — campo confirmado: proxyWallet
         traders = {}
         for t in items:
-            addr = (t.get("maker") or t.get("maker_address") or t.get("makerAddress") or
-                    t.get("user") or t.get("trader") or t.get("taker") or
-                    t.get("taker_address") or "")
+            addr = (t.get("proxyWallet") or t.get("maker") or t.get("maker_address") or
+                    t.get("user") or t.get("trader") or "")
             if addr and len(addr) > 10:
                 if addr not in traders:
                     traders[addr] = {"address": addr, "volume": 0.0, "trades": 0, "rank": 0}
@@ -237,19 +236,37 @@ def get_wallet_pnl(address):
     return {"pnl": 0.0, "volume": 0.0, "roi": 0.0}
 
 def calc_pnl_from_activity(activity):
-    """Calcula PNL e volume a partir da lista de atividades (fallback)."""
+    """Calcula PNL e volume a partir da atividade. Campos confirmados: usdcSize, side."""
     buy_total = sell_total = volume = 0.0
     for a in activity:
-        side = (a.get("type") or a.get("side") or "").upper()
-        usdc = float(a.get("usdcSize") or a.get("amount") or a.get("size") or 0)
+        # Campo confirmado: 'side' (BUY/SELL)
+        side = (a.get("side") or a.get("type") or "").upper()
+        usdc = float(a.get("usdcSize") or a.get("size") or 0)
         volume += usdc
-        if side in ("BUY", "LONG", "YES"):
+        if side == "BUY":
             buy_total += usdc
-        elif side in ("SELL", "SHORT", "NO"):
+        elif side == "SELL":
             sell_total += usdc
     pnl = sell_total - buy_total
     roi = (pnl / buy_total * 100) if buy_total > 0 else 0.0
     return {"pnl": round(pnl, 2), "volume": round(volume, 2), "roi": round(roi, 2)}
+
+def calc_pnl_from_positions(positions):
+    """Calcula PNL direto das posições abertas. Campos confirmados: cashPnl, realizedPnl, currentValue."""
+    cash_pnl     = sum(float(p.get("cashPnl")     or 0) for p in positions)
+    realized_pnl = sum(float(p.get("realizedPnl") or 0) for p in positions)
+    current_val  = sum(float(p.get("currentValue") or 0) for p in positions)
+    total_bought = sum(float(p.get("totalBought")  or 0) for p in positions)
+    total_pnl    = cash_pnl + realized_pnl
+    roi = (total_pnl / total_bought * 100) if total_bought > 0 else 0.0
+    return {
+        "pnl":          round(total_pnl, 2),
+        "realized_pnl": round(realized_pnl, 2),
+        "unrealized":   round(cash_pnl, 2),
+        "current_val":  round(current_val, 2),
+        "total_bought": round(total_bought, 2),
+        "roi":          round(roi, 2),
+    }
 
 # ── State ─────────────────────────────────────────────────────────────────────
 
@@ -311,12 +328,6 @@ def run_tracker():
         positions = get_wallet_positions(address)
         activity  = get_wallet_activity(address, limit=100)
 
-        # Debug: show sample keys from first wallet
-        if i == 0 and activity:
-            print(f"    [DEBUG] activity[0] keys: {list(activity[0].keys())}")
-            print(f"    [DEBUG] activity[0] sample: { {k: activity[0][k] for k in list(activity[0].keys())[:8]} }")
-        if i == 0 and positions:
-            print(f"    [DEBUG] positions[0] keys: {list(positions[0].keys())}")
         pnl_data  = {"pnl": 0.0, "volume": 0.0, "roi": 0.0}  # profile=404
 
         # Detect new positions vs previous run
@@ -338,11 +349,15 @@ def run_tracker():
 
         current_state[address] = {pos_key(p): p for p in positions if pos_key(p)}
 
-        # Calcula PNL: tenta profile, fallback para atividade
+        # PNL das posições (mais preciso) + volume da atividade
+        pos_data = calc_pnl_from_positions(positions)
         act_data = calc_pnl_from_activity(activity)
-        final_pnl    = pnl_data["pnl"]    or act_data["pnl"]
-        final_volume = pnl_data["volume"] or act_data["volume"]
-        final_roi    = pnl_data["roi"]    or act_data["roi"]
+
+        final_pnl    = pos_data["pnl"]    or act_data["pnl"]
+        final_roi    = pos_data["roi"]    or act_data["roi"]
+        final_volume = act_data["volume"] or pos_data["total_bought"]
+
+        print(f"    PnL=${final_pnl:.0f} | Vol=${final_volume:.0f} | ROI={final_roi:.1f}%")
 
         tracked.append({
             "address":         address,
@@ -354,6 +369,8 @@ def run_tracker():
                 "pnl":             final_pnl,
                 "volume":          final_volume,
                 "roi":             final_roi,
+                "realized_pnl":    pos_data["realized_pnl"],
+                "unrealized_pnl":  pos_data["unrealized"],
                 "positions_count": len(positions),
                 "activity_count":  len(activity),
                 "rank":            entry.get("rank", i + 1),
