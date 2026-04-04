@@ -213,23 +213,38 @@ def get_wallet_activity(address, limit=20):
     return []
 
 def get_wallet_pnl(address):
-    """Tenta buscar PNL da wallet."""
+    """Tenta buscar PNL da wallet via profile endpoint."""
     for url, params in [
-        ("https://data-api.polymarket.com/profiles",
-         {"address": address}),
-        ("https://data-api.polymarket.com/users",
-         {"address": address}),
+        ("https://data-api.polymarket.com/profiles", {"user": address}),
+        ("https://data-api.polymarket.com/profiles", {"address": address}),
+        ("https://data-api.polymarket.com/users",    {"user": address}),
     ]:
         d = _get(url, params, f"profile {address[:10]}")
         if d:
             item = d[0] if isinstance(d, list) and d else d
-            if isinstance(item, dict):
+            if isinstance(item, dict) and any(
+                    item.get(k) for k in ("profit","pnl","volume")):
                 return {
                     "pnl":    float(item.get("profit") or item.get("pnl") or 0),
                     "volume": float(item.get("volume") or 0),
                     "roi":    float(item.get("roi") or 0),
                 }
     return {"pnl": 0.0, "volume": 0.0, "roi": 0.0}
+
+def calc_pnl_from_activity(activity):
+    """Calcula PNL e volume a partir da lista de atividades (fallback)."""
+    buy_total = sell_total = volume = 0.0
+    for a in activity:
+        side = (a.get("type") or a.get("side") or "").upper()
+        usdc = float(a.get("usdcSize") or a.get("amount") or a.get("size") or 0)
+        volume += usdc
+        if side in ("BUY", "LONG", "YES"):
+            buy_total += usdc
+        elif side in ("SELL", "SHORT", "NO"):
+            sell_total += usdc
+    pnl = sell_total - buy_total
+    roi = (pnl / buy_total * 100) if buy_total > 0 else 0.0
+    return {"pnl": round(pnl, 2), "volume": round(volume, 2), "roi": round(roi, 2)}
 
 # ── State ─────────────────────────────────────────────────────────────────────
 
@@ -311,11 +326,11 @@ def run_tracker():
 
         current_state[address] = {pos_key(p): p for p in positions if pos_key(p)}
 
-        # Calcula PNL a partir da atividade se não veio do profile
-        act_pnl = sum(
-            float(a.get("profit") or a.get("pnl") or 0)
-            for a in activity
-        )
+        # Calcula PNL: tenta profile, fallback para atividade
+        act_data = calc_pnl_from_activity(activity)
+        final_pnl    = pnl_data["pnl"]    or act_data["pnl"]
+        final_volume = pnl_data["volume"] or act_data["volume"]
+        final_roi    = pnl_data["roi"]    or act_data["roi"]
 
         tracked.append({
             "address":         address,
@@ -324,9 +339,9 @@ def run_tracker():
             "new_positions":   [],
             "last_updated":    datetime.utcnow().isoformat(),
             "metrics": {
-                "pnl":             pnl_data["pnl"] or act_pnl or entry.get("pnl", 0),
-                "volume":          pnl_data["volume"] or entry.get("volume", 0),
-                "roi":             pnl_data["roi"] or entry.get("roi", 0),
+                "pnl":             final_pnl,
+                "volume":          final_volume,
+                "roi":             final_roi,
                 "positions_count": len(positions),
                 "activity_count":  len(activity),
                 "rank":            entry.get("rank", i + 1),
