@@ -1,0 +1,56 @@
+name: 🏆 Wallet Scorer
+
+on:
+  workflow_dispatch:
+    inputs:
+      min_score:
+        description: 'Score mínimo (0-100, default: 15)'
+        required: false
+        default: '15'
+      min_months:
+        description: 'Meses mínimos ativo (default: 1)'
+        required: false
+        default: '1'
+      min_trades:
+        description: 'Trades mínimos (default: 5)'
+        required: false
+        default: '5'
+  schedule:
+    - cron: '0 6 * * 1'   # toda segunda-feira 6h UTC
+
+permissions:
+  contents: write
+
+jobs:
+  score:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run wallet scorer
+        run: |
+          python wallet_scorer.py \
+            --min-score  "${{ github.event.inputs.min_score  || '15' }}" \
+            --min-months "${{ github.event.inputs.min_months || '1' }}" \
+            --min-trades "${{ github.event.inputs.min_trades || '5' }}"
+
+      - name: Commit results
+        run: |
+          git config user.email "bot@polymarket"
+          git config user.name "Polymarket Bot"
+          git add data/
+          git diff --staged --quiet || (
+            git commit -m "chore: wallet scores updated" &&
+            git pull --rebase origin main &&
+            git push
+          )
