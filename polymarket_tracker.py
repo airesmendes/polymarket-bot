@@ -95,6 +95,11 @@ def get_wallets_from_trades_api(limit=30):
                 r["rank"] = i + 1
             print(f"    ✅ {len(result)} unique traders")
             return result
+        else:
+            # Show sample keys to debug
+            if items:
+                print(f"    [DEBUG] trade keys: {list(items[0].keys())[:12]}")
+                print(f"    [DEBUG] trade sample: { {k: items[0][k] for k in list(items[0].keys())[:6]} }")
 
     return []
 
@@ -304,8 +309,15 @@ def run_tracker():
         print(f"\n  [{i+1}] {address[:14]}...")
 
         positions = get_wallet_positions(address)
-        activity  = get_wallet_activity(address)
-        pnl_data  = get_wallet_pnl(address)
+        activity  = get_wallet_activity(address, limit=100)
+
+        # Debug: show sample keys from first wallet
+        if i == 0 and activity:
+            print(f"    [DEBUG] activity[0] keys: {list(activity[0].keys())}")
+            print(f"    [DEBUG] activity[0] sample: { {k: activity[0][k] for k in list(activity[0].keys())[:8]} }")
+        if i == 0 and positions:
+            print(f"    [DEBUG] positions[0] keys: {list(positions[0].keys())}")
+        pnl_data  = {"pnl": 0.0, "volume": 0.0, "roi": 0.0}  # profile=404
 
         # Detect new positions vs previous run
         prev_keys = set(prev_state.get(address, {}).keys())
