@@ -21,16 +21,14 @@ HEADERS = {
 # ── Seed wallets (top traders públicos do Polymarket) ─────────────────────────
 # Wallets publicadas em leaderboards históricos e artigos sobre Polymarket
 SEED_WALLETS = [
-    "0x8901bf367f4f4aa4f23b3ff71e3046e81e6f0de",
-    "0x5eed579ff607a5cbf2a5e40e7e1ae30c96e9cf9",
-    "0xd1a5513fa74e3dd7a1b44290a8f7f75f14e2a0b",
-    "0x3648ab7c14ac15d93a5e9965b0e6c2a2adc8e6e",
-    "0x8945183c62a9e2a5e3b0da1c2e94edead01d76d",
-    "0x1234560fdc7aa4b13e5f4e9e0bb040c6c9c6b8b",
-    "0x742d35cc6634c0532925a3b8d4c9bab2c4b8c4d",
-    "0x5aae5c59d642e5fd45b427df6a5b9835d6d7ae5",
-    "0x4dfd4b7b4e6a0b7b4e6a0b7b4e6a0b7b4e6a0b7",
-    "0xc0ffee254729296a45a3885639ac7e10f9d5492",
+    "0x492442eab586f242b53bda933fd5de859c8a3782",
+    "0x02227b8f5a9636e895607edd3185ed6ee5598ff7",
+    "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
+    "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+    "0x019782cab5d844f02bafb71f512758be78579f3c",
+    "0xb45a797faa52b0fd8adc56d30382022b7b12192c",
+    "0xbddf61af533ff524d27154e589d2d7a81510c684",
+    "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
 ]
 
 def _get(url, params=None, label=""):
