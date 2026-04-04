@@ -34,5 +34,8 @@ jobs:
           git config user.email "bot@polymarket"
           git config user.name "Polymarket Bot"
           git add data/
-          git diff --staged --quiet || git commit -m "chore: update data [skip ci]"
-          git push
+          git diff --staged --quiet || (
+            git commit -m "chore: update data [skip ci]" &&
+            git pull --rebase origin main &&
+            git push
+          )
