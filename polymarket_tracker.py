@@ -176,12 +176,26 @@ def get_wallets_from_markets(limit=25):
 
     return []
 
-# ── Strategy 3: Seed wallets ─────────────────────────────────────────────────
+# ── Strategy 3: Seed wallets (+ best from scorer) ───────────────────────────
 
 def get_wallets_from_seed():
-    print("\n  [Seed] Using known top wallets...")
+    print("\n  [Seed] Using known + scored top wallets...")
+
+    # Carrega best_wallets.json do scorer se existir
+    best_file = DATA_DIR / "best_wallets.json"
+    scored_addrs = []
+    if best_file.exists():
+        try:
+            data = json.loads(best_file.read_text())
+            scored_addrs = data.get("wallets", [])
+            print(f"    Loaded {len(scored_addrs)} from wallet_scores")
+        except Exception:
+            pass
+
+    # Merge: scored primeiro, depois seed list, remove duplicatas
+    all_addrs = list(dict.fromkeys(scored_addrs + SEED_WALLETS))
     wallets = [{"address": a, "volume": 0.0, "trades": 0, "rank": i+1}
-               for i, a in enumerate(SEED_WALLETS)]
+               for i, a in enumerate(all_addrs)]
     print(f"    ✅ {len(wallets)} seed wallets loaded")
     return wallets
 
