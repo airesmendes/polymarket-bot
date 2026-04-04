@@ -1,0 +1,38 @@
+name: 🔍 Polymarket Monitor
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python polymarket_tracker.py
+      - name: Run copy trader
+        env:
+          COPY_TRADING_ENABLED:      ${{ vars.COPY_TRADING_ENABLED }}
+          POLYMARKET_PRIVATE_KEY:    ${{ secrets.POLYMARKET_PRIVATE_KEY }}
+          MAX_POSITION_USDC:         ${{ vars.MAX_POSITION_USDC }}
+          COPY_RATIO:                ${{ vars.COPY_RATIO }}
+          MIN_POSITION_USDC:         ${{ vars.MIN_POSITION_USDC }}
+        run: python copy_trader.py
+      - name: Commit data
+        run: |
+          git config user.email "bot@polymarket"
+          git config user.name "Polymarket Bot"
+          git add data/
+          git diff --staged --quiet || git commit -m "chore: update data [skip ci]"
+          git push
