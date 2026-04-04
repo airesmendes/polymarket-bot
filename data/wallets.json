@@ -1,7 +1,157 @@
 {
-  "generated_at": "2026-04-04T18:10:53.864242",
-  "total_wallets": 0,
+  "generated_at": "2026-04-04T18:16:46.433260",
+  "total_wallets": 10,
   "new_alerts_count": 0,
-  "error": "All API strategies failed",
-  "wallets": []
+  "wallets": [
+    {
+      "address": "0x8901bf367f4f4aa4f23b3ff71e3046e81e6f0de",
+      "positions": [],
+      "recent_activity": [],
+      "new_positions": [],
+      "last_updated": "2026-04-04T18:16:39.717231",
+      "metrics": {
+        "pnl": 0,
+        "volume": 0.0,
+        "roi": 0,
+        "positions_count": 0,
+        "activity_count": 0,
+        "rank": 1
+      }
+    },
+    {
+      "address": "0x5eed579ff607a5cbf2a5e40e7e1ae30c96e9cf9",
+      "positions": [],
+      "recent_activity": [],
+      "new_positions": [],
+      "last_updated": "2026-04-04T18:16:40.462199",
+      "metrics": {
+        "pnl": 0,
+        "volume": 0.0,
+        "roi": 0,
+        "positions_count": 0,
+        "activity_count": 0,
+        "rank": 2
+      }
+    },
+    {
+      "address": "0xd1a5513fa74e3dd7a1b44290a8f7f75f14e2a0b",
+      "positions": [],
+      "recent_activity": [],
+      "new_positions": [],
+      "last_updated": "2026-04-04T18:16:41.228381",
+      "metrics": {
+        "pnl": 0,
+        "volume": 0.0,
+        "roi": 0,
+        "positions_count": 0,
+        "activity_count": 0,
+        "rank": 3
+      }
+    },
+    {
+      "address": "0x3648ab7c14ac15d93a5e9965b0e6c2a2adc8e6e",
+      "positions": [],
+      "recent_activity": [],
+      "new_positions": [],
+      "last_updated": "2026-04-04T18:16:41.963781",
+      "metrics": {
+        "pnl": 0,
+        "volume": 0.0,
+        "roi": 0,
+        "positions_count": 0,
+        "activity_count": 0,
+        "rank": 4
+      }
+    },
+    {
+      "address": "0x8945183c62a9e2a5e3b0da1c2e94edead01d76d",
+      "positions": [],
+      "recent_activity": [],
+      "new_positions": [],
+      "last_updated": "2026-04-04T18:16:42.716901",
+      "metrics": {
+        "pnl": 0,
+        "volume": 0.0,
+        "roi": 0,
+        "positions_count": 0,
+        "activity_count": 0,
+        "rank": 5
+      }
+    },
+    {
+      "address": "0x1234560fdc7aa4b13e5f4e9e0bb040c6c9c6b8b",
+      "positions": [],
+      "recent_activity": [],
+      "new_positions": [],
+      "last_updated": "2026-04-04T18:16:43.481057",
+      "metrics": {
+        "pnl": 0,
+        "volume": 0.0,
+        "roi": 0,
+        "positions_count": 0,
+        "activity_count": 0,
+        "rank": 6
+      }
+    },
+    {
+      "address": "0x742d35cc6634c0532925a3b8d4c9bab2c4b8c4d",
+      "positions": [],
+      "recent_activity": [],
+      "new_positions": [],
+      "last_updated": "2026-04-04T18:16:44.219004",
+      "metrics": {
+        "pnl": 0,
+        "volume": 0.0,
+        "roi": 0,
+        "positions_count": 0,
+        "activity_count": 0,
+        "rank": 7
+      }
+    },
+    {
+      "address": "0x5aae5c59d642e5fd45b427df6a5b9835d6d7ae5",
+      "positions": [],
+      "recent_activity": [],
+      "new_positions": [],
+      "last_updated": "2026-04-04T18:16:44.969226",
+      "metrics": {
+        "pnl": 0,
+        "volume": 0.0,
+        "roi": 0,
+        "positions_count": 0,
+        "activity_count": 0,
+        "rank": 8
+      }
+    },
+    {
+      "address": "0x4dfd4b7b4e6a0b7b4e6a0b7b4e6a0b7b4e6a0b7",
+      "positions": [],
+      "recent_activity": [],
+      "new_positions": [],
+      "last_updated": "2026-04-04T18:16:45.678419",
+      "metrics": {
+        "pnl": 0,
+        "volume": 0.0,
+        "roi": 0,
+        "positions_count": 0,
+        "activity_count": 0,
+        "rank": 9
+      }
+    },
+    {
+      "address": "0xc0ffee254729296a45a3885639ac7e10f9d5492",
+      "positions": [],
+      "recent_activity": [],
+      "new_positions": [],
+      "last_updated": "2026-04-04T18:16:46.432666",
+      "metrics": {
+        "pnl": 0,
+        "volume": 0.0,
+        "roi": 0,
+        "positions_count": 0,
+        "activity_count": 0,
+        "rank": 10
+      }
+    }
+  ]
 }
