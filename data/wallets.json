@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-04T18:01:34.410554",
+  "generated_at": "2026-04-04T18:10:53.864242",
   "total_wallets": 0,
   "new_alerts_count": 0,
-  "error": "leaderboard empty \u2014 API may have changed",
+  "error": "All API strategies failed",
   "wallets": []
 }
