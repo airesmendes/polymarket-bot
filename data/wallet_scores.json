@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-22T11:52:05.990330",
-  "total_analyzed": 421,
-  "total_qualified": 12,
+  "generated_at": "2026-06-29T10:53:44.383812",
+  "total_analyzed": 506,
+  "total_qualified": 14,
   "filters": {
     "min_score": 15.0,
     "min_months": 1.0,
@@ -9,1734 +9,1798 @@
   },
   "top_wallets": [
     {
-      "address": "0xb07fe46d2064bab96b31d2a80d25f8858f564000",
-      "score": 30.67,
-      "roi_pct": -6.46,
-      "win_rate_pct": 31.8,
-      "total_pnl": -986.28,
-      "realized_pnl": 4.86,
-      "open_pnl": -241.14,
-      "total_buy": 15261.28,
-      "total_volume": 30658.89,
-      "months_active": 13.5,
-      "days_active": 405,
-      "total_trades": 454,
-      "markets_traded": 220,
-      "wins": 70,
-      "losses": 148,
-      "std_dev": 91.69,
-      "sharpe": -0.07,
-      "best_markets": [
-        {
-          "title": "Will the price of Bitcoin be between $104K and $106K on June 6?",
-          "pnl": 329.13,
-          "roi": 39.42,
-          "buy": 835.0,
-          "sell": 1164.13,
-          "trades": 6
-        },
-        {
-          "title": "Will the next Prime Minister of Romania be Ilie Bolojan?",
-          "pnl": 304.19,
-          "roi": 304.19,
-          "buy": 100.0,
-          "sell": 404.19,
-          "trades": 2
-        },
-        {
-          "title": "Will the price of Bitcoin be between $106K and $108K on July 1?",
-          "pnl": 252.98,
-          "roi": 63.24,
-          "buy": 400.0,
-          "sell": 652.98,
-          "trades": 4
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will the price of Bitcoin be less than $102K on June 6?",
-          "pnl": -309.72,
-          "roi": -42.2,
-          "buy": 734.0,
-          "sell": 424.28,
-          "trades": 4
-        },
-        {
-          "title": "Will Bitcoin reach $120K in July?",
-          "pnl": -288.08,
-          "roi": -64.3,
-          "buy": 448.0,
-          "sell": 159.92,
-          "trades": 4
-        }
-      ],
-      "positions_open": 58
-    },
-    {
-      "address": "0xfb9974d84a550e7f90e392a011876715db5a9ff1",
-      "score": 29.59,
-      "roi_pct": 10.13,
-      "win_rate_pct": 69.2,
-      "total_pnl": 545.75,
-      "realized_pnl": 0.0,
-      "open_pnl": -0.5,
-      "total_buy": 5387.12,
-      "total_volume": 11370.5,
-      "months_active": 2.6,
-      "days_active": 77,
+      "address": "0x89d0f7d2ae4062d6738b670eab1bd687b352e793",
+      "score": 41.11,
+      "roi_pct": 110.46,
+      "win_rate_pct": 76.9,
+      "total_pnl": 968.67,
+      "realized_pnl": -17.9,
+      "open_pnl": -1.7,
+      "total_buy": 876.96,
+      "total_volume": 3744.14,
+      "months_active": 1.1,
+      "days_active": 33,
       "total_trades": 500,
-      "markets_traded": 26,
-      "wins": 18,
-      "losses": 6,
-      "std_dev": 29.12,
-      "sharpe": 0.348,
+      "markets_traded": 39,
+      "wins": 30,
+      "losses": 8,
+      "std_dev": 131.79,
+      "sharpe": 0.838,
       "best_markets": [
         {
-          "title": "Trump announces end of military operations against Iran by April 7th?",
-          "pnl": 412.99,
-          "roi": 80.9,
-          "buy": 510.49,
-          "sell": 923.48,
-          "trades": 7
+          "title": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "pnl": 110.3,
+          "roi": 203.91,
+          "buy": 54.09,
+          "sell": 164.39,
+          "trades": 38
         },
         {
-          "title": "Will the US x Iran ceasefire be extended by April 18, 2026?",
-          "pnl": 99.4,
-          "roi": 17.0,
-          "buy": 584.8,
-          "sell": 684.19,
-          "trades": 31
+          "title": "US-Iran nuclear deal before 2027?",
+          "pnl": 106.95,
+          "roi": 102.27,
+          "buy": 104.58,
+          "sell": 211.54,
+          "trades": 54
         },
         {
-          "title": "US x Iran permanent peace deal by May 26, 2026?",
-          "pnl": 57.0,
-          "roi": 20.73,
-          "buy": 275.0,
-          "sell": 332.0,
-          "trades": 10
+          "title": "Ukraine signs peace deal with Russia before 2027?",
+          "pnl": 93.95,
+          "roi": 228.87,
+          "buy": 41.05,
+          "sell": 135.0,
+          "trades": 28
         }
       ],
       "worst_markets": [
         {
-          "title": "US x Iran diplomatic meeting by June 21, 2026?",
-          "pnl": -59.71,
-          "roi": -7.51,
-          "buy": 795.0,
-          "sell": 735.29,
-          "trades": 71
+          "title": "Will Abelardo de la Espriella  win the 2026 Colombian presidential election?",
+          "pnl": -9.9,
+          "roi": -100.0,
+          "buy": 9.9,
+          "sell": 0.0,
+          "trades": 3
         },
         {
-          "title": "Trump announces end of military operations against Iran by April 21st?",
-          "pnl": -36.44,
-          "roi": -13.86,
-          "buy": 262.81,
-          "sell": 226.38,
-          "trades": 5
+          "title": "Israeli parliament dissolved by June 30?",
+          "pnl": -2.0,
+          "roi": -50.0,
+          "buy": 4.0,
+          "sell": 2.0,
+          "trades": 3
         }
       ],
       "positions_open": 1
     },
     {
-      "address": "0x890d2faf785afc714aab64b00ba5076bb868292d",
-      "score": 24.17,
-      "roi_pct": -6.17,
-      "win_rate_pct": 73.0,
-      "total_pnl": -19.26,
+      "address": "0x6c48894f0dddbc9ffd44631f6b8601652cc22a26",
+      "score": 28.99,
+      "roi_pct": -7.69,
+      "win_rate_pct": 21.5,
+      "total_pnl": -1873.52,
       "realized_pnl": 0.0,
-      "open_pnl": -3.0,
-      "total_buy": 312.3,
-      "total_volume": 615.7,
-      "months_active": 2.4,
-      "days_active": 73,
-      "total_trades": 292,
-      "markets_traded": 141,
-      "wins": 103,
-      "losses": 36,
-      "std_dev": 3.09,
-      "sharpe": -1.999,
+      "open_pnl": -260.76,
+      "total_buy": 24358.83,
+      "total_volume": 48510.98,
+      "months_active": 20.6,
+      "days_active": 619,
+      "total_trades": 345,
+      "markets_traded": 149,
+      "wins": 32,
+      "losses": 115,
+      "std_dev": 52.47,
+      "sharpe": -0.147,
       "best_markets": [
         {
-          "title": "Will Germany win on 2026-06-20?",
-          "pnl": 0.52,
-          "roi": 51.26,
-          "buy": 1.01,
-          "sell": 1.53,
+          "title": "Ethereum above $3,300 on November 29?",
+          "pnl": 166.54,
+          "roi": 27.52,
+          "buy": 605.14,
+          "sell": 771.68,
           "trades": 2
         },
         {
-          "title": "Bitcoin Up or Down - April 14, 10:05AM-10:10AM ET",
-          "pnl": 0.45,
-          "roi": 15.13,
-          "buy": 3.0,
-          "sell": 3.45,
-          "trades": 2
+          "title": "Ethereum all time high in Q4 2024?",
+          "pnl": 147.05,
+          "roi": 60.63,
+          "buy": 242.55,
+          "sell": 389.6,
+          "trades": 7
         },
         {
-          "title": "Bitcoin Up or Down - April 12, 5:50AM-5:55AM ET",
-          "pnl": 0.37,
-          "roi": 9.15,
-          "buy": 4.0,
-          "sell": 4.37,
+          "title": "Will Ethereum reach $3,500 in November?",
+          "pnl": 64.57,
+          "roi": 51.72,
+          "buy": 124.83,
+          "sell": 189.39,
           "trades": 2
         }
       ],
       "worst_markets": [
         {
-          "title": "Bitcoin Up or Down - April 12, 5:25AM-5:30AM ET",
-          "pnl": -4.0,
+          "title": "Ethereum above $2,400 on October 18?",
+          "pnl": -455.46,
+          "roi": -80.88,
+          "buy": 563.15,
+          "sell": 107.69,
+          "trades": 5
+        },
+        {
+          "title": "No change in Fed interest rates after January 2025 meeting?",
+          "pnl": -250.0,
           "roi": -100.0,
-          "buy": 4.0,
+          "buy": 250.0,
+          "sell": 0.0,
+          "trades": 2
+        }
+      ],
+      "positions_open": 17
+    },
+    {
+      "address": "0x7be42b643002a97434f4666ea145784bc7798477",
+      "score": 25.18,
+      "roi_pct": 35.6,
+      "win_rate_pct": 39.1,
+      "total_pnl": 843.97,
+      "realized_pnl": 487.71,
+      "open_pnl": 101.41,
+      "total_buy": 2370.65,
+      "total_volume": 6138.87,
+      "months_active": 1.2,
+      "days_active": 35,
+      "total_trades": 500,
+      "markets_traded": 23,
+      "wins": 9,
+      "losses": 13,
+      "std_dev": 184.74,
+      "sharpe": 0.193,
+      "best_markets": [
+        {
+          "title": "Will Anthropic be acquired before 2027?",
+          "pnl": 272.63,
+          "roi": 730.09,
+          "buy": 37.34,
+          "sell": 309.98,
+          "trades": 17
+        },
+        {
+          "title": "Will Viking Therapeutics be acquired before 2027?",
+          "pnl": 125.66,
+          "roi": 5559.71,
+          "buy": 2.26,
+          "sell": 127.93,
+          "trades": 5
+        },
+        {
+          "title": "Will Zoom Video Communications be acquired before 2027?",
+          "pnl": 95.65,
+          "roi": 146.93,
+          "buy": 65.1,
+          "sell": 160.75,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will the highest temperature in London be 35\u00b0C on May 26?",
+          "pnl": -164.07,
+          "roi": -100.0,
+          "buy": 164.07,
+          "sell": 0.0,
+          "trades": 4
+        },
+        {
+          "title": "Will the highest temperature in London be 34\u00b0C on May 26?",
+          "pnl": -161.16,
+          "roi": -100.0,
+          "buy": 161.16,
+          "sell": 0.0,
+          "trades": 5
+        }
+      ],
+      "positions_open": 12
+    },
+    {
+      "address": "0x221c711cf2650cce81b31f10bdaa6df7cbc7d3c1",
+      "score": 22.95,
+      "roi_pct": -7.43,
+      "win_rate_pct": 37.5,
+      "total_pnl": -760.85,
+      "realized_pnl": 56.05,
+      "open_pnl": 169.51,
+      "total_buy": 10233.38,
+      "total_volume": 19896.22,
+      "months_active": 7.2,
+      "days_active": 215,
+      "total_trades": 197,
+      "markets_traded": 40,
+      "wins": 15,
+      "losses": 25,
+      "std_dev": 71.76,
+      "sharpe": -0.104,
+      "best_markets": [
+        {
+          "title": "Will the Fed Cut\u2013Pause\u2013Pause in the next three decisions (Dec\u2013Jan\u2013Mar)?",
+          "pnl": 474.24,
+          "roi": 103.45,
+          "buy": 458.44,
+          "sell": 932.69,
+          "trades": 11
+        },
+        {
+          "title": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+          "pnl": 294.39,
+          "roi": 127.74,
+          "buy": 230.47,
+          "sell": 524.87,
+          "trades": 3
+        },
+        {
+          "title": "Will the Fed Cut\u2013Cut\u2013Pause in the next three decisions (Oct\u2013Dec\u2013Jan)?",
+          "pnl": 137.34,
+          "roi": 35.69,
+          "buy": 384.76,
+          "sell": 522.09,
+          "trades": 3
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Claude Fable 5 be restored for US customers by July 1?",
+          "pnl": -769.84,
+          "roi": -87.45,
+          "buy": 880.36,
+          "sell": 110.52,
+          "trades": 6
+        },
+        {
+          "title": "Will Bitcoin reach $70,000 by December 31, 2026?",
+          "pnl": -220.28,
+          "roi": -100.0,
+          "buy": 220.28,
+          "sell": 0.0,
+          "trades": 12
+        }
+      ],
+      "positions_open": 9
+    },
+    {
+      "address": "0x7b32b903069243696615f79f9ed704c51bbdefc4",
+      "score": 22.66,
+      "roi_pct": -2.72,
+      "win_rate_pct": 0.0,
+      "total_pnl": -474.72,
+      "realized_pnl": 0.0,
+      "open_pnl": 0.07,
+      "total_buy": 17435.49,
+      "total_volume": 34754.6,
+      "months_active": 21.4,
+      "days_active": 643,
+      "total_trades": 292,
+      "markets_traded": 62,
+      "wins": 0,
+      "losses": 62,
+      "std_dev": 47.5,
+      "sharpe": -0.057,
+      "best_markets": [
+        {
+          "title": "Will Beto O\u2019Rourke win the 2028 Democratic presidential nomination?",
+          "pnl": -0.01,
+          "roi": -0.23,
+          "buy": 5.71,
+          "sell": 5.7,
+          "trades": 2
+        },
+        {
+          "title": "Will Hillary Clinton win the 2028 Democratic presidential nomination?",
+          "pnl": -0.01,
+          "roi": -0.2,
+          "buy": 6.06,
+          "sell": 6.05,
+          "trades": 2
+        },
+        {
+          "title": "Will Lance Stroll be the 2026 F1 Drivers' Champion?",
+          "pnl": -0.01,
+          "roi": -0.12,
+          "buy": 10.0,
+          "sell": 9.99,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Satoshi move any Bitcoin in 2025?",
+          "pnl": -76.13,
+          "roi": -100.0,
+          "buy": 76.13,
           "sell": 0.0,
           "trades": 2
         },
         {
-          "title": "Bitcoin Up or Down - April 10, 12:25PM-12:30PM ET",
-          "pnl": -3.0,
+          "title": "Will Alphabet be the third-largest company in the world by market cap on February 28?",
+          "pnl": -74.27,
           "roi": -100.0,
-          "buy": 3.0,
+          "buy": 74.27,
           "sell": 0.0,
-          "trades": 6
+          "trades": 2
         }
       ],
       "positions_open": 3
     },
     {
-      "address": "0xd888d03209fe0ff4b35142b3a3b559d69f2a0471",
-      "score": 22.24,
-      "roi_pct": 23.76,
-      "win_rate_pct": 38.4,
-      "total_pnl": 130.84,
+      "address": "0x6933b0d0a0ac7e205d12bba70c4731a33f9b8eea",
+      "score": 21.92,
+      "roi_pct": -1.85,
+      "win_rate_pct": 3.6,
+      "total_pnl": -130.44,
       "realized_pnl": 0.0,
-      "open_pnl": -46.56,
-      "total_buy": 550.62,
-      "total_volume": 1284.25,
-      "months_active": 2.0,
-      "days_active": 60,
-      "total_trades": 500,
-      "markets_traded": 73,
-      "wins": 28,
-      "losses": 45,
-      "std_dev": 143.09,
-      "sharpe": 0.166,
+      "open_pnl": 0.04,
+      "total_buy": 7062.83,
+      "total_volume": 14073.31,
+      "months_active": 20.5,
+      "days_active": 614,
+      "total_trades": 332,
+      "markets_traded": 56,
+      "wins": 2,
+      "losses": 53,
+      "std_dev": 39.0,
+      "sharpe": -0.047,
       "best_markets": [
         {
-          "title": "Will Harvey Weinstein be sentenced to less than 5 years in prison?",
-          "pnl": 96.38,
-          "roi": 105.67,
-          "buy": 91.21,
-          "sell": 187.59,
-          "trades": 94
+          "title": "MegaETH market cap (FDV) >$2B one day after launch?",
+          "pnl": 0.16,
+          "roi": 4.66,
+          "buy": 3.54,
+          "sell": 3.7,
+          "trades": 2
         },
         {
-          "title": "Will Elon Musk post 180-199 tweets from April 17 to April 24, 2026?",
-          "pnl": 47.34,
-          "roi": 473.39,
-          "buy": 10.0,
-          "sell": 57.34,
+          "title": "Will Croatia win the 2026 FIFA World Cup?",
+          "pnl": 0.03,
+          "roi": 0.14,
+          "buy": 21.06,
+          "sell": 21.09,
+          "trades": 2
+        },
+        {
+          "title": "Will the Toronto Raptors win the 2026 NBA Finals?",
+          "pnl": -0.0,
+          "roi": -0.0,
+          "buy": 47.97,
+          "sell": 47.97,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will XRP reach $2.40 in May?",
+          "pnl": -14.04,
+          "roi": -100.0,
+          "buy": 14.04,
+          "sell": 0.0,
+          "trades": 2
+        },
+        {
+          "title": "Will Alphabet be the third-largest company in the world by market cap on February 28?",
+          "pnl": -13.44,
+          "roi": -100.0,
+          "buy": 13.44,
+          "sell": 0.0,
+          "trades": 2
+        }
+      ],
+      "positions_open": 2
+    },
+    {
+      "address": "0x636d9324880ede5e628b544bb6d48b47796133a7",
+      "score": 21.01,
+      "roi_pct": 6.61,
+      "win_rate_pct": 53.3,
+      "total_pnl": 279.71,
+      "realized_pnl": 0.0,
+      "open_pnl": 19.52,
+      "total_buy": 4233.44,
+      "total_volume": 8727.06,
+      "months_active": 1.2,
+      "days_active": 36,
+      "total_trades": 43,
+      "markets_traded": 15,
+      "wins": 8,
+      "losses": 7,
+      "std_dev": 41.58,
+      "sharpe": 0.159,
+      "best_markets": [
+        {
+          "title": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by May 31, 2026?",
+          "pnl": 242.64,
+          "roi": 54.57,
+          "buy": 444.65,
+          "sell": 687.29,
           "trades": 3
         },
         {
-          "title": "Will Harvey Weinstein be sentenced to between 5 and 10 years in prison?",
-          "pnl": 32.64,
-          "roi": 61.32,
-          "buy": 53.24,
-          "sell": 85.88,
-          "trades": 145
+          "title": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by June 30, 2026?",
+          "pnl": 80.98,
+          "roi": 6.5,
+          "buy": 1246.83,
+          "sell": 1327.82,
+          "trades": 8
+        },
+        {
+          "title": "US x Iran permanent peace deal by May 31, 2026?",
+          "pnl": 50.67,
+          "roi": 15.72,
+          "buy": 322.34,
+          "sell": 373.01,
+          "trades": 2
         }
       ],
       "worst_markets": [
         {
-          "title": "Bitcoin Up or Down - June 17, 1:55PM-2:00PM ET",
-          "pnl": -5.26,
+          "title": "Will Iran announce withdrawal from MOU negotiations by June 30?",
+          "pnl": -159.83,
           "roi": -100.0,
-          "buy": 5.26,
-          "sell": 0.0,
-          "trades": 2
-        },
-        {
-          "title": "Will Elon Musk post 140-159 tweets from May 5 to May 12, 2026?",
-          "pnl": -5.23,
-          "roi": -100.0,
-          "buy": 5.23,
+          "buy": 159.83,
           "sell": 0.0,
           "trades": 1
-        }
-      ],
-      "positions_open": 31
-    },
-    {
-      "address": "0x837e8cc5db50c893613b4b785c329612933e63a2",
-      "score": 21.41,
-      "roi_pct": -15.42,
-      "win_rate_pct": 20.0,
-      "total_pnl": -23.33,
-      "realized_pnl": 0.0,
-      "open_pnl": 0.12,
-      "total_buy": 151.34,
-      "total_volume": 299.24,
-      "months_active": 12.6,
-      "days_active": 377,
-      "total_trades": 106,
-      "markets_traded": 15,
-      "wins": 3,
-      "losses": 12,
-      "std_dev": 35.22,
-      "sharpe": -0.438,
-      "best_markets": [
-        {
-          "title": "Diamondbacks vs. Blue Jays",
-          "pnl": 2.5,
-          "roi": 161.29,
-          "buy": 1.55,
-          "sell": 4.05,
-          "trades": 2
         },
         {
-          "title": "Twins vs. Reds",
-          "pnl": 2.45,
-          "roi": 144.12,
-          "buy": 1.7,
-          "sell": 4.15,
-          "trades": 2
-        },
-        {
-          "title": "Yankees vs. Red Sox",
-          "pnl": 0.8,
-          "roi": 23.53,
-          "buy": 3.4,
-          "sell": 4.2,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "GTA VI released before June 2026?",
-          "pnl": -12.03,
-          "roi": -22.93,
-          "buy": 52.47,
-          "sell": 40.44,
-          "trades": 12
-        },
-        {
-          "title": "Marlins vs. Nationals",
-          "pnl": -5.3,
-          "roi": -100.0,
-          "buy": 5.3,
-          "sell": 0.0,
-          "trades": 5
+          "title": "Will Xi Jinping visit US before 2027?",
+          "pnl": -17.02,
+          "roi": -40.96,
+          "buy": 41.55,
+          "sell": 24.53,
+          "trades": 3
         }
       ],
       "positions_open": 1
     },
     {
-      "address": "0x2db7211fbd60a7cefc804eab39a250db46828f9b",
-      "score": 20.85,
-      "roi_pct": -16.39,
-      "win_rate_pct": 55.5,
-      "total_pnl": -3197.14,
-      "realized_pnl": -5.49,
-      "open_pnl": -90.44,
-      "total_buy": 19502.15,
-      "total_volume": 39679.14,
-      "months_active": 3.1,
-      "days_active": 93,
-      "total_trades": 500,
-      "markets_traded": 110,
-      "wins": 61,
-      "losses": 48,
-      "std_dev": 60.64,
-      "sharpe": -0.27,
+      "address": "0x0d126288d3c426e51b641aa2081496378b8ccaf8",
+      "score": 20.41,
+      "roi_pct": -25.21,
+      "win_rate_pct": 25.5,
+      "total_pnl": -407.56,
+      "realized_pnl": 34.94,
+      "open_pnl": -143.74,
+      "total_buy": 1616.59,
+      "total_volume": 3233.3,
+      "months_active": 17.4,
+      "days_active": 522,
+      "total_trades": 322,
+      "markets_traded": 102,
+      "wins": 26,
+      "losses": 76,
+      "std_dev": 67.66,
+      "sharpe": -0.373,
       "best_markets": [
         {
-          "title": "Will Iran close its airspace by June 30?",
-          "pnl": 737.87,
-          "roi": 144.68,
-          "buy": 510.0,
-          "sell": 1247.87,
-          "trades": 7
+          "title": "Counter-Strike: Nuclear TigeRES vs K27 (BO3) - NODWIN Clutch Series Playoffs",
+          "pnl": 39.92,
+          "roi": 56.88,
+          "buy": 70.17,
+          "sell": 110.09,
+          "trades": 9
         },
         {
-          "title": "Mojtaba Khamenei seen in public by April 30?",
-          "pnl": 381.48,
-          "roi": 117.26,
-          "buy": 325.33,
-          "sell": 706.81,
-          "trades": 17
+          "title": "Google Maps renames it \"Gulf of America\" before March?",
+          "pnl": 36.84,
+          "roi": 37.37,
+          "buy": 98.59,
+          "sell": 135.43,
+          "trades": 14
         },
         {
-          "title": "Andalusia Election: PP Absolute Majority?",
-          "pnl": 283.4,
-          "roi": 146.58,
-          "buy": 193.34,
-          "sell": 476.74,
-          "trades": 13
+          "title": "Tulsi Gabbard confirmed as Director of National Intelligence?",
+          "pnl": 22.98,
+          "roi": 69.64,
+          "buy": 33.0,
+          "sell": 55.98,
+          "trades": 2
         }
       ],
       "worst_markets": [
         {
-          "title": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by April 30, 2026?",
-          "pnl": -600.0,
+          "title": "Counter-Strike: Honv\u00e9d vs OlyBet SB (BO3) - European Pro League Series 8 Closed Qualifier Group A",
+          "pnl": -32.31,
           "roi": -100.0,
-          "buy": 600.0,
+          "buy": 32.31,
           "sell": 0.0,
           "trades": 2
         },
         {
-          "title": "US x Iran permanent peace deal by May 31, 2026?",
-          "pnl": -558.0,
-          "roi": -100.0,
-          "buy": 558.0,
-          "sell": 0.0,
-          "trades": 6
+          "title": "Counter-Strike: Wanted Goons vs Overtake (BO3) - NSTLGA League Playoffs",
+          "pnl": -26.18,
+          "roi": -71.44,
+          "buy": 36.65,
+          "sell": 10.47,
+          "trades": 5
         }
       ],
-      "positions_open": 10
+      "positions_open": 14
     },
     {
-      "address": "0x268d7e54f6ec87bece409882b5bbb595bb378706",
-      "score": 20.36,
-      "roi_pct": 2.4,
-      "win_rate_pct": 44.4,
-      "total_pnl": 25.75,
-      "realized_pnl": 0,
-      "open_pnl": 0,
-      "total_buy": 1070.9,
-      "total_volume": 2169.16,
-      "months_active": 3.5,
-      "days_active": 105,
-      "total_trades": 500,
-      "markets_traded": 18,
-      "wins": 8,
-      "losses": 10,
-      "std_dev": 9.79,
-      "sharpe": 0.246,
-      "best_markets": [
-        {
-          "title": "Will Poland qualify for the 2026 FIFA World Cup?",
-          "pnl": 11.79,
-          "roi": 33.53,
-          "buy": 35.16,
-          "sell": 46.95,
-          "trades": 18
-        },
-        {
-          "title": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
-          "pnl": 11.54,
-          "roi": 17.83,
-          "buy": 64.7,
-          "sell": 76.24,
-          "trades": 32
-        },
-        {
-          "title": "Russia-Ukraine Ceasefire before GTA VI?",
-          "pnl": 3.73,
-          "roi": 8.54,
-          "buy": 43.71,
-          "sell": 47.45,
-          "trades": 25
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-          "pnl": -4.39,
-          "roi": -3.74,
-          "buy": 117.32,
-          "sell": 112.93,
-          "trades": 53
-        },
-        {
-          "title": "Will the Boston Celtics win the NBA Eastern Conference Finals?",
-          "pnl": -3.95,
-          "roi": -2.64,
-          "buy": 149.93,
-          "sell": 145.98,
-          "trades": 65
-        }
-      ],
-      "positions_open": 0
-    },
-    {
-      "address": "0x7a22aeec347920a2b0ce2b900aa1d5097467fca9",
-      "score": 20.25,
-      "roi_pct": -3.29,
-      "win_rate_pct": 55.8,
-      "total_pnl": -273.9,
-      "realized_pnl": 36.36,
-      "open_pnl": 16.16,
-      "total_buy": 8325.35,
-      "total_volume": 16812.94,
-      "months_active": 1.7,
-      "days_active": 50,
-      "total_trades": 500,
-      "markets_traded": 120,
-      "wins": 67,
+      "address": "0xa580dc75738408ad2419713976cb14353eb45c61",
+      "score": 20.1,
+      "roi_pct": -2.91,
+      "win_rate_pct": 0.0,
+      "total_pnl": -142.58,
+      "realized_pnl": 0.0,
+      "open_pnl": 0.17,
+      "total_buy": 4903.71,
+      "total_volume": 9753.84,
+      "months_active": 21.0,
+      "days_active": 631,
+      "total_trades": 296,
+      "markets_traded": 53,
+      "wins": 0,
       "losses": 53,
-      "std_dev": 78.55,
-      "sharpe": -0.042,
+      "std_dev": 32.96,
+      "sharpe": -0.088,
       "best_markets": [
         {
-          "title": "US x Iran permanent peace deal by December 31, 2026?",
-          "pnl": 119.0,
-          "roi": 28.95,
-          "buy": 411.0,
-          "sell": 530.0,
-          "trades": 8
+          "title": "Will \u00c9ric Zemmour win the 2027 French presidential election?",
+          "pnl": -0.01,
+          "roi": -0.28,
+          "buy": 5.18,
+          "sell": 5.17,
+          "trades": 2
         },
         {
-          "title": "LoL: KT Rolster vs Dplus KIA - Game 4 Winner",
-          "pnl": 118.15,
-          "roi": 207.28,
-          "buy": 57.0,
-          "sell": 175.15,
-          "trades": 7
+          "title": "Will Lance Stroll be the 2026 F1 Drivers' Champion?",
+          "pnl": -0.01,
+          "roi": -0.17,
+          "buy": 7.87,
+          "sell": 7.86,
+          "trades": 2
         },
         {
-          "title": "Jerome Powell out as Fed Chair by May 15, 2026?",
-          "pnl": 98.79,
-          "roi": 410.21,
-          "buy": 24.08,
-          "sell": 122.87,
-          "trades": 4
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Iran closes its airspace by May 24?",
-          "pnl": -337.21,
-          "roi": -75.83,
-          "buy": 444.7,
-          "sell": 107.49,
-          "trades": 9
-        },
-        {
-          "title": "LoL: Cloud9 vs FlyQuest - Game 2 Winner",
-          "pnl": -159.09,
-          "roi": -100.0,
-          "buy": 159.09,
-          "sell": 0.0,
-          "trades": 3
-        }
-      ],
-      "positions_open": 7
-    },
-    {
-      "address": "0x225e371b6acfb92b6047de6851eb946637da05b1",
-      "score": 19.51,
-      "roi_pct": 0.21,
-      "win_rate_pct": 57.7,
-      "total_pnl": 2.85,
-      "realized_pnl": -19.58,
-      "open_pnl": -40.03,
-      "total_buy": 1339.21,
-      "total_volume": 2738.18,
-      "months_active": 1.1,
-      "days_active": 33,
-      "total_trades": 500,
-      "markets_traded": 26,
-      "wins": 15,
-      "losses": 11,
-      "std_dev": 26.0,
-      "sharpe": 0.008,
-      "best_markets": [
-        {
-          "title": "Starmer out by June 30, 2026?",
-          "pnl": 20.99,
-          "roi": 8.54,
-          "buy": 245.69,
-          "sell": 266.68,
-          "trades": 73
-        },
-        {
-          "title": "Will Abelardo de la Espriella win the 1st round of the 2026 Colombian presidential election?",
-          "pnl": 12.27,
-          "roi": 8.37,
-          "buy": 146.61,
-          "sell": 158.88,
-          "trades": 52
-        },
-        {
-          "title": "Starmer out by May 31, 2026?",
-          "pnl": 10.98,
-          "roi": 260.33,
-          "buy": 4.22,
-          "sell": 15.2,
-          "trades": 6
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will MegaETH perform an airdrop by June 30? ",
-          "pnl": -15.02,
-          "roi": -100.0,
-          "buy": 15.02,
-          "sell": 0.0,
-          "trades": 3
-        },
-        {
-          "title": "Will Ivan Cepeda Castro win the 2026 Colombian presidential election?",
-          "pnl": -14.68,
-          "roi": -33.68,
-          "buy": 43.6,
-          "sell": 28.92,
-          "trades": 24
-        }
-      ],
-      "positions_open": 11
-    },
-    {
-      "address": "0xcab5fc6c614b2306d94cded2a085d2c116e07b66",
-      "score": 19.41,
-      "roi_pct": -11.7,
-      "win_rate_pct": 49.5,
-      "total_pnl": -23.13,
-      "realized_pnl": 0.34,
-      "open_pnl": -3.97,
-      "total_buy": 197.72,
-      "total_volume": 380.02,
-      "months_active": 4.8,
-      "days_active": 145,
-      "total_trades": 302,
-      "markets_traded": 93,
-      "wins": 46,
-      "losses": 47,
-      "std_dev": 17.26,
-      "sharpe": -0.678,
-      "best_markets": [
-        {
-          "title": "Grass Court Championships: Jessica Pegula vs Linda Noskova",
-          "pnl": 3.56,
-          "roi": 39.24,
-          "buy": 9.07,
-          "sell": 12.62,
-          "trades": 4
-        },
-        {
-          "title": "Bad Homburg Open: Clara Tauson vs Diana Shnaider",
-          "pnl": 1.55,
-          "roi": 8.56,
-          "buy": 18.13,
-          "sell": 19.68,
-          "trades": 9
-        },
-        {
-          "title": "Bad Homburg Open: Iva Jovic vs Xinyu Wang",
-          "pnl": 1.4,
-          "roi": 68.61,
-          "buy": 2.04,
-          "sell": 3.45,
+          "title": "Will Nico H\u00fclkenberg be the 2026 F1 Drivers' Champion?",
+          "pnl": -0.01,
+          "roi": -0.11,
+          "buy": 10.0,
+          "sell": 9.99,
           "trades": 2
         }
       ],
       "worst_markets": [
         {
-          "title": "Wimbledon, Qualification ATP: Andres Andrade vs Colton Smith",
-          "pnl": -2.04,
+          "title": "Will Bitcoin reach $87,500 in June?",
+          "pnl": -37.44,
           "roi": -100.0,
-          "buy": 2.04,
+          "buy": 37.44,
           "sell": 0.0,
           "trades": 1
         },
         {
-          "title": "Lexus Eastbourne Open, Qualification: Peyton Stearns vs Emily Appleton",
-          "pnl": -2.04,
+          "title": "Will XRP reach $3.00 in May?",
+          "pnl": -27.01,
           "roi": -100.0,
-          "buy": 2.04,
+          "buy": 27.01,
           "sell": 0.0,
           "trades": 2
         }
       ],
-      "positions_open": 4
+      "positions_open": 1
     },
     {
-      "address": "0xc23727dce1049bcb1c259d983bb4fe4805b4b9b9",
-      "score": 17.92,
-      "roi_pct": -0.48,
-      "win_rate_pct": 19.6,
-      "total_pnl": -114.79,
+      "address": "0x1102330de18bd0ced2ae7c17b29df2a1e627af36",
+      "score": 18.66,
+      "roi_pct": 11.93,
+      "win_rate_pct": 29.0,
+      "total_pnl": 1287.6,
+      "realized_pnl": 231.85,
+      "open_pnl": -4827.63,
+      "total_buy": 10792.79,
+      "total_volume": 33140.84,
+      "months_active": 1.8,
+      "days_active": 54,
+      "total_trades": 500,
+      "markets_traded": 124,
+      "wins": 36,
+      "losses": 88,
+      "std_dev": 158.65,
+      "sharpe": 0.075,
+      "best_markets": [
+        {
+          "title": "Timothy Chalamet confirmed to be EsDeeKid by June 30?",
+          "pnl": 1192.81,
+          "roi": 204.59,
+          "buy": 583.04,
+          "sell": 1775.84,
+          "trades": 4
+        },
+        {
+          "title": "Will Bitcoin reach $100,000 by December 31, 2026?",
+          "pnl": 550.06,
+          "roi": 273.66,
+          "buy": 201.0,
+          "sell": 751.06,
+          "trades": 3
+        },
+        {
+          "title": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
+          "pnl": 422.39,
+          "roi": 406.15,
+          "buy": 104.0,
+          "sell": 526.39,
+          "trades": 17
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Sean Strickland be the UFC Middleweight Champion on December 31, 2026?",
+          "pnl": -293.99,
+          "roi": -100.0,
+          "buy": 293.99,
+          "sell": 0.0,
+          "trades": 6
+        },
+        {
+          "title": "Will no next Prime Minister of the United Kingdom be appointed in 2026?",
+          "pnl": -227.59,
+          "roi": -100.0,
+          "buy": 227.59,
+          "sell": 0.0,
+          "trades": 2
+        }
+      ],
+      "positions_open": 100
+    },
+    {
+      "address": "0x4e208579aa5dc5d18bb6851d0f06d95f8c5b7271",
+      "score": 18.2,
+      "roi_pct": -18.89,
+      "win_rate_pct": 30.8,
+      "total_pnl": -10.04,
       "realized_pnl": 0.0,
-      "open_pnl": -8.1,
-      "total_buy": 23722.21,
-      "total_volume": 47417.61,
-      "months_active": 4.5,
-      "days_active": 134,
-      "total_trades": 115,
-      "markets_traded": 46,
+      "open_pnl": -0.2,
+      "total_buy": 53.14,
+      "total_volume": 102.43,
+      "months_active": 8.8,
+      "days_active": 263,
+      "total_trades": 34,
+      "markets_traded": 13,
+      "wins": 4,
+      "losses": 9,
+      "std_dev": 45.61,
+      "sharpe": -0.414,
+      "best_markets": [
+        {
+          "title": "Will AZZ (AZZ) beat quarterly earnings?",
+          "pnl": 9.4,
+          "roi": 1880.0,
+          "buy": 0.5,
+          "sell": 9.9,
+          "trades": 2
+        },
+        {
+          "title": "Will Trump say \"Hamas\" during events with President of Finland on Oct 9?",
+          "pnl": 0.6,
+          "roi": 9.23,
+          "buy": 6.5,
+          "sell": 7.1,
+          "trades": 2
+        },
+        {
+          "title": "Will Hamas release all Israeli hostages by October 15?",
+          "pnl": 0.4,
+          "roi": 33.33,
+          "buy": 1.2,
+          "sell": 1.6,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will House and Senate pass funding bill by October 31?",
+          "pnl": -6.6,
+          "roi": -100.0,
+          "buy": 6.6,
+          "sell": 0.0,
+          "trades": 2
+        },
+        {
+          "title": "Kevin Warsh confirmed as Fed Chair by May 15?",
+          "pnl": -5.64,
+          "roi": -100.0,
+          "buy": 5.64,
+          "sell": 0.0,
+          "trades": 2
+        }
+      ],
+      "positions_open": 1
+    },
+    {
+      "address": "0x6f6fa38c40979d114b6f71640256b52eb070bd48",
+      "score": 17.15,
+      "roi_pct": -0.59,
+      "win_rate_pct": 18.0,
+      "total_pnl": -121.13,
+      "realized_pnl": 0.37,
+      "open_pnl": -7.23,
+      "total_buy": 20359.59,
+      "total_volume": 40698.6,
+      "months_active": 4.7,
+      "days_active": 141,
+      "total_trades": 204,
+      "markets_traded": 50,
       "wins": 9,
-      "losses": 37,
-      "std_dev": 53.26,
-      "sharpe": -0.009,
+      "losses": 41,
+      "std_dev": 45.06,
+      "sharpe": -0.013,
       "best_markets": [
         {
           "title": "Will the price of Bitcoin be above $76,000 on March 17?",
-          "pnl": 20.31,
-          "roi": 1.11,
-          "buy": 1824.52,
-          "sell": 1844.83,
+          "pnl": 16.13,
+          "roi": 0.42,
+          "buy": 3879.15,
+          "sell": 3895.28,
+          "trades": 12
+        },
+        {
+          "title": "Will the price of Bitcoin be above $70,000 on March 17?",
+          "pnl": 1.14,
+          "roi": 0.1,
+          "buy": 1150.01,
+          "sell": 1151.15,
+          "trades": 4
+        },
+        {
+          "title": "Ukraine recognizes Russian sovereignty over its territory by December 31, 2026?",
+          "pnl": 0.36,
+          "roi": 4.49,
+          "buy": 8.0,
+          "sell": 8.36,
           "trades": 5
-        },
-        {
-          "title": "Will the price of Bitcoin be above $62,000 on March 21?",
-          "pnl": 4.24,
-          "roi": 0.05,
-          "buy": 7977.43,
-          "sell": 7981.68,
-          "trades": 8
-        },
-        {
-          "title": "US strikes Iran by February 24, 2026?",
-          "pnl": 1.78,
-          "roi": 31.66,
-          "buy": 5.64,
-          "sell": 7.42,
-          "trades": 2
         }
       ],
       "worst_markets": [
         {
           "title": "Will the price of Ethereum be above $1,800 on March 17?",
-          "pnl": -8.03,
-          "roi": -0.06,
-          "buy": 13536.87,
-          "sell": 13528.84,
-          "trades": 27
-        },
-        {
-          "title": "Will Elon Musk post 160-179 tweets from February 24 to March 3, 2026?",
-          "pnl": -7.3,
-          "roi": -100.0,
-          "buy": 7.3,
-          "sell": 0.0,
-          "trades": 2
-        }
-      ],
-      "positions_open": 15
-    },
-    {
-      "address": "0xbe5dbdd52068067deaad498df14d28050e6501af",
-      "score": 17.83,
-      "roi_pct": -8.97,
-      "win_rate_pct": 19.7,
-      "total_pnl": -835.52,
-      "realized_pnl": 0.0,
-      "open_pnl": -8.23,
-      "total_buy": 9309.63,
-      "total_volume": 18451.58,
-      "months_active": 7.7,
-      "days_active": 230,
-      "total_trades": 162,
-      "markets_traded": 61,
-      "wins": 12,
-      "losses": 49,
-      "std_dev": 49.21,
-      "sharpe": -0.182,
-      "best_markets": [
-        {
-          "title": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
-          "pnl": 5.28,
-          "roi": 37.75,
-          "buy": 14.0,
-          "sell": 19.28,
-          "trades": 2
-        },
-        {
-          "title": "Will Drake officially release Iceman by April 30, 2026?",
-          "pnl": 4.63,
-          "roi": 24.38,
-          "buy": 19.0,
-          "sell": 23.63,
-          "trades": 2
-        },
-        {
-          "title": "Will Bitcoin reach $115,000 in February?",
-          "pnl": 1.54,
-          "roi": 0.1,
-          "buy": 1540.35,
-          "sell": 1541.89,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Israel closes its airspace by June 30?",
-          "pnl": -132.0,
-          "roi": -100.0,
-          "buy": 132.0,
-          "sell": 0.0,
-          "trades": 1
-        },
-        {
-          "title": "Will the US next strike Iran on January 12, 2026 (ET)?",
-          "pnl": -77.0,
-          "roi": -100.0,
-          "buy": 77.0,
-          "sell": 0.0,
-          "trades": 2
-        }
-      ],
-      "positions_open": 3
-    }
-  ],
-  "all_results": [
-    {
-      "address": "0xb07fe46d2064bab96b31d2a80d25f8858f564000",
-      "score": 30.67,
-      "roi_pct": -6.46,
-      "win_rate_pct": 31.8,
-      "total_pnl": -986.28,
-      "realized_pnl": 4.86,
-      "open_pnl": -241.14,
-      "total_buy": 15261.28,
-      "total_volume": 30658.89,
-      "months_active": 13.5,
-      "days_active": 405,
-      "total_trades": 454,
-      "markets_traded": 220,
-      "wins": 70,
-      "losses": 148,
-      "std_dev": 91.69,
-      "sharpe": -0.07,
-      "best_markets": [
-        {
-          "title": "Will the price of Bitcoin be between $104K and $106K on June 6?",
-          "pnl": 329.13,
-          "roi": 39.42,
-          "buy": 835.0,
-          "sell": 1164.13,
-          "trades": 6
-        },
-        {
-          "title": "Will the next Prime Minister of Romania be Ilie Bolojan?",
-          "pnl": 304.19,
-          "roi": 304.19,
-          "buy": 100.0,
-          "sell": 404.19,
-          "trades": 2
-        },
-        {
-          "title": "Will the price of Bitcoin be between $106K and $108K on July 1?",
-          "pnl": 252.98,
-          "roi": 63.24,
-          "buy": 400.0,
-          "sell": 652.98,
-          "trades": 4
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will the price of Bitcoin be less than $102K on June 6?",
-          "pnl": -309.72,
-          "roi": -42.2,
-          "buy": 734.0,
-          "sell": 424.28,
-          "trades": 4
-        },
-        {
-          "title": "Will Bitcoin reach $120K in July?",
-          "pnl": -288.08,
-          "roi": -64.3,
-          "buy": 448.0,
-          "sell": 159.92,
-          "trades": 4
-        }
-      ],
-      "positions_open": 58
-    },
-    {
-      "address": "0xfb9974d84a550e7f90e392a011876715db5a9ff1",
-      "score": 29.59,
-      "roi_pct": 10.13,
-      "win_rate_pct": 69.2,
-      "total_pnl": 545.75,
-      "realized_pnl": 0.0,
-      "open_pnl": -0.5,
-      "total_buy": 5387.12,
-      "total_volume": 11370.5,
-      "months_active": 2.6,
-      "days_active": 77,
-      "total_trades": 500,
-      "markets_traded": 26,
-      "wins": 18,
-      "losses": 6,
-      "std_dev": 29.12,
-      "sharpe": 0.348,
-      "best_markets": [
-        {
-          "title": "Trump announces end of military operations against Iran by April 7th?",
-          "pnl": 412.99,
-          "roi": 80.9,
-          "buy": 510.49,
-          "sell": 923.48,
-          "trades": 7
-        },
-        {
-          "title": "Will the US x Iran ceasefire be extended by April 18, 2026?",
-          "pnl": 99.4,
-          "roi": 17.0,
-          "buy": 584.8,
-          "sell": 684.19,
-          "trades": 31
-        },
-        {
-          "title": "US x Iran permanent peace deal by May 26, 2026?",
-          "pnl": 57.0,
-          "roi": 20.73,
-          "buy": 275.0,
-          "sell": 332.0,
-          "trades": 10
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "US x Iran diplomatic meeting by June 21, 2026?",
-          "pnl": -59.71,
-          "roi": -7.51,
-          "buy": 795.0,
-          "sell": 735.29,
-          "trades": 71
-        },
-        {
-          "title": "Trump announces end of military operations against Iran by April 21st?",
-          "pnl": -36.44,
-          "roi": -13.86,
-          "buy": 262.81,
-          "sell": 226.38,
-          "trades": 5
-        }
-      ],
-      "positions_open": 1
-    },
-    {
-      "address": "0x890d2faf785afc714aab64b00ba5076bb868292d",
-      "score": 24.17,
-      "roi_pct": -6.17,
-      "win_rate_pct": 73.0,
-      "total_pnl": -19.26,
-      "realized_pnl": 0.0,
-      "open_pnl": -3.0,
-      "total_buy": 312.3,
-      "total_volume": 615.7,
-      "months_active": 2.4,
-      "days_active": 73,
-      "total_trades": 292,
-      "markets_traded": 141,
-      "wins": 103,
-      "losses": 36,
-      "std_dev": 3.09,
-      "sharpe": -1.999,
-      "best_markets": [
-        {
-          "title": "Will Germany win on 2026-06-20?",
-          "pnl": 0.52,
-          "roi": 51.26,
-          "buy": 1.01,
-          "sell": 1.53,
-          "trades": 2
-        },
-        {
-          "title": "Bitcoin Up or Down - April 14, 10:05AM-10:10AM ET",
-          "pnl": 0.45,
-          "roi": 15.13,
-          "buy": 3.0,
-          "sell": 3.45,
-          "trades": 2
-        },
-        {
-          "title": "Bitcoin Up or Down - April 12, 5:50AM-5:55AM ET",
-          "pnl": 0.37,
-          "roi": 9.15,
-          "buy": 4.0,
-          "sell": 4.37,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Bitcoin Up or Down - April 12, 5:25AM-5:30AM ET",
-          "pnl": -4.0,
-          "roi": -100.0,
-          "buy": 4.0,
-          "sell": 0.0,
-          "trades": 2
-        },
-        {
-          "title": "Bitcoin Up or Down - April 10, 12:25PM-12:30PM ET",
-          "pnl": -3.0,
-          "roi": -100.0,
-          "buy": 3.0,
-          "sell": 0.0,
-          "trades": 6
-        }
-      ],
-      "positions_open": 3
-    },
-    {
-      "address": "0xd888d03209fe0ff4b35142b3a3b559d69f2a0471",
-      "score": 22.24,
-      "roi_pct": 23.76,
-      "win_rate_pct": 38.4,
-      "total_pnl": 130.84,
-      "realized_pnl": 0.0,
-      "open_pnl": -46.56,
-      "total_buy": 550.62,
-      "total_volume": 1284.25,
-      "months_active": 2.0,
-      "days_active": 60,
-      "total_trades": 500,
-      "markets_traded": 73,
-      "wins": 28,
-      "losses": 45,
-      "std_dev": 143.09,
-      "sharpe": 0.166,
-      "best_markets": [
-        {
-          "title": "Will Harvey Weinstein be sentenced to less than 5 years in prison?",
-          "pnl": 96.38,
-          "roi": 105.67,
-          "buy": 91.21,
-          "sell": 187.59,
-          "trades": 94
-        },
-        {
-          "title": "Will Elon Musk post 180-199 tweets from April 17 to April 24, 2026?",
-          "pnl": 47.34,
-          "roi": 473.39,
-          "buy": 10.0,
-          "sell": 57.34,
+          "pnl": -6.99,
+          "roi": -0.19,
+          "buy": 3699.59,
+          "sell": 3692.6,
           "trades": 3
         },
         {
-          "title": "Will Harvey Weinstein be sentenced to between 5 and 10 years in prison?",
-          "pnl": 32.64,
-          "roi": 61.32,
-          "buy": 53.24,
-          "sell": 85.88,
-          "trades": 145
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Bitcoin Up or Down - June 17, 1:55PM-2:00PM ET",
-          "pnl": -5.26,
+          "title": "Will the 10-year treasury yield hit 4.5% by March 31?",
+          "pnl": -6.0,
           "roi": -100.0,
-          "buy": 5.26,
+          "buy": 6.0,
           "sell": 0.0,
           "trades": 2
-        },
-        {
-          "title": "Will Elon Musk post 140-159 tweets from May 5 to May 12, 2026?",
-          "pnl": -5.23,
-          "roi": -100.0,
-          "buy": 5.23,
-          "sell": 0.0,
-          "trades": 1
         }
       ],
-      "positions_open": 31
+      "positions_open": 13
     },
     {
-      "address": "0x837e8cc5db50c893613b4b785c329612933e63a2",
-      "score": 21.41,
-      "roi_pct": -15.42,
-      "win_rate_pct": 20.0,
-      "total_pnl": -23.33,
+      "address": "0xcf755185d09efa0b0df3cfe57947e3cd417402d1",
+      "score": 16.51,
+      "roi_pct": -13.09,
+      "win_rate_pct": 34.8,
+      "total_pnl": -565.23,
       "realized_pnl": 0.0,
-      "open_pnl": 0.12,
-      "total_buy": 151.34,
-      "total_volume": 299.24,
-      "months_active": 12.6,
-      "days_active": 377,
-      "total_trades": 106,
-      "markets_traded": 15,
-      "wins": 3,
-      "losses": 12,
-      "std_dev": 35.22,
-      "sharpe": -0.438,
-      "best_markets": [
-        {
-          "title": "Diamondbacks vs. Blue Jays",
-          "pnl": 2.5,
-          "roi": 161.29,
-          "buy": 1.55,
-          "sell": 4.05,
-          "trades": 2
-        },
-        {
-          "title": "Twins vs. Reds",
-          "pnl": 2.45,
-          "roi": 144.12,
-          "buy": 1.7,
-          "sell": 4.15,
-          "trades": 2
-        },
-        {
-          "title": "Yankees vs. Red Sox",
-          "pnl": 0.8,
-          "roi": 23.53,
-          "buy": 3.4,
-          "sell": 4.2,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "GTA VI released before June 2026?",
-          "pnl": -12.03,
-          "roi": -22.93,
-          "buy": 52.47,
-          "sell": 40.44,
-          "trades": 12
-        },
-        {
-          "title": "Marlins vs. Nationals",
-          "pnl": -5.3,
-          "roi": -100.0,
-          "buy": 5.3,
-          "sell": 0.0,
-          "trades": 5
-        }
-      ],
-      "positions_open": 1
-    },
-    {
-      "address": "0x2db7211fbd60a7cefc804eab39a250db46828f9b",
-      "score": 20.85,
-      "roi_pct": -16.39,
-      "win_rate_pct": 55.5,
-      "total_pnl": -3197.14,
-      "realized_pnl": -5.49,
-      "open_pnl": -90.44,
-      "total_buy": 19502.15,
-      "total_volume": 39679.14,
-      "months_active": 3.1,
-      "days_active": 93,
-      "total_trades": 500,
-      "markets_traded": 110,
-      "wins": 61,
-      "losses": 48,
-      "std_dev": 60.64,
-      "sharpe": -0.27,
-      "best_markets": [
-        {
-          "title": "Will Iran close its airspace by June 30?",
-          "pnl": 737.87,
-          "roi": 144.68,
-          "buy": 510.0,
-          "sell": 1247.87,
-          "trades": 7
-        },
-        {
-          "title": "Mojtaba Khamenei seen in public by April 30?",
-          "pnl": 381.48,
-          "roi": 117.26,
-          "buy": 325.33,
-          "sell": 706.81,
-          "trades": 17
-        },
-        {
-          "title": "Andalusia Election: PP Absolute Majority?",
-          "pnl": 283.4,
-          "roi": 146.58,
-          "buy": 193.34,
-          "sell": 476.74,
-          "trades": 13
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by April 30, 2026?",
-          "pnl": -600.0,
-          "roi": -100.0,
-          "buy": 600.0,
-          "sell": 0.0,
-          "trades": 2
-        },
-        {
-          "title": "US x Iran permanent peace deal by May 31, 2026?",
-          "pnl": -558.0,
-          "roi": -100.0,
-          "buy": 558.0,
-          "sell": 0.0,
-          "trades": 6
-        }
-      ],
-      "positions_open": 10
-    },
-    {
-      "address": "0x268d7e54f6ec87bece409882b5bbb595bb378706",
-      "score": 20.36,
-      "roi_pct": 2.4,
-      "win_rate_pct": 44.4,
-      "total_pnl": 25.75,
-      "realized_pnl": 0,
-      "open_pnl": 0,
-      "total_buy": 1070.9,
-      "total_volume": 2169.16,
-      "months_active": 3.5,
-      "days_active": 105,
-      "total_trades": 500,
-      "markets_traded": 18,
-      "wins": 8,
-      "losses": 10,
-      "std_dev": 9.79,
-      "sharpe": 0.246,
-      "best_markets": [
-        {
-          "title": "Will Poland qualify for the 2026 FIFA World Cup?",
-          "pnl": 11.79,
-          "roi": 33.53,
-          "buy": 35.16,
-          "sell": 46.95,
-          "trades": 18
-        },
-        {
-          "title": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
-          "pnl": 11.54,
-          "roi": 17.83,
-          "buy": 64.7,
-          "sell": 76.24,
-          "trades": 32
-        },
-        {
-          "title": "Russia-Ukraine Ceasefire before GTA VI?",
-          "pnl": 3.73,
-          "roi": 8.54,
-          "buy": 43.71,
-          "sell": 47.45,
-          "trades": 25
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-          "pnl": -4.39,
-          "roi": -3.74,
-          "buy": 117.32,
-          "sell": 112.93,
-          "trades": 53
-        },
-        {
-          "title": "Will the Boston Celtics win the NBA Eastern Conference Finals?",
-          "pnl": -3.95,
-          "roi": -2.64,
-          "buy": 149.93,
-          "sell": 145.98,
-          "trades": 65
-        }
-      ],
-      "positions_open": 0
-    },
-    {
-      "address": "0x7a22aeec347920a2b0ce2b900aa1d5097467fca9",
-      "score": 20.25,
-      "roi_pct": -3.29,
-      "win_rate_pct": 55.8,
-      "total_pnl": -273.9,
-      "realized_pnl": 36.36,
-      "open_pnl": 16.16,
-      "total_buy": 8325.35,
-      "total_volume": 16812.94,
-      "months_active": 1.7,
-      "days_active": 50,
-      "total_trades": 500,
-      "markets_traded": 120,
-      "wins": 67,
-      "losses": 53,
-      "std_dev": 78.55,
-      "sharpe": -0.042,
-      "best_markets": [
-        {
-          "title": "US x Iran permanent peace deal by December 31, 2026?",
-          "pnl": 119.0,
-          "roi": 28.95,
-          "buy": 411.0,
-          "sell": 530.0,
-          "trades": 8
-        },
-        {
-          "title": "LoL: KT Rolster vs Dplus KIA - Game 4 Winner",
-          "pnl": 118.15,
-          "roi": 207.28,
-          "buy": 57.0,
-          "sell": 175.15,
-          "trades": 7
-        },
-        {
-          "title": "Jerome Powell out as Fed Chair by May 15, 2026?",
-          "pnl": 98.79,
-          "roi": 410.21,
-          "buy": 24.08,
-          "sell": 122.87,
-          "trades": 4
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Iran closes its airspace by May 24?",
-          "pnl": -337.21,
-          "roi": -75.83,
-          "buy": 444.7,
-          "sell": 107.49,
-          "trades": 9
-        },
-        {
-          "title": "LoL: Cloud9 vs FlyQuest - Game 2 Winner",
-          "pnl": -159.09,
-          "roi": -100.0,
-          "buy": 159.09,
-          "sell": 0.0,
-          "trades": 3
-        }
-      ],
-      "positions_open": 7
-    },
-    {
-      "address": "0x225e371b6acfb92b6047de6851eb946637da05b1",
-      "score": 19.51,
-      "roi_pct": 0.21,
-      "win_rate_pct": 57.7,
-      "total_pnl": 2.85,
-      "realized_pnl": -19.58,
-      "open_pnl": -40.03,
-      "total_buy": 1339.21,
-      "total_volume": 2738.18,
-      "months_active": 1.1,
-      "days_active": 33,
-      "total_trades": 500,
-      "markets_traded": 26,
-      "wins": 15,
-      "losses": 11,
-      "std_dev": 26.0,
-      "sharpe": 0.008,
-      "best_markets": [
-        {
-          "title": "Starmer out by June 30, 2026?",
-          "pnl": 20.99,
-          "roi": 8.54,
-          "buy": 245.69,
-          "sell": 266.68,
-          "trades": 73
-        },
-        {
-          "title": "Will Abelardo de la Espriella win the 1st round of the 2026 Colombian presidential election?",
-          "pnl": 12.27,
-          "roi": 8.37,
-          "buy": 146.61,
-          "sell": 158.88,
-          "trades": 52
-        },
-        {
-          "title": "Starmer out by May 31, 2026?",
-          "pnl": 10.98,
-          "roi": 260.33,
-          "buy": 4.22,
-          "sell": 15.2,
-          "trades": 6
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will MegaETH perform an airdrop by June 30? ",
-          "pnl": -15.02,
-          "roi": -100.0,
-          "buy": 15.02,
-          "sell": 0.0,
-          "trades": 3
-        },
-        {
-          "title": "Will Ivan Cepeda Castro win the 2026 Colombian presidential election?",
-          "pnl": -14.68,
-          "roi": -33.68,
-          "buy": 43.6,
-          "sell": 28.92,
-          "trades": 24
-        }
-      ],
-      "positions_open": 11
-    },
-    {
-      "address": "0xcab5fc6c614b2306d94cded2a085d2c116e07b66",
-      "score": 19.41,
-      "roi_pct": -11.7,
-      "win_rate_pct": 49.5,
-      "total_pnl": -23.13,
-      "realized_pnl": 0.34,
-      "open_pnl": -3.97,
-      "total_buy": 197.72,
-      "total_volume": 380.02,
-      "months_active": 4.8,
-      "days_active": 145,
-      "total_trades": 302,
-      "markets_traded": 93,
-      "wins": 46,
-      "losses": 47,
-      "std_dev": 17.26,
-      "sharpe": -0.678,
-      "best_markets": [
-        {
-          "title": "Grass Court Championships: Jessica Pegula vs Linda Noskova",
-          "pnl": 3.56,
-          "roi": 39.24,
-          "buy": 9.07,
-          "sell": 12.62,
-          "trades": 4
-        },
-        {
-          "title": "Bad Homburg Open: Clara Tauson vs Diana Shnaider",
-          "pnl": 1.55,
-          "roi": 8.56,
-          "buy": 18.13,
-          "sell": 19.68,
-          "trades": 9
-        },
-        {
-          "title": "Bad Homburg Open: Iva Jovic vs Xinyu Wang",
-          "pnl": 1.4,
-          "roi": 68.61,
-          "buy": 2.04,
-          "sell": 3.45,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Wimbledon, Qualification ATP: Andres Andrade vs Colton Smith",
-          "pnl": -2.04,
-          "roi": -100.0,
-          "buy": 2.04,
-          "sell": 0.0,
-          "trades": 1
-        },
-        {
-          "title": "Lexus Eastbourne Open, Qualification: Peyton Stearns vs Emily Appleton",
-          "pnl": -2.04,
-          "roi": -100.0,
-          "buy": 2.04,
-          "sell": 0.0,
-          "trades": 2
-        }
-      ],
-      "positions_open": 4
-    },
-    {
-      "address": "0xc23727dce1049bcb1c259d983bb4fe4805b4b9b9",
-      "score": 17.92,
-      "roi_pct": -0.48,
-      "win_rate_pct": 19.6,
-      "total_pnl": -114.79,
-      "realized_pnl": 0.0,
-      "open_pnl": -8.1,
-      "total_buy": 23722.21,
-      "total_volume": 47417.61,
-      "months_active": 4.5,
-      "days_active": 134,
-      "total_trades": 115,
-      "markets_traded": 46,
-      "wins": 9,
-      "losses": 37,
-      "std_dev": 53.26,
-      "sharpe": -0.009,
-      "best_markets": [
-        {
-          "title": "Will the price of Bitcoin be above $76,000 on March 17?",
-          "pnl": 20.31,
-          "roi": 1.11,
-          "buy": 1824.52,
-          "sell": 1844.83,
-          "trades": 5
-        },
-        {
-          "title": "Will the price of Bitcoin be above $62,000 on March 21?",
-          "pnl": 4.24,
-          "roi": 0.05,
-          "buy": 7977.43,
-          "sell": 7981.68,
-          "trades": 8
-        },
-        {
-          "title": "US strikes Iran by February 24, 2026?",
-          "pnl": 1.78,
-          "roi": 31.66,
-          "buy": 5.64,
-          "sell": 7.42,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will the price of Ethereum be above $1,800 on March 17?",
-          "pnl": -8.03,
-          "roi": -0.06,
-          "buy": 13536.87,
-          "sell": 13528.84,
-          "trades": 27
-        },
-        {
-          "title": "Will Elon Musk post 160-179 tweets from February 24 to March 3, 2026?",
-          "pnl": -7.3,
-          "roi": -100.0,
-          "buy": 7.3,
-          "sell": 0.0,
-          "trades": 2
-        }
-      ],
-      "positions_open": 15
-    },
-    {
-      "address": "0xbe5dbdd52068067deaad498df14d28050e6501af",
-      "score": 17.83,
-      "roi_pct": -8.97,
-      "win_rate_pct": 19.7,
-      "total_pnl": -835.52,
-      "realized_pnl": 0.0,
-      "open_pnl": -8.23,
-      "total_buy": 9309.63,
-      "total_volume": 18451.58,
-      "months_active": 7.7,
-      "days_active": 230,
-      "total_trades": 162,
-      "markets_traded": 61,
-      "wins": 12,
-      "losses": 49,
-      "std_dev": 49.21,
-      "sharpe": -0.182,
-      "best_markets": [
-        {
-          "title": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
-          "pnl": 5.28,
-          "roi": 37.75,
-          "buy": 14.0,
-          "sell": 19.28,
-          "trades": 2
-        },
-        {
-          "title": "Will Drake officially release Iceman by April 30, 2026?",
-          "pnl": 4.63,
-          "roi": 24.38,
-          "buy": 19.0,
-          "sell": 23.63,
-          "trades": 2
-        },
-        {
-          "title": "Will Bitcoin reach $115,000 in February?",
-          "pnl": 1.54,
-          "roi": 0.1,
-          "buy": 1540.35,
-          "sell": 1541.89,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Israel closes its airspace by June 30?",
-          "pnl": -132.0,
-          "roi": -100.0,
-          "buy": 132.0,
-          "sell": 0.0,
-          "trades": 1
-        },
-        {
-          "title": "Will the US next strike Iran on January 12, 2026 (ET)?",
-          "pnl": -77.0,
-          "roi": -100.0,
-          "buy": 77.0,
-          "sell": 0.0,
-          "trades": 2
-        }
-      ],
-      "positions_open": 3
-    },
-    {
-      "address": "0x6352c50930e2a542b975ef1fd49811949986f719",
-      "score": 14.44,
-      "roi_pct": 10.97,
-      "win_rate_pct": 4.2,
-      "total_pnl": 249.85,
-      "realized_pnl": 0.0,
-      "open_pnl": -206.25,
-      "total_buy": 2277.6,
-      "total_volume": 5166.86,
+      "open_pnl": 24.83,
+      "total_buy": 4318.49,
+      "total_volume": 8383.27,
       "months_active": 5.5,
       "days_active": 165,
-      "total_trades": 108,
-      "markets_traded": 24,
-      "wins": 1,
-      "losses": 23,
-      "std_dev": 53.51,
-      "sharpe": 0.205,
+      "total_trades": 124,
+      "markets_traded": 23,
+      "wins": 8,
+      "losses": 15,
+      "std_dev": 79.07,
+      "sharpe": -0.166,
       "best_markets": [
         {
-          "title": "Khamenei out as Supreme Leader of Iran by June 30?",
-          "pnl": 1597.59,
-          "roi": 159.76,
-          "buy": 1000.0,
-          "sell": 2597.59,
-          "trades": 3
-        },
-        {
-          "title": "Will Japan win on 2026-06-25?",
-          "pnl": -10.14,
-          "roi": -100.0,
-          "buy": 10.14,
-          "sell": 0.0,
-          "trades": 1
-        },
-        {
-          "title": "Will Mexico win on 2026-06-18?",
-          "pnl": -10.14,
-          "roi": -100.0,
-          "buy": 10.14,
-          "sell": 0.0,
-          "trades": 1
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "pnl": -618.41,
-          "roi": -100.0,
-          "buy": 618.41,
-          "sell": 0.0,
-          "trades": 1
-        },
-        {
-          "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
-          "pnl": -121.09,
-          "roi": -100.0,
-          "buy": 121.09,
-          "sell": 0.0,
-          "trades": 2
-        }
-      ],
-      "positions_open": 16
-    },
-    {
-      "address": "0xe132cef0d87372f0d0bb95221484a2e1e0ee2fea",
-      "score": 14.17,
-      "roi_pct": -43.96,
-      "win_rate_pct": 23.9,
-      "total_pnl": -431.19,
-      "realized_pnl": 0.0,
-      "open_pnl": 0.75,
-      "total_buy": 980.81,
-      "total_volume": 1846.27,
-      "months_active": 18.7,
-      "days_active": 562,
-      "total_trades": 221,
-      "markets_traded": 92,
-      "wins": 22,
-      "losses": 69,
-      "std_dev": 59.52,
-      "sharpe": -0.739,
-      "best_markets": [
-        {
-          "title": "Will Elon tweet 400-449 times Jan 10-17?",
-          "pnl": 42.88,
-          "roi": 107.21,
-          "buy": 40.0,
-          "sell": 82.88,
-          "trades": 3
-        },
-        {
-          "title": "Will Elon tweet 500 or more times Jan 3-Jan 10?",
-          "pnl": 29.28,
-          "roi": 25.36,
-          "buy": 115.46,
-          "sell": 144.74,
+          "title": "Will the Iranian regime fall by June 30?",
+          "pnl": 287.13,
+          "roi": 49.86,
+          "buy": 575.86,
+          "sell": 862.99,
           "trades": 4
         },
         {
-          "title": "Will Elon tweet 275-299 times Jan 24-31?",
-          "pnl": 6.13,
-          "roi": 613.29,
-          "buy": 1.0,
-          "sell": 7.13,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will Assad remain President of Syria through 2024?",
-          "pnl": -115.34,
-          "roi": -85.57,
-          "buy": 134.78,
-          "sell": 19.44,
-          "trades": 5
-        },
-        {
-          "title": "Will Trump say \"ceasefire\" during his inauguration speech?",
-          "pnl": -110.35,
-          "roi": -100.0,
-          "buy": 110.35,
-          "sell": 0.0,
-          "trades": 4
-        }
-      ],
-      "positions_open": 1
-    },
-    {
-      "address": "0x6b148682c374c4449cfb572e9d41a2c65f053e42",
-      "score": 13.93,
-      "roi_pct": -18.96,
-      "win_rate_pct": 25.0,
-      "total_pnl": -1849.49,
-      "realized_pnl": 0.0,
-      "open_pnl": -128.02,
-      "total_buy": 9752.99,
-      "total_volume": 19932.39,
-      "months_active": 6.1,
-      "days_active": 182,
-      "total_trades": 236,
-      "markets_traded": 84,
-      "wins": 21,
-      "losses": 61,
-      "std_dev": 93.31,
-      "sharpe": -0.203,
-      "best_markets": [
-        {
-          "title": "US strikes Iran by March 3, 2026?",
-          "pnl": 988.44,
-          "roi": 209.41,
-          "buy": 472.0,
-          "sell": 1460.44,
-          "trades": 3
-        },
-        {
-          "title": "US x Iran ceasefire by December 31?",
-          "pnl": 183.94,
-          "roi": 30.66,
-          "buy": 600.0,
-          "sell": 783.94,
-          "trades": 2
-        },
-        {
-          "title": "US strikes Iran by March 2, 2026?",
-          "pnl": 131.09,
-          "roi": 524.38,
-          "buy": 25.0,
-          "sell": 156.09,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will Lionel Messi score a goal at the 2026 FIFA World Cup?",
-          "pnl": -417.71,
-          "roi": -100.0,
-          "buy": 417.71,
-          "sell": 0.0,
+          "title": "US strikes Iran by January 18, 2026?",
+          "pnl": 207.66,
+          "roi": 49.68,
+          "buy": 418.0,
+          "sell": 625.66,
           "trades": 2
         },
         {
           "title": "Will Mojtaba Khamenei be the next Supreme Leader of Iran?",
-          "pnl": -350.0,
+          "pnl": 172.66,
+          "roi": 60.58,
+          "buy": 285.0,
+          "sell": 457.66,
+          "trades": 3
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will China invades Taiwan before GTA VI?",
+          "pnl": -512.5,
           "roi": -100.0,
-          "buy": 350.0,
+          "buy": 512.5,
+          "sell": 0.0,
+          "trades": 1
+        },
+        {
+          "title": "Netanyahu out by end of 2026?",
+          "pnl": -250.51,
+          "roi": -100.0,
+          "buy": 250.51,
+          "sell": 0.0,
+          "trades": 1
+        }
+      ],
+      "positions_open": 3
+    },
+    {
+      "address": "0xd7502f4b56e45eea0b6daa72d89630e2321f54c3",
+      "score": 15.71,
+      "roi_pct": -2.43,
+      "win_rate_pct": 4.4,
+      "total_pnl": -208.73,
+      "realized_pnl": -0.18,
+      "open_pnl": -0.09,
+      "total_buy": 8605.31,
+      "total_volume": 17172.88,
+      "months_active": 8.0,
+      "days_active": 241,
+      "total_trades": 266,
+      "markets_traded": 68,
+      "wins": 3,
+      "losses": 65,
+      "std_dev": 15.31,
+      "sharpe": -0.158,
+      "best_markets": [
+        {
+          "title": "Will Spain win the 2026 FIFA World Cup?",
+          "pnl": 2.66,
+          "roi": 8.92,
+          "buy": 29.83,
+          "sell": 32.49,
+          "trades": 2
+        },
+        {
+          "title": "Will Hunter Biden win the 2028 Democratic presidential nomination?",
+          "pnl": 1.09,
+          "roi": 71.57,
+          "buy": 1.53,
+          "sell": 2.62,
+          "trades": 2
+        },
+        {
+          "title": "Will the US confirm that aliens exist in 2025?",
+          "pnl": 0.41,
+          "roi": 2.21,
+          "buy": 18.72,
+          "sell": 19.13,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Max Homa win the 2026 Masters tournament?",
+          "pnl": -169.83,
+          "roi": -100.0,
+          "buy": 169.83,
+          "sell": 0.0,
+          "trades": 2
+        },
+        {
+          "title": "Will England win the 2026 FIFA World Cup?",
+          "pnl": -4.52,
+          "roi": -1.89,
+          "buy": 239.64,
+          "sell": 235.12,
+          "trades": 6
+        }
+      ],
+      "positions_open": 1
+    }
+  ],
+  "all_results": [
+    {
+      "address": "0x89d0f7d2ae4062d6738b670eab1bd687b352e793",
+      "score": 41.11,
+      "roi_pct": 110.46,
+      "win_rate_pct": 76.9,
+      "total_pnl": 968.67,
+      "realized_pnl": -17.9,
+      "open_pnl": -1.7,
+      "total_buy": 876.96,
+      "total_volume": 3744.14,
+      "months_active": 1.1,
+      "days_active": 33,
+      "total_trades": 500,
+      "markets_traded": 39,
+      "wins": 30,
+      "losses": 8,
+      "std_dev": 131.79,
+      "sharpe": 0.838,
+      "best_markets": [
+        {
+          "title": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "pnl": 110.3,
+          "roi": 203.91,
+          "buy": 54.09,
+          "sell": 164.39,
+          "trades": 38
+        },
+        {
+          "title": "US-Iran nuclear deal before 2027?",
+          "pnl": 106.95,
+          "roi": 102.27,
+          "buy": 104.58,
+          "sell": 211.54,
+          "trades": 54
+        },
+        {
+          "title": "Ukraine signs peace deal with Russia before 2027?",
+          "pnl": 93.95,
+          "roi": 228.87,
+          "buy": 41.05,
+          "sell": 135.0,
+          "trades": 28
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Abelardo de la Espriella  win the 2026 Colombian presidential election?",
+          "pnl": -9.9,
+          "roi": -100.0,
+          "buy": 9.9,
+          "sell": 0.0,
+          "trades": 3
+        },
+        {
+          "title": "Israeli parliament dissolved by June 30?",
+          "pnl": -2.0,
+          "roi": -50.0,
+          "buy": 4.0,
+          "sell": 2.0,
+          "trades": 3
+        }
+      ],
+      "positions_open": 1
+    },
+    {
+      "address": "0x6c48894f0dddbc9ffd44631f6b8601652cc22a26",
+      "score": 28.99,
+      "roi_pct": -7.69,
+      "win_rate_pct": 21.5,
+      "total_pnl": -1873.52,
+      "realized_pnl": 0.0,
+      "open_pnl": -260.76,
+      "total_buy": 24358.83,
+      "total_volume": 48510.98,
+      "months_active": 20.6,
+      "days_active": 619,
+      "total_trades": 345,
+      "markets_traded": 149,
+      "wins": 32,
+      "losses": 115,
+      "std_dev": 52.47,
+      "sharpe": -0.147,
+      "best_markets": [
+        {
+          "title": "Ethereum above $3,300 on November 29?",
+          "pnl": 166.54,
+          "roi": 27.52,
+          "buy": 605.14,
+          "sell": 771.68,
+          "trades": 2
+        },
+        {
+          "title": "Ethereum all time high in Q4 2024?",
+          "pnl": 147.05,
+          "roi": 60.63,
+          "buy": 242.55,
+          "sell": 389.6,
+          "trades": 7
+        },
+        {
+          "title": "Will Ethereum reach $3,500 in November?",
+          "pnl": 64.57,
+          "roi": 51.72,
+          "buy": 124.83,
+          "sell": 189.39,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Ethereum above $2,400 on October 18?",
+          "pnl": -455.46,
+          "roi": -80.88,
+          "buy": 563.15,
+          "sell": 107.69,
+          "trades": 5
+        },
+        {
+          "title": "No change in Fed interest rates after January 2025 meeting?",
+          "pnl": -250.0,
+          "roi": -100.0,
+          "buy": 250.0,
           "sell": 0.0,
           "trades": 2
         }
       ],
-      "positions_open": 16
+      "positions_open": 17
+    },
+    {
+      "address": "0x7be42b643002a97434f4666ea145784bc7798477",
+      "score": 25.18,
+      "roi_pct": 35.6,
+      "win_rate_pct": 39.1,
+      "total_pnl": 843.97,
+      "realized_pnl": 487.71,
+      "open_pnl": 101.41,
+      "total_buy": 2370.65,
+      "total_volume": 6138.87,
+      "months_active": 1.2,
+      "days_active": 35,
+      "total_trades": 500,
+      "markets_traded": 23,
+      "wins": 9,
+      "losses": 13,
+      "std_dev": 184.74,
+      "sharpe": 0.193,
+      "best_markets": [
+        {
+          "title": "Will Anthropic be acquired before 2027?",
+          "pnl": 272.63,
+          "roi": 730.09,
+          "buy": 37.34,
+          "sell": 309.98,
+          "trades": 17
+        },
+        {
+          "title": "Will Viking Therapeutics be acquired before 2027?",
+          "pnl": 125.66,
+          "roi": 5559.71,
+          "buy": 2.26,
+          "sell": 127.93,
+          "trades": 5
+        },
+        {
+          "title": "Will Zoom Video Communications be acquired before 2027?",
+          "pnl": 95.65,
+          "roi": 146.93,
+          "buy": 65.1,
+          "sell": 160.75,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will the highest temperature in London be 35\u00b0C on May 26?",
+          "pnl": -164.07,
+          "roi": -100.0,
+          "buy": 164.07,
+          "sell": 0.0,
+          "trades": 4
+        },
+        {
+          "title": "Will the highest temperature in London be 34\u00b0C on May 26?",
+          "pnl": -161.16,
+          "roi": -100.0,
+          "buy": 161.16,
+          "sell": 0.0,
+          "trades": 5
+        }
+      ],
+      "positions_open": 12
+    },
+    {
+      "address": "0x221c711cf2650cce81b31f10bdaa6df7cbc7d3c1",
+      "score": 22.95,
+      "roi_pct": -7.43,
+      "win_rate_pct": 37.5,
+      "total_pnl": -760.85,
+      "realized_pnl": 56.05,
+      "open_pnl": 169.51,
+      "total_buy": 10233.38,
+      "total_volume": 19896.22,
+      "months_active": 7.2,
+      "days_active": 215,
+      "total_trades": 197,
+      "markets_traded": 40,
+      "wins": 15,
+      "losses": 25,
+      "std_dev": 71.76,
+      "sharpe": -0.104,
+      "best_markets": [
+        {
+          "title": "Will the Fed Cut\u2013Pause\u2013Pause in the next three decisions (Dec\u2013Jan\u2013Mar)?",
+          "pnl": 474.24,
+          "roi": 103.45,
+          "buy": 458.44,
+          "sell": 932.69,
+          "trades": 11
+        },
+        {
+          "title": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+          "pnl": 294.39,
+          "roi": 127.74,
+          "buy": 230.47,
+          "sell": 524.87,
+          "trades": 3
+        },
+        {
+          "title": "Will the Fed Cut\u2013Cut\u2013Pause in the next three decisions (Oct\u2013Dec\u2013Jan)?",
+          "pnl": 137.34,
+          "roi": 35.69,
+          "buy": 384.76,
+          "sell": 522.09,
+          "trades": 3
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Claude Fable 5 be restored for US customers by July 1?",
+          "pnl": -769.84,
+          "roi": -87.45,
+          "buy": 880.36,
+          "sell": 110.52,
+          "trades": 6
+        },
+        {
+          "title": "Will Bitcoin reach $70,000 by December 31, 2026?",
+          "pnl": -220.28,
+          "roi": -100.0,
+          "buy": 220.28,
+          "sell": 0.0,
+          "trades": 12
+        }
+      ],
+      "positions_open": 9
+    },
+    {
+      "address": "0x7b32b903069243696615f79f9ed704c51bbdefc4",
+      "score": 22.66,
+      "roi_pct": -2.72,
+      "win_rate_pct": 0.0,
+      "total_pnl": -474.72,
+      "realized_pnl": 0.0,
+      "open_pnl": 0.07,
+      "total_buy": 17435.49,
+      "total_volume": 34754.6,
+      "months_active": 21.4,
+      "days_active": 643,
+      "total_trades": 292,
+      "markets_traded": 62,
+      "wins": 0,
+      "losses": 62,
+      "std_dev": 47.5,
+      "sharpe": -0.057,
+      "best_markets": [
+        {
+          "title": "Will Beto O\u2019Rourke win the 2028 Democratic presidential nomination?",
+          "pnl": -0.01,
+          "roi": -0.23,
+          "buy": 5.71,
+          "sell": 5.7,
+          "trades": 2
+        },
+        {
+          "title": "Will Hillary Clinton win the 2028 Democratic presidential nomination?",
+          "pnl": -0.01,
+          "roi": -0.2,
+          "buy": 6.06,
+          "sell": 6.05,
+          "trades": 2
+        },
+        {
+          "title": "Will Lance Stroll be the 2026 F1 Drivers' Champion?",
+          "pnl": -0.01,
+          "roi": -0.12,
+          "buy": 10.0,
+          "sell": 9.99,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Satoshi move any Bitcoin in 2025?",
+          "pnl": -76.13,
+          "roi": -100.0,
+          "buy": 76.13,
+          "sell": 0.0,
+          "trades": 2
+        },
+        {
+          "title": "Will Alphabet be the third-largest company in the world by market cap on February 28?",
+          "pnl": -74.27,
+          "roi": -100.0,
+          "buy": 74.27,
+          "sell": 0.0,
+          "trades": 2
+        }
+      ],
+      "positions_open": 3
+    },
+    {
+      "address": "0x6933b0d0a0ac7e205d12bba70c4731a33f9b8eea",
+      "score": 21.92,
+      "roi_pct": -1.85,
+      "win_rate_pct": 3.6,
+      "total_pnl": -130.44,
+      "realized_pnl": 0.0,
+      "open_pnl": 0.04,
+      "total_buy": 7062.83,
+      "total_volume": 14073.31,
+      "months_active": 20.5,
+      "days_active": 614,
+      "total_trades": 332,
+      "markets_traded": 56,
+      "wins": 2,
+      "losses": 53,
+      "std_dev": 39.0,
+      "sharpe": -0.047,
+      "best_markets": [
+        {
+          "title": "MegaETH market cap (FDV) >$2B one day after launch?",
+          "pnl": 0.16,
+          "roi": 4.66,
+          "buy": 3.54,
+          "sell": 3.7,
+          "trades": 2
+        },
+        {
+          "title": "Will Croatia win the 2026 FIFA World Cup?",
+          "pnl": 0.03,
+          "roi": 0.14,
+          "buy": 21.06,
+          "sell": 21.09,
+          "trades": 2
+        },
+        {
+          "title": "Will the Toronto Raptors win the 2026 NBA Finals?",
+          "pnl": -0.0,
+          "roi": -0.0,
+          "buy": 47.97,
+          "sell": 47.97,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will XRP reach $2.40 in May?",
+          "pnl": -14.04,
+          "roi": -100.0,
+          "buy": 14.04,
+          "sell": 0.0,
+          "trades": 2
+        },
+        {
+          "title": "Will Alphabet be the third-largest company in the world by market cap on February 28?",
+          "pnl": -13.44,
+          "roi": -100.0,
+          "buy": 13.44,
+          "sell": 0.0,
+          "trades": 2
+        }
+      ],
+      "positions_open": 2
+    },
+    {
+      "address": "0x636d9324880ede5e628b544bb6d48b47796133a7",
+      "score": 21.01,
+      "roi_pct": 6.61,
+      "win_rate_pct": 53.3,
+      "total_pnl": 279.71,
+      "realized_pnl": 0.0,
+      "open_pnl": 19.52,
+      "total_buy": 4233.44,
+      "total_volume": 8727.06,
+      "months_active": 1.2,
+      "days_active": 36,
+      "total_trades": 43,
+      "markets_traded": 15,
+      "wins": 8,
+      "losses": 7,
+      "std_dev": 41.58,
+      "sharpe": 0.159,
+      "best_markets": [
+        {
+          "title": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by May 31, 2026?",
+          "pnl": 242.64,
+          "roi": 54.57,
+          "buy": 444.65,
+          "sell": 687.29,
+          "trades": 3
+        },
+        {
+          "title": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by June 30, 2026?",
+          "pnl": 80.98,
+          "roi": 6.5,
+          "buy": 1246.83,
+          "sell": 1327.82,
+          "trades": 8
+        },
+        {
+          "title": "US x Iran permanent peace deal by May 31, 2026?",
+          "pnl": 50.67,
+          "roi": 15.72,
+          "buy": 322.34,
+          "sell": 373.01,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Iran announce withdrawal from MOU negotiations by June 30?",
+          "pnl": -159.83,
+          "roi": -100.0,
+          "buy": 159.83,
+          "sell": 0.0,
+          "trades": 1
+        },
+        {
+          "title": "Will Xi Jinping visit US before 2027?",
+          "pnl": -17.02,
+          "roi": -40.96,
+          "buy": 41.55,
+          "sell": 24.53,
+          "trades": 3
+        }
+      ],
+      "positions_open": 1
+    },
+    {
+      "address": "0x0d126288d3c426e51b641aa2081496378b8ccaf8",
+      "score": 20.41,
+      "roi_pct": -25.21,
+      "win_rate_pct": 25.5,
+      "total_pnl": -407.56,
+      "realized_pnl": 34.94,
+      "open_pnl": -143.74,
+      "total_buy": 1616.59,
+      "total_volume": 3233.3,
+      "months_active": 17.4,
+      "days_active": 522,
+      "total_trades": 322,
+      "markets_traded": 102,
+      "wins": 26,
+      "losses": 76,
+      "std_dev": 67.66,
+      "sharpe": -0.373,
+      "best_markets": [
+        {
+          "title": "Counter-Strike: Nuclear TigeRES vs K27 (BO3) - NODWIN Clutch Series Playoffs",
+          "pnl": 39.92,
+          "roi": 56.88,
+          "buy": 70.17,
+          "sell": 110.09,
+          "trades": 9
+        },
+        {
+          "title": "Google Maps renames it \"Gulf of America\" before March?",
+          "pnl": 36.84,
+          "roi": 37.37,
+          "buy": 98.59,
+          "sell": 135.43,
+          "trades": 14
+        },
+        {
+          "title": "Tulsi Gabbard confirmed as Director of National Intelligence?",
+          "pnl": 22.98,
+          "roi": 69.64,
+          "buy": 33.0,
+          "sell": 55.98,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Counter-Strike: Honv\u00e9d vs OlyBet SB (BO3) - European Pro League Series 8 Closed Qualifier Group A",
+          "pnl": -32.31,
+          "roi": -100.0,
+          "buy": 32.31,
+          "sell": 0.0,
+          "trades": 2
+        },
+        {
+          "title": "Counter-Strike: Wanted Goons vs Overtake (BO3) - NSTLGA League Playoffs",
+          "pnl": -26.18,
+          "roi": -71.44,
+          "buy": 36.65,
+          "sell": 10.47,
+          "trades": 5
+        }
+      ],
+      "positions_open": 14
+    },
+    {
+      "address": "0xa580dc75738408ad2419713976cb14353eb45c61",
+      "score": 20.1,
+      "roi_pct": -2.91,
+      "win_rate_pct": 0.0,
+      "total_pnl": -142.58,
+      "realized_pnl": 0.0,
+      "open_pnl": 0.17,
+      "total_buy": 4903.71,
+      "total_volume": 9753.84,
+      "months_active": 21.0,
+      "days_active": 631,
+      "total_trades": 296,
+      "markets_traded": 53,
+      "wins": 0,
+      "losses": 53,
+      "std_dev": 32.96,
+      "sharpe": -0.088,
+      "best_markets": [
+        {
+          "title": "Will \u00c9ric Zemmour win the 2027 French presidential election?",
+          "pnl": -0.01,
+          "roi": -0.28,
+          "buy": 5.18,
+          "sell": 5.17,
+          "trades": 2
+        },
+        {
+          "title": "Will Lance Stroll be the 2026 F1 Drivers' Champion?",
+          "pnl": -0.01,
+          "roi": -0.17,
+          "buy": 7.87,
+          "sell": 7.86,
+          "trades": 2
+        },
+        {
+          "title": "Will Nico H\u00fclkenberg be the 2026 F1 Drivers' Champion?",
+          "pnl": -0.01,
+          "roi": -0.11,
+          "buy": 10.0,
+          "sell": 9.99,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Bitcoin reach $87,500 in June?",
+          "pnl": -37.44,
+          "roi": -100.0,
+          "buy": 37.44,
+          "sell": 0.0,
+          "trades": 1
+        },
+        {
+          "title": "Will XRP reach $3.00 in May?",
+          "pnl": -27.01,
+          "roi": -100.0,
+          "buy": 27.01,
+          "sell": 0.0,
+          "trades": 2
+        }
+      ],
+      "positions_open": 1
+    },
+    {
+      "address": "0x1102330de18bd0ced2ae7c17b29df2a1e627af36",
+      "score": 18.66,
+      "roi_pct": 11.93,
+      "win_rate_pct": 29.0,
+      "total_pnl": 1287.6,
+      "realized_pnl": 231.85,
+      "open_pnl": -4827.63,
+      "total_buy": 10792.79,
+      "total_volume": 33140.84,
+      "months_active": 1.8,
+      "days_active": 54,
+      "total_trades": 500,
+      "markets_traded": 124,
+      "wins": 36,
+      "losses": 88,
+      "std_dev": 158.65,
+      "sharpe": 0.075,
+      "best_markets": [
+        {
+          "title": "Timothy Chalamet confirmed to be EsDeeKid by June 30?",
+          "pnl": 1192.81,
+          "roi": 204.59,
+          "buy": 583.04,
+          "sell": 1775.84,
+          "trades": 4
+        },
+        {
+          "title": "Will Bitcoin reach $100,000 by December 31, 2026?",
+          "pnl": 550.06,
+          "roi": 273.66,
+          "buy": 201.0,
+          "sell": 751.06,
+          "trades": 3
+        },
+        {
+          "title": "Will Spider-Man: Brand New Day be the top grossing movie of 2026?",
+          "pnl": 422.39,
+          "roi": 406.15,
+          "buy": 104.0,
+          "sell": 526.39,
+          "trades": 17
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Sean Strickland be the UFC Middleweight Champion on December 31, 2026?",
+          "pnl": -293.99,
+          "roi": -100.0,
+          "buy": 293.99,
+          "sell": 0.0,
+          "trades": 6
+        },
+        {
+          "title": "Will no next Prime Minister of the United Kingdom be appointed in 2026?",
+          "pnl": -227.59,
+          "roi": -100.0,
+          "buy": 227.59,
+          "sell": 0.0,
+          "trades": 2
+        }
+      ],
+      "positions_open": 100
+    },
+    {
+      "address": "0x4e208579aa5dc5d18bb6851d0f06d95f8c5b7271",
+      "score": 18.2,
+      "roi_pct": -18.89,
+      "win_rate_pct": 30.8,
+      "total_pnl": -10.04,
+      "realized_pnl": 0.0,
+      "open_pnl": -0.2,
+      "total_buy": 53.14,
+      "total_volume": 102.43,
+      "months_active": 8.8,
+      "days_active": 263,
+      "total_trades": 34,
+      "markets_traded": 13,
+      "wins": 4,
+      "losses": 9,
+      "std_dev": 45.61,
+      "sharpe": -0.414,
+      "best_markets": [
+        {
+          "title": "Will AZZ (AZZ) beat quarterly earnings?",
+          "pnl": 9.4,
+          "roi": 1880.0,
+          "buy": 0.5,
+          "sell": 9.9,
+          "trades": 2
+        },
+        {
+          "title": "Will Trump say \"Hamas\" during events with President of Finland on Oct 9?",
+          "pnl": 0.6,
+          "roi": 9.23,
+          "buy": 6.5,
+          "sell": 7.1,
+          "trades": 2
+        },
+        {
+          "title": "Will Hamas release all Israeli hostages by October 15?",
+          "pnl": 0.4,
+          "roi": 33.33,
+          "buy": 1.2,
+          "sell": 1.6,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will House and Senate pass funding bill by October 31?",
+          "pnl": -6.6,
+          "roi": -100.0,
+          "buy": 6.6,
+          "sell": 0.0,
+          "trades": 2
+        },
+        {
+          "title": "Kevin Warsh confirmed as Fed Chair by May 15?",
+          "pnl": -5.64,
+          "roi": -100.0,
+          "buy": 5.64,
+          "sell": 0.0,
+          "trades": 2
+        }
+      ],
+      "positions_open": 1
+    },
+    {
+      "address": "0x6f6fa38c40979d114b6f71640256b52eb070bd48",
+      "score": 17.15,
+      "roi_pct": -0.59,
+      "win_rate_pct": 18.0,
+      "total_pnl": -121.13,
+      "realized_pnl": 0.37,
+      "open_pnl": -7.23,
+      "total_buy": 20359.59,
+      "total_volume": 40698.6,
+      "months_active": 4.7,
+      "days_active": 141,
+      "total_trades": 204,
+      "markets_traded": 50,
+      "wins": 9,
+      "losses": 41,
+      "std_dev": 45.06,
+      "sharpe": -0.013,
+      "best_markets": [
+        {
+          "title": "Will the price of Bitcoin be above $76,000 on March 17?",
+          "pnl": 16.13,
+          "roi": 0.42,
+          "buy": 3879.15,
+          "sell": 3895.28,
+          "trades": 12
+        },
+        {
+          "title": "Will the price of Bitcoin be above $70,000 on March 17?",
+          "pnl": 1.14,
+          "roi": 0.1,
+          "buy": 1150.01,
+          "sell": 1151.15,
+          "trades": 4
+        },
+        {
+          "title": "Ukraine recognizes Russian sovereignty over its territory by December 31, 2026?",
+          "pnl": 0.36,
+          "roi": 4.49,
+          "buy": 8.0,
+          "sell": 8.36,
+          "trades": 5
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will the price of Ethereum be above $1,800 on March 17?",
+          "pnl": -6.99,
+          "roi": -0.19,
+          "buy": 3699.59,
+          "sell": 3692.6,
+          "trades": 3
+        },
+        {
+          "title": "Will the 10-year treasury yield hit 4.5% by March 31?",
+          "pnl": -6.0,
+          "roi": -100.0,
+          "buy": 6.0,
+          "sell": 0.0,
+          "trades": 2
+        }
+      ],
+      "positions_open": 13
+    },
+    {
+      "address": "0xcf755185d09efa0b0df3cfe57947e3cd417402d1",
+      "score": 16.51,
+      "roi_pct": -13.09,
+      "win_rate_pct": 34.8,
+      "total_pnl": -565.23,
+      "realized_pnl": 0.0,
+      "open_pnl": 24.83,
+      "total_buy": 4318.49,
+      "total_volume": 8383.27,
+      "months_active": 5.5,
+      "days_active": 165,
+      "total_trades": 124,
+      "markets_traded": 23,
+      "wins": 8,
+      "losses": 15,
+      "std_dev": 79.07,
+      "sharpe": -0.166,
+      "best_markets": [
+        {
+          "title": "Will the Iranian regime fall by June 30?",
+          "pnl": 287.13,
+          "roi": 49.86,
+          "buy": 575.86,
+          "sell": 862.99,
+          "trades": 4
+        },
+        {
+          "title": "US strikes Iran by January 18, 2026?",
+          "pnl": 207.66,
+          "roi": 49.68,
+          "buy": 418.0,
+          "sell": 625.66,
+          "trades": 2
+        },
+        {
+          "title": "Will Mojtaba Khamenei be the next Supreme Leader of Iran?",
+          "pnl": 172.66,
+          "roi": 60.58,
+          "buy": 285.0,
+          "sell": 457.66,
+          "trades": 3
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will China invades Taiwan before GTA VI?",
+          "pnl": -512.5,
+          "roi": -100.0,
+          "buy": 512.5,
+          "sell": 0.0,
+          "trades": 1
+        },
+        {
+          "title": "Netanyahu out by end of 2026?",
+          "pnl": -250.51,
+          "roi": -100.0,
+          "buy": 250.51,
+          "sell": 0.0,
+          "trades": 1
+        }
+      ],
+      "positions_open": 3
+    },
+    {
+      "address": "0xd7502f4b56e45eea0b6daa72d89630e2321f54c3",
+      "score": 15.71,
+      "roi_pct": -2.43,
+      "win_rate_pct": 4.4,
+      "total_pnl": -208.73,
+      "realized_pnl": -0.18,
+      "open_pnl": -0.09,
+      "total_buy": 8605.31,
+      "total_volume": 17172.88,
+      "months_active": 8.0,
+      "days_active": 241,
+      "total_trades": 266,
+      "markets_traded": 68,
+      "wins": 3,
+      "losses": 65,
+      "std_dev": 15.31,
+      "sharpe": -0.158,
+      "best_markets": [
+        {
+          "title": "Will Spain win the 2026 FIFA World Cup?",
+          "pnl": 2.66,
+          "roi": 8.92,
+          "buy": 29.83,
+          "sell": 32.49,
+          "trades": 2
+        },
+        {
+          "title": "Will Hunter Biden win the 2028 Democratic presidential nomination?",
+          "pnl": 1.09,
+          "roi": 71.57,
+          "buy": 1.53,
+          "sell": 2.62,
+          "trades": 2
+        },
+        {
+          "title": "Will the US confirm that aliens exist in 2025?",
+          "pnl": 0.41,
+          "roi": 2.21,
+          "buy": 18.72,
+          "sell": 19.13,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Max Homa win the 2026 Masters tournament?",
+          "pnl": -169.83,
+          "roi": -100.0,
+          "buy": 169.83,
+          "sell": 0.0,
+          "trades": 2
+        },
+        {
+          "title": "Will England win the 2026 FIFA World Cup?",
+          "pnl": -4.52,
+          "roi": -1.89,
+          "buy": 239.64,
+          "sell": 235.12,
+          "trades": 6
+        }
+      ],
+      "positions_open": 1
     },
     {
       "address": "0x71c6238e60bac713ae1518d35bed5d43c2413eb8",
@@ -1803,167 +1867,423 @@
       "positions_open": 0
     },
     {
-      "address": "0xaccfd1cf0c116725e7f3cf0d52b768f07969b278",
-      "score": 13.71,
-      "roi_pct": -10.67,
-      "win_rate_pct": 41.2,
-      "total_pnl": -59.63,
-      "realized_pnl": 2.21,
-      "open_pnl": -18.71,
-      "total_buy": 558.64,
-      "total_volume": 1076.38,
-      "months_active": 2.7,
-      "days_active": 80,
-      "total_trades": 307,
-      "markets_traded": 17,
-      "wins": 7,
-      "losses": 8,
-      "std_dev": 35.56,
-      "sharpe": -0.3,
+      "address": "0xc2b9e536a22a5a09365a30defed3ff36a8339e85",
+      "score": 13.49,
+      "roi_pct": -7.42,
+      "win_rate_pct": 37.4,
+      "total_pnl": -39.71,
+      "realized_pnl": -0.05,
+      "open_pnl": -18.72,
+      "total_buy": 535.19,
+      "total_volume": 1066.22,
+      "months_active": 2.6,
+      "days_active": 79,
+      "total_trades": 350,
+      "markets_traded": 123,
+      "wins": 46,
+      "losses": 77,
+      "std_dev": 42.61,
+      "sharpe": -0.174,
       "best_markets": [
         {
-          "title": "Will Harvey Weinstein be sentenced to no prison time?",
-          "pnl": 24.55,
-          "roi": 23.8,
-          "buy": 103.18,
-          "sell": 127.73,
-          "trades": 21
+          "title": "Bank of Japan increases interest rates by 25 bps after the June 2026 meeting?",
+          "pnl": 11.5,
+          "roi": 54.93,
+          "buy": 20.94,
+          "sell": 32.44,
+          "trades": 6
         },
         {
-          "title": "Will the Detroit Pistons win the 2026 NBA Finals?",
-          "pnl": 8.2,
-          "roi": 63.64,
-          "buy": 12.88,
-          "sell": 21.08,
+          "title": "Will the ECB announce a 25 bps increase at the June 2026 meeting?",
+          "pnl": 8.01,
+          "roi": 31.02,
+          "buy": 25.81,
+          "sell": 33.81,
           "trades": 7
         },
         {
-          "title": "Will the Columbus Blue Jackets win the 2026 NHL Stanley Cup?",
-          "pnl": 2.69,
-          "roi": 6.73,
-          "buy": 40.0,
-          "sell": 42.69,
-          "trades": 51
+          "title": "Will Warsh say \"FED\" during June Press Conference?",
+          "pnl": 7.66,
+          "roi": 34.62,
+          "buy": 22.12,
+          "sell": 29.77,
+          "trades": 7
         }
       ],
       "worst_markets": [
         {
-          "title": "Will Harvey Weinstein be sentenced to between 10 and 20 years in prison?",
-          "pnl": -28.5,
-          "roi": -34.52,
-          "buy": 82.58,
-          "sell": 54.07,
-          "trades": 55
+          "title": "Will the ECB announce no change at the June 2026 meeting?",
+          "pnl": -13.4,
+          "roi": -62.75,
+          "buy": 21.35,
+          "sell": 7.95,
+          "trades": 8
         },
         {
-          "title": "Will the Ottawa Senators win the 2026 NHL Stanley Cup?",
-          "pnl": -18.4,
-          "roi": -92.0,
-          "buy": 20.0,
-          "sell": 1.6,
-          "trades": 16
+          "title": "Will Warsh say \"Good Afternoon\" during June Press Conference?",
+          "pnl": -10.3,
+          "roi": -97.97,
+          "buy": 10.51,
+          "sell": 0.21,
+          "trades": 2
         }
       ],
-      "positions_open": 2
+      "positions_open": 17
     },
     {
-      "address": "0xea02847852fefc86e0ab5e30bbc0c80afdc1f43e",
-      "score": 12.03,
-      "roi_pct": -22.7,
-      "win_rate_pct": 21.1,
-      "total_pnl": -12.12,
-      "realized_pnl": 0.0,
-      "open_pnl": -1.0,
-      "total_buy": 53.37,
-      "total_volume": 101.79,
-      "months_active": 7.5,
-      "days_active": 225,
-      "total_trades": 55,
-      "markets_traded": 19,
-      "wins": 4,
-      "losses": 14,
-      "std_dev": 999,
-      "sharpe": -0.023,
+      "address": "0x43e0f1fc0ff7724cf70959f8b5ae476c006e1caf",
+      "score": 12.52,
+      "roi_pct": -46.9,
+      "win_rate_pct": 35.6,
+      "total_pnl": -3010.48,
+      "realized_pnl": 34.38,
+      "open_pnl": -396.91,
+      "total_buy": 6418.64,
+      "total_volume": 12729.38,
+      "months_active": 8.8,
+      "days_active": 264,
+      "total_trades": 227,
+      "markets_traded": 90,
+      "wins": 32,
+      "losses": 58,
+      "std_dev": 56.47,
+      "sharpe": -0.831,
       "best_markets": [
         {
-          "title": "Bitcoin Up or Down - June 20, 11:20AM-11:25AM ET",
-          "pnl": 0.65,
-          "roi": 31.28,
-          "buy": 2.09,
-          "sell": 2.74,
-          "trades": 5
-        },
-        {
-          "title": "Bitcoin Up or Down - June 20, 10:40AM-10:45AM ET",
-          "pnl": 0.45,
-          "roi": 21.99,
-          "buy": 2.06,
-          "sell": 2.51,
+          "title": "Will GPT-6 be released by March 31, 2026?",
+          "pnl": 27.47,
+          "roi": 3.77,
+          "buy": 729.02,
+          "sell": 756.49,
           "trades": 4
         },
         {
-          "title": "Bitcoin Up or Down - June 20, 11:30AM-11:35AM ET",
-          "pnl": 0.39,
-          "roi": 36.86,
-          "buy": 1.06,
-          "sell": 1.45,
+          "title": "Will Claude 5 be released by March 31, 2026?",
+          "pnl": 22.5,
+          "roi": 18.75,
+          "buy": 120.0,
+          "sell": 142.5,
+          "trades": 2
+        },
+        {
+          "title": "Will Claude Fable 5 be restored for US customers by July 1?",
+          "pnl": 21.21,
+          "roi": 7.25,
+          "buy": 292.56,
+          "sell": 313.77,
+          "trades": 8
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Claude 4.8 released by May 31?",
+          "pnl": -509.37,
+          "roi": -100.0,
+          "buy": 509.37,
+          "sell": 0.0,
+          "trades": 7
+        },
+        {
+          "title": "Will Google Gemini 3 score at least 70% on the FrontierMath Benchmark?",
+          "pnl": -392.6,
+          "roi": -100.0,
+          "buy": 392.6,
+          "sell": 0.0,
+          "trades": 3
+        }
+      ],
+      "positions_open": 3
+    },
+    {
+      "address": "0xf56c6de43b6aa5f1cb47d2892e049416f761991a",
+      "score": 11.92,
+      "roi_pct": -19.04,
+      "win_rate_pct": 38.9,
+      "total_pnl": -271.6,
+      "realized_pnl": 0.0,
+      "open_pnl": -1.32,
+      "total_buy": 1426.59,
+      "total_volume": 2779.71,
+      "months_active": 3.4,
+      "days_active": 102,
+      "total_trades": 500,
+      "markets_traded": 108,
+      "wins": 42,
+      "losses": 66,
+      "std_dev": 45.72,
+      "sharpe": -0.416,
+      "best_markets": [
+        {
+          "title": "Will the Iranian regime fall before 2027?",
+          "pnl": 13.0,
+          "roi": 120.78,
+          "buy": 10.77,
+          "sell": 23.77,
+          "trades": 4
+        },
+        {
+          "title": "Will the U.S. invade Iran before 2027?",
+          "pnl": 6.83,
+          "roi": 12.58,
+          "buy": 54.32,
+          "sell": 61.15,
+          "trades": 13
+        },
+        {
+          "title": "US forces enter Iran by December 31?",
+          "pnl": 4.87,
+          "roi": 18.42,
+          "buy": 26.45,
+          "sell": 31.32,
+          "trades": 9
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+          "pnl": -41.58,
+          "roi": -100.0,
+          "buy": 41.58,
+          "sell": 0.0,
+          "trades": 7
+        },
+        {
+          "title": "New Rihanna Album before GTA VI?",
+          "pnl": -29.79,
+          "roi": -100.0,
+          "buy": 29.79,
+          "sell": 0.0,
+          "trades": 14
+        }
+      ],
+      "positions_open": 3
+    },
+    {
+      "address": "0xf6b48a48a638830032dfefd194e135d74c032a5c",
+      "score": 11.65,
+      "roi_pct": -33.7,
+      "win_rate_pct": 29.7,
+      "total_pnl": -830.03,
+      "realized_pnl": 11.22,
+      "open_pnl": -167.18,
+      "total_buy": 2462.86,
+      "total_volume": 5436.63,
+      "months_active": 7.4,
+      "days_active": 221,
+      "total_trades": 500,
+      "markets_traded": 111,
+      "wins": 33,
+      "losses": 77,
+      "std_dev": 103.59,
+      "sharpe": -0.325,
+      "best_markets": [
+        {
+          "title": "Will Pump.fun be accused of insider trading?",
+          "pnl": 40.44,
+          "roi": 674.0,
+          "buy": 6.0,
+          "sell": 46.44,
+          "trades": 4
+        },
+        {
+          "title": "Will NVIDIA be the largest company in the world by market cap on January 31?",
+          "pnl": 24.07,
+          "roi": 16.04,
+          "buy": 150.0,
+          "sell": 174.07,
+          "trades": 3
+        },
+        {
+          "title": "Will lighter perform an airdrop by December 31? ",
+          "pnl": 21.53,
+          "roi": 17.94,
+          "buy": 120.0,
+          "sell": 141.53,
+          "trades": 3
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will \"Avatar: Fire and Ash\" Opening Weekend Box Office be less than 90m?",
+          "pnl": -144.8,
+          "roi": -100.0,
+          "buy": 144.8,
+          "sell": 0.0,
+          "trades": 3
+        },
+        {
+          "title": "Will Sam Altman be TIME's Person of the Year for 2025?",
+          "pnl": -100.0,
+          "roi": -100.0,
+          "buy": 100.0,
+          "sell": 0.0,
+          "trades": 2
+        }
+      ],
+      "positions_open": 20
+    },
+    {
+      "address": "0xbd876fe06a1d351195401c5180cdc27016ba286b",
+      "score": 11.2,
+      "roi_pct": -5.8,
+      "win_rate_pct": 25.0,
+      "total_pnl": -15.74,
+      "realized_pnl": 0,
+      "open_pnl": 0,
+      "total_buy": 271.54,
+      "total_volume": 544.21,
+      "months_active": 3.2,
+      "days_active": 97,
+      "total_trades": 127,
+      "markets_traded": 12,
+      "wins": 3,
+      "losses": 9,
+      "std_dev": 66.21,
+      "sharpe": -0.088,
+      "best_markets": [
+        {
+          "title": "Will the 10-year Treasury yield dip below 3.9% before 2027?",
+          "pnl": 13.32,
+          "roi": 40.38,
+          "buy": 33.0,
+          "sell": 46.32,
+          "trades": 4
+        },
+        {
+          "title": "Will no Fed rate cuts happen in 2026?",
+          "pnl": 12.33,
+          "roi": 154.16,
+          "buy": 8.0,
+          "sell": 20.33,
+          "trades": 2
+        },
+        {
+          "title": "Will Crude Oil (CL) hit (HIGH) $100 by end of March?",
+          "pnl": 7.22,
+          "roi": 40.12,
+          "buy": 18.0,
+          "sell": 25.22,
           "trades": 2
         }
       ],
       "worst_markets": [
         {
-          "title": "Will bitcoin hit $1m before GTA VI?",
-          "pnl": -2.0,
-          "roi": -7.28,
-          "buy": 27.5,
-          "sell": 25.5,
+          "title": "US recession by end of 2026?",
+          "pnl": -11.98,
+          "roi": -70.47,
+          "buy": 17.0,
+          "sell": 5.02,
           "trades": 3
         },
         {
-          "title": "Bitcoin Up or Down - June 20, 10:55AM-11:00AM ET",
-          "pnl": -1.27,
-          "roi": -61.32,
-          "buy": 2.07,
-          "sell": 0.8,
-          "trades": 4
+          "title": "S&P 500 (SPX) Up or Down on March 24?",
+          "pnl": -10.0,
+          "roi": -100.0,
+          "buy": 10.0,
+          "sell": 0.0,
+          "trades": 3
         }
       ],
-      "positions_open": 1
+      "positions_open": 0
+    },
+    {
+      "address": "0x77b6196d5a2d3057ed65bffbc66f026afb155aa5",
+      "score": 10.1,
+      "roi_pct": -28.44,
+      "win_rate_pct": 16.7,
+      "total_pnl": -156.62,
+      "realized_pnl": 0.0,
+      "open_pnl": -35.46,
+      "total_buy": 550.76,
+      "total_volume": 986.14,
+      "months_active": 8.1,
+      "days_active": 244,
+      "total_trades": 60,
+      "markets_traded": 12,
+      "wins": 2,
+      "losses": 10,
+      "std_dev": 56.95,
+      "sharpe": -0.499,
+      "best_markets": [
+        {
+          "title": "Fed decreases interest rates by 25 bps after December 2025 meeting?",
+          "pnl": 36.44,
+          "roi": 24.98,
+          "buy": 145.84,
+          "sell": 182.28,
+          "trades": 5
+        },
+        {
+          "title": "Will Jos\u00e9 Antonio Kast win the Chilean presidential election?",
+          "pnl": 26.17,
+          "roi": 43.62,
+          "buy": 60.0,
+          "sell": 86.17,
+          "trades": 2
+        },
+        {
+          "title": "Will Trump meet with Xi Jinping by October 31?",
+          "pnl": -1.0,
+          "roi": -100.0,
+          "buy": 1.0,
+          "sell": 0.0,
+          "trades": 1
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Portugal win the 2026 FIFA World Cup?",
+          "pnl": -92.53,
+          "roi": -100.0,
+          "buy": 92.53,
+          "sell": 0.0,
+          "trades": 1
+        },
+        {
+          "title": "Will Bosnia and Herzegovina win on 2025-11-18?",
+          "pnl": -34.85,
+          "roi": -34.85,
+          "buy": 100.0,
+          "sell": 65.15,
+          "trades": 2
+        }
+      ],
+      "positions_open": 6
     },
     {
       "address": "0x15056942b61b0ef65bf6ac861655dfd506eb95f3",
-      "score": 11.98,
-      "roi_pct": 1.47,
-      "win_rate_pct": 21.6,
-      "total_pnl": 3.22,
-      "realized_pnl": 23.73,
-      "open_pnl": -4.42,
-      "total_buy": 219.31,
-      "total_volume": 458.6,
+      "score": 10.1,
+      "roi_pct": -0.8,
+      "win_rate_pct": 17.6,
+      "total_pnl": -1.64,
+      "realized_pnl": 52.89,
+      "open_pnl": -7.34,
+      "total_buy": 205.54,
+      "total_volume": 424.11,
       "months_active": 3.0,
       "days_active": 90,
       "total_trades": 500,
-      "markets_traded": 139,
-      "wins": 30,
-      "losses": 106,
-      "std_dev": 137.13,
-      "sharpe": 0.011,
+      "markets_traded": 142,
+      "wins": 25,
+      "losses": 116,
+      "std_dev": 119.39,
+      "sharpe": -0.007,
       "best_markets": [
         {
           "title": "Will Harvey Weinstein be sentenced to between 10 and 20 years in prison?",
-          "pnl": 20.84,
-          "roi": 282.97,
-          "buy": 7.36,
+          "pnl": 21.02,
+          "roi": 292.92,
+          "buy": 7.18,
           "sell": 28.2,
           "trades": 15
         },
         {
           "title": "Will Harvey Weinstein be sentenced to between 20 and 30 years in prison?",
-          "pnl": 18.74,
-          "roi": 319.25,
-          "buy": 5.87,
-          "sell": 24.6,
-          "trades": 14
+          "pnl": 13.16,
+          "roi": 219.78,
+          "buy": 5.99,
+          "sell": 19.15,
+          "trades": 13
         },
         {
           "title": "Iran closes its airspace by June 15?",
@@ -1984,588 +2304,140 @@
           "trades": 2
         },
         {
-          "title": "Will \"Bridgerton: Season 4\" be the #2 global Netflix show this week?",
-          "pnl": -8.46,
-          "roi": -93.74,
-          "buy": 9.03,
-          "sell": 0.57,
-          "trades": 4
-        }
-      ],
-      "positions_open": 33
-    },
-    {
-      "address": "0xb7ebaf0308c86daf5f479ba55a66e96749d645af",
-      "score": 11.59,
-      "roi_pct": -36.06,
-      "win_rate_pct": 1.7,
-      "total_pnl": -3452.02,
-      "realized_pnl": 0.0,
-      "open_pnl": -0.01,
-      "total_buy": 9573.44,
-      "total_volume": 18993.18,
-      "months_active": 16.0,
-      "days_active": 480,
-      "total_trades": 181,
-      "markets_traded": 59,
-      "wins": 1,
-      "losses": 58,
-      "std_dev": 23.56,
-      "sharpe": -1.53,
-      "best_markets": [
-        {
-          "title": "Will Borussia Dortmund win the UEFA Champions League?",
-          "pnl": 9.9,
-          "roi": 1.64,
-          "buy": 603.66,
-          "sell": 613.56,
-          "trades": 6
-        },
-        {
-          "title": "Will George Russell be the 2025 Drivers Champion?",
-          "pnl": -1.22,
-          "roi": -0.1,
-          "buy": 1205.0,
-          "sell": 1203.78,
-          "trades": 2
-        },
-        {
-          "title": "Will Charles Leclerc be the 2025 Drivers Champion?",
-          "pnl": -3.02,
-          "roi": -0.1,
-          "buy": 3001.0,
-          "sell": 2997.98,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will anyone vote \"No\" to releasing the Epstein files?",
-          "pnl": -1693.88,
-          "roi": -56.46,
-          "buy": 3000.0,
-          "sell": 1306.12,
-          "trades": 42
-        },
-        {
-          "title": "Will the price of Bitcoin be between $104,000 and $106,000 on November 19?",
-          "pnl": -1005.0,
-          "roi": -100.0,
-          "buy": 1005.0,
-          "sell": 0.0,
-          "trades": 2
-        }
-      ],
-      "positions_open": 1
-    },
-    {
-      "address": "0x8e6bd19b50b9b97e0cf183b338348546959d2ffc",
-      "score": 11.55,
-      "roi_pct": -5.16,
-      "win_rate_pct": 31.0,
-      "total_pnl": -90.93,
-      "realized_pnl": -13.36,
-      "open_pnl": 173.19,
-      "total_buy": 1763.44,
-      "total_volume": 3549.19,
-      "months_active": 2.1,
-      "days_active": 62,
-      "total_trades": 500,
-      "markets_traded": 29,
-      "wins": 9,
-      "losses": 20,
-      "std_dev": 86.57,
-      "sharpe": -0.06,
-      "best_markets": [
-        {
-          "title": "Will Harvey Weinstein be sentenced to between 20 and 30 years in prison?",
-          "pnl": 40.95,
-          "roi": 268.46,
-          "buy": 15.25,
-          "sell": 56.2,
-          "trades": 14
-        },
-        {
-          "title": "Will Marco Rubio win the 2028 Republican presidential nomination?",
-          "pnl": 36.21,
-          "roi": 179.84,
-          "buy": 20.14,
-          "sell": 56.35,
-          "trades": 5
-        },
-        {
-          "title": "Will Harvey Weinstein be sentenced to between 10 and 20 years in prison?",
-          "pnl": 23.46,
-          "roi": 146.62,
-          "buy": 16.0,
-          "sell": 39.47,
-          "trades": 16
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "2026 Balance of Power: D Senate, D House",
-          "pnl": -168.0,
-          "roi": -39.98,
-          "buy": 420.21,
-          "sell": 252.22,
-          "trades": 115
-        },
-        {
-          "title": "Will Harvey Weinstein be sentenced to no prison time?",
-          "pnl": -133.26,
-          "roi": -99.04,
-          "buy": 134.56,
-          "sell": 1.3,
-          "trades": 41
-        }
-      ],
-      "positions_open": 27
-    },
-    {
-      "address": "0x3f2bc37e913e5088cea6a8cf9a44e07375a50327",
-      "score": 11.36,
-      "roi_pct": -35.36,
-      "win_rate_pct": 28.6,
-      "total_pnl": -30.65,
-      "realized_pnl": -2.9,
-      "open_pnl": -3.12,
-      "total_buy": 86.67,
-      "total_volume": 148.26,
-      "months_active": 8.0,
-      "days_active": 241,
-      "total_trades": 89,
-      "markets_traded": 28,
-      "wins": 8,
-      "losses": 20,
-      "std_dev": 32.0,
-      "sharpe": -1.105,
-      "best_markets": [
-        {
-          "title": "Bitcoin Up or Down - October 25, 4PM ET",
-          "pnl": 0.89,
-          "roi": 15.27,
-          "buy": 5.81,
-          "sell": 6.7,
-          "trades": 5
-        },
-        {
-          "title": "Bitcoin Up or Down - June 22, 7:40AM-7:45AM ET",
-          "pnl": 0.69,
-          "roi": 16.75,
-          "buy": 4.09,
-          "sell": 4.77,
-          "trades": 4
-        },
-        {
-          "title": "XRP Up or Down - October 25, 7AM ET",
-          "pnl": 0.51,
-          "roi": 20.42,
-          "buy": 2.51,
-          "sell": 3.02,
-          "trades": 3
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "SMU Mustangs vs. Wake Forest",
-          "pnl": -5.0,
-          "roi": -100.0,
-          "buy": 5.0,
-          "sell": 0.0,
-          "trades": 3
-        },
-        {
-          "title": "Bitcoin Up or Down - October 25, 6PM ET",
-          "pnl": -4.45,
-          "roi": -58.98,
-          "buy": 7.55,
-          "sell": 3.1,
-          "trades": 5
-        }
-      ],
-      "positions_open": 4
-    },
-    {
-      "address": "0x5289fa01b7fcda418e60b090fd2eacaff1164909",
-      "score": 11.28,
-      "roi_pct": -22.2,
-      "win_rate_pct": 37.1,
-      "total_pnl": -49.46,
-      "realized_pnl": 0.2,
-      "open_pnl": -0.25,
-      "total_buy": 222.73,
-      "total_volume": 422.3,
-      "months_active": 4.1,
-      "days_active": 122,
-      "total_trades": 296,
-      "markets_traded": 124,
-      "wins": 46,
-      "losses": 76,
-      "std_dev": 51.58,
-      "sharpe": -0.43,
-      "best_markets": [
-        {
-          "title": "Counter-Strike: BetBoom Team vs 100 Thieves (BO3) - Roman Imperium Cup Playoffs",
-          "pnl": 3.11,
-          "roi": 62.16,
-          "buy": 5.0,
-          "sell": 8.11,
-          "trades": 2
-        },
-        {
-          "title": "Will the highest temperature in Milan be 16\u00b0C on March 27?",
-          "pnl": 2.81,
-          "roi": 280.93,
-          "buy": 1.0,
-          "sell": 3.81,
-          "trades": 2
-        },
-        {
-          "title": "Counter-Strike: Rune Eaters vs Brute (BO3) - NODWIN Clutch Series Play-In Group A",
-          "pnl": 2.54,
-          "roi": 84.51,
-          "buy": 3.0,
-          "sell": 5.54,
-          "trades": 6
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "UFC Fight Night: Sean Strickland vs. Anthony Hernandez (Middleweight, Main Card)",
-          "pnl": -8.0,
-          "roi": -100.0,
-          "buy": 8.0,
-          "sell": 0.0,
-          "trades": 2
-        },
-        {
-          "title": "Counter-Strike: Vitality vs Aurora Gaming - Map 2 Winner",
-          "pnl": -4.11,
-          "roi": -100.0,
-          "buy": 4.11,
-          "sell": 0.0,
-          "trades": 3
-        }
-      ],
-      "positions_open": 2
-    },
-    {
-      "address": "0x42c6c03ea312d1af52c0c681682a8acc7cdd4053",
-      "score": 11.11,
-      "roi_pct": -28.76,
-      "win_rate_pct": 35.1,
-      "total_pnl": -61.63,
-      "realized_pnl": 0.0,
-      "open_pnl": -7.09,
-      "total_buy": 214.3,
-      "total_volume": 422.85,
-      "months_active": 5.5,
-      "days_active": 165,
-      "total_trades": 67,
-      "markets_traded": 37,
-      "wins": 13,
-      "losses": 24,
-      "std_dev": 97.21,
-      "sharpe": -0.296,
-      "best_markets": [
-        {
-          "title": "Will Belgium vs. IR Iran end in a draw?",
-          "pnl": 15.85,
-          "roi": 258.51,
-          "buy": 6.13,
-          "sell": 21.98,
-          "trades": 3
-        },
-        {
-          "title": "Portugal vs. DR Congo: Both Teams to Score AND Will Portugal vs. DR Congo end in a draw?",
-          "pnl": 11.62,
-          "roi": 566.49,
-          "buy": 2.05,
-          "sell": 13.67,
-          "trades": 2
-        },
-        {
-          "title": "Will Portugal vs. DR Congo end in a draw? AND Portugal to score first vs. DR Congo?",
-          "pnl": 11.05,
-          "roi": 359.66,
-          "buy": 3.07,
-          "sell": 14.12,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will Spain win on 2026-06-21? AND Will Belgium win on 2026-06-21?",
-          "pnl": -32.35,
-          "roi": -100.0,
-          "buy": 32.35,
-          "sell": 0.0,
-          "trades": 1
-        },
-        {
-          "title": "Ecuador vs. Cura\u00e7ao: Ecuador O/U 1.5 AND Will Ecuador win on 2026-06-20?",
-          "pnl": -16.11,
-          "roi": -100.0,
-          "buy": 16.11,
-          "sell": 0.0,
-          "trades": 1
-        }
-      ],
-      "positions_open": 4
-    },
-    {
-      "address": "0xfe15af63195e9245613caed1e9759d61ae55a494",
-      "score": 10.71,
-      "roi_pct": -44.09,
-      "win_rate_pct": 66.7,
-      "total_pnl": -32.78,
-      "realized_pnl": 0.0,
-      "open_pnl": -0.4,
-      "total_buy": 74.36,
-      "total_volume": 116.33,
-      "months_active": 2.4,
-      "days_active": 71,
-      "total_trades": 10,
-      "markets_traded": 3,
-      "wins": 2,
-      "losses": 1,
-      "std_dev": 63.74,
-      "sharpe": -0.692,
-      "best_markets": [
-        {
-          "title": "Will Jean-Luc M\u00e9lenchon win the 2027 French presidential election?",
-          "pnl": 8.8,
-          "roi": 27.49,
-          "buy": 32.0,
-          "sell": 40.8,
+          "title": "JD Vance diplomatic meeting with Iran by April 10?",
+          "pnl": -2.26,
+          "roi": -25.07,
+          "buy": 9.0,
+          "sell": 6.74,
           "trades": 7
-        },
-        {
-          "title": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
-          "pnl": 0.17,
-          "roi": 17.36,
-          "buy": 1.0,
-          "sell": 1.17,
-          "trades": 2
-        },
-        {
-          "title": "Will Jesus Christ return before GTA VI?",
-          "pnl": -41.36,
-          "roi": -100.0,
-          "buy": 41.36,
-          "sell": 0.0,
-          "trades": 1
         }
       ],
-      "worst_markets": [
-        {
-          "title": "Will Jesus Christ return before GTA VI?",
-          "pnl": -41.36,
-          "roi": -100.0,
-          "buy": 41.36,
-          "sell": 0.0,
-          "trades": 1
-        },
-        {
-          "title": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
-          "pnl": 0.17,
-          "roi": 17.36,
-          "buy": 1.0,
-          "sell": 1.17,
-          "trades": 2
-        }
-      ],
-      "positions_open": 1
+      "positions_open": 43
     },
     {
-      "address": "0x25c409967ccb4a2f5821227c37483799f1ca4b12",
-      "score": 10.43,
-      "roi_pct": -38.84,
-      "win_rate_pct": 32.2,
-      "total_pnl": -197.0,
+      "address": "0x07d435b39f1b8c2af5c30e536b1a4ebb70ff045f",
+      "score": 9.35,
+      "roi_pct": -23.71,
+      "win_rate_pct": 36.6,
+      "total_pnl": -741.91,
       "realized_pnl": 0.0,
-      "open_pnl": 0.05,
-      "total_buy": 507.21,
-      "total_volume": 950.94,
-      "months_active": 7.4,
-      "days_active": 222,
-      "total_trades": 239,
-      "markets_traded": 90,
-      "wins": 29,
-      "losses": 56,
-      "std_dev": 51.29,
-      "sharpe": -0.757,
-      "best_markets": [
-        {
-          "title": "US x Iran permanent peace deal by April 22, 2026?",
-          "pnl": 4.7,
-          "roi": 24.84,
-          "buy": 18.91,
-          "sell": 23.61,
-          "trades": 2
-        },
-        {
-          "title": "Miguel D\u00edaz-Canel out as leader of Cuba by June 30?",
-          "pnl": 2.71,
-          "roi": 11.34,
-          "buy": 23.9,
-          "sell": 26.61,
-          "trades": 3
-        },
-        {
-          "title": "Strait of Hormuz traffic returns to normal by end of April?",
-          "pnl": 1.65,
-          "roi": 9.25,
-          "buy": 17.86,
-          "sell": 19.51,
-          "trades": 4
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "US x Iran diplomatic meeting by April 30, 2026?",
-          "pnl": -18.0,
-          "roi": -100.0,
-          "buy": 18.0,
-          "sell": 0.0,
-          "trades": 2
-        },
-        {
-          "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
-          "pnl": -15.09,
-          "roi": -100.0,
-          "buy": 15.09,
-          "sell": 0.0,
-          "trades": 2
-        }
-      ],
-      "positions_open": 9
-    },
-    {
-      "address": "0xd366145f326e1dc75a2dca57b987be2e4a80c942",
-      "score": 9.4,
-      "roi_pct": -20.62,
-      "win_rate_pct": 31.7,
-      "total_pnl": -669.29,
-      "realized_pnl": 0.0,
-      "open_pnl": -128.11,
-      "total_buy": 3246.36,
-      "total_volume": 6136.94,
-      "months_active": 3.3,
-      "days_active": 98,
+      "open_pnl": -27.57,
+      "total_buy": 3128.96,
+      "total_volume": 5543.6,
+      "months_active": 3.0,
+      "days_active": 89,
       "total_trades": 500,
-      "markets_traded": 183,
-      "wins": 58,
-      "losses": 125,
-      "std_dev": 80.65,
-      "sharpe": -0.256,
+      "markets_traded": 227,
+      "wins": 83,
+      "losses": 144,
+      "std_dev": 63.34,
+      "sharpe": -0.374,
       "best_markets": [
         {
-          "title": "Bitcoin Up or Down - March 16, 10:15AM-10:30AM ET",
-          "pnl": 75.16,
-          "roi": 39.16,
-          "buy": 191.92,
-          "sell": 267.08,
-          "trades": 8
-        },
-        {
-          "title": "Bitcoin Up or Down - March 25, 11:10PM-11:15PM ET",
-          "pnl": 71.6,
-          "roi": 34.54,
-          "buy": 207.3,
-          "sell": 278.9,
+          "title": "Bitcoin Up or Down - April 21, 2:15PM-2:20PM ET",
+          "pnl": 250.87,
+          "roi": 225.09,
+          "buy": 111.45,
+          "sell": 362.32,
           "trades": 2
         },
         {
-          "title": "Bitcoin Up or Down - March 25, 11:05PM-11:10PM ET",
-          "pnl": 53.41,
-          "roi": 34.7,
-          "buy": 153.9,
-          "sell": 207.31,
-          "trades": 3
+          "title": "Bitcoin Up or Down - April 21, 2:20PM-2:25PM ET",
+          "pnl": 41.75,
+          "roi": 11.73,
+          "buy": 355.83,
+          "sell": 397.58,
+          "trades": 2
+        },
+        {
+          "title": "Bitcoin Up or Down - April 22, 2:10AM-2:15AM ET",
+          "pnl": 37.13,
+          "roi": 76.98,
+          "buy": 48.23,
+          "sell": 85.36,
+          "trades": 2
         }
       ],
       "worst_markets": [
         {
-          "title": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "pnl": -298.98,
-          "roi": -100.0,
-          "buy": 298.98,
-          "sell": 0.0,
-          "trades": 3
+          "title": "Bitcoin Up or Down - April 21, 2:30PM-2:35PM ET",
+          "pnl": -355.37,
+          "roi": -92.93,
+          "buy": 382.4,
+          "sell": 27.03,
+          "trades": 2
         },
         {
-          "title": "Bitcoin Up or Down - March 16, 11:00AM-11:15AM ET",
-          "pnl": -166.75,
-          "roi": -58.17,
-          "buy": 286.65,
-          "sell": 119.9,
-          "trades": 6
+          "title": "Bitcoin Up or Down - April 21, 1:45PM-1:50PM ET",
+          "pnl": -328.83,
+          "roi": -86.34,
+          "buy": 380.86,
+          "sell": 52.03,
+          "trades": 3
         }
       ],
-      "positions_open": 36
+      "positions_open": 11
     },
     {
-      "address": "0x33ec7f5a2fce0d8faabdb59cc0900b46ef66b7bc",
-      "score": 9.37,
-      "roi_pct": -14.69,
-      "win_rate_pct": 1.8,
-      "total_pnl": -481.65,
+      "address": "0x4a40b53e08ee0674aa560e8ac91065555c3b851a",
+      "score": 8.98,
+      "roi_pct": -9.39,
+      "win_rate_pct": 30.0,
+      "total_pnl": -194.91,
       "realized_pnl": 0.0,
-      "open_pnl": -7.19,
-      "total_buy": 3278.45,
-      "total_volume": 6545.15,
-      "months_active": 7.5,
-      "days_active": 226,
-      "total_trades": 242,
-      "markets_traded": 55,
-      "wins": 1,
-      "losses": 51,
-      "std_dev": 36.42,
-      "sharpe": -0.403,
+      "open_pnl": -25.56,
+      "total_buy": 2075.14,
+      "total_volume": 4027.18,
+      "months_active": 1.4,
+      "days_active": 43,
+      "total_trades": 99,
+      "markets_traded": 20,
+      "wins": 6,
+      "losses": 14,
+      "std_dev": 128.65,
+      "sharpe": -0.073,
       "best_markets": [
         {
-          "title": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
-          "pnl": 0.05,
-          "roi": 0.03,
-          "buy": 158.65,
-          "sell": 158.7,
-          "trades": 4
-        },
-        {
-          "title": "Will Eleven die in \"Stranger Things: Season 5\"?",
-          "pnl": 0.0,
-          "roi": 0.0,
-          "buy": 79.84,
-          "sell": 79.84,
+          "title": "Cap FDV above $150M one day after launch?",
+          "pnl": 230.33,
+          "roi": 230.33,
+          "buy": 100.0,
+          "sell": 330.33,
           "trades": 2
         },
         {
-          "title": "Will Andrew Yang win the 2028 Democratic presidential nomination?",
-          "pnl": 0.0,
-          "roi": 0.0,
-          "buy": 79.6,
-          "sell": 79.6,
+          "title": "GRVT FDV above $500M one day after launch?",
+          "pnl": 227.82,
+          "roi": 114.29,
+          "buy": 199.35,
+          "sell": 427.17,
+          "trades": 9
+        },
+        {
+          "title": "o1 FDV above $200M one day after launch?",
+          "pnl": 185.71,
+          "roi": 176.87,
+          "buy": 105.0,
+          "sell": 290.71,
           "trades": 2
         }
       ],
       "worst_markets": [
         {
-          "title": "US x Venezuela military engagement by November 7?",
-          "pnl": -83.92,
-          "roi": -100.0,
-          "buy": 83.92,
-          "sell": 0.0,
-          "trades": 2
+          "title": "Another GTA VI trailer released by June 26?",
+          "pnl": -652.31,
+          "roi": -96.69,
+          "buy": 674.67,
+          "sell": 22.36,
+          "trades": 32
         },
         {
-          "title": "Will Ethereum dip to $1,000 by December 31?",
-          "pnl": -76.92,
+          "title": "Will the Grand Theft Auto VI PS5 launch price be at least $80?",
+          "pnl": -56.0,
           "roi": -100.0,
-          "buy": 76.92,
+          "buy": 56.0,
           "sell": 0.0,
-          "trades": 2
+          "trades": 3
         }
       ],
       "positions_open": 6
@@ -2635,129 +2507,257 @@
       "positions_open": 17
     },
     {
-      "address": "0xf7ce95cb55f54d212e5a4c48c62c2e1f069c6fb0",
-      "score": 8.82,
-      "roi_pct": -22.6,
-      "win_rate_pct": 41.2,
-      "total_pnl": -24.21,
+      "address": "0xd4ae3a3c9d5c1de04e56505efb7302c38707a2ba",
+      "score": 8.31,
+      "roi_pct": -25.41,
+      "win_rate_pct": 33.3,
+      "total_pnl": -433.05,
       "realized_pnl": 0.0,
-      "open_pnl": -4.66,
-      "total_buy": 107.14,
-      "total_volume": 203.34,
-      "months_active": 1.9,
-      "days_active": 58,
-      "total_trades": 74,
-      "markets_traded": 17,
-      "wins": 7,
-      "losses": 8,
-      "std_dev": 21.78,
-      "sharpe": -1.038,
+      "open_pnl": -185.06,
+      "total_buy": 1704.37,
+      "total_volume": 3231.05,
+      "months_active": 3.4,
+      "days_active": 101,
+      "total_trades": 25,
+      "markets_traded": 9,
+      "wins": 3,
+      "losses": 6,
+      "std_dev": 57.29,
+      "sharpe": -0.444,
       "best_markets": [
         {
-          "title": "Will Harvey Weinstein be sentenced to less than 5 years in prison?",
-          "pnl": 2.05,
-          "roi": 26.0,
-          "buy": 7.89,
-          "sell": 9.94,
-          "trades": 7
+          "title": "Will Ethereum reach $2,400 in March?",
+          "pnl": 39.74,
+          "roi": 18.73,
+          "buy": 212.25,
+          "sell": 251.99,
+          "trades": 4
         },
         {
-          "title": "Will Harvey Weinstein be sentenced to between 5 and 10 years in prison?",
-          "pnl": 1.1,
-          "roi": 23.04,
-          "buy": 4.77,
-          "sell": 5.87,
+          "title": "Will Ethereum reach $2,200 March 23-29?",
+          "pnl": 23.38,
+          "roi": 35.97,
+          "buy": 65.0,
+          "sell": 88.38,
+          "trades": 4
+        },
+        {
+          "title": "Will Ethereum reach $2,300 March 23-29?",
+          "pnl": 4.86,
+          "roi": 4.86,
+          "buy": 100.0,
+          "sell": 104.86,
+          "trades": 3
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Ethereum dip to $2,050 on March 26?",
+          "pnl": -76.9,
+          "roi": -100.0,
+          "buy": 76.9,
+          "sell": 0.0,
+          "trades": 3
+        },
+        {
+          "title": "Ethereum Up or Down - March 26, 2:00PM-2:05PM ET",
+          "pnl": -70.31,
+          "roi": -100.0,
+          "buy": 70.31,
+          "sell": 0.0,
+          "trades": 1
+        }
+      ],
+      "positions_open": 4
+    },
+    {
+      "address": "0x3a00407d385c6cd65a076636dee0a6c332cd6d82",
+      "score": 7.33,
+      "roi_pct": -7.16,
+      "win_rate_pct": 15.0,
+      "total_pnl": -252.21,
+      "realized_pnl": 0.0,
+      "open_pnl": -80.34,
+      "total_buy": 3522.71,
+      "total_volume": 6903.52,
+      "months_active": 2.6,
+      "days_active": 77,
+      "total_trades": 395,
+      "markets_traded": 40,
+      "wins": 6,
+      "losses": 33,
+      "std_dev": 42.04,
+      "sharpe": -0.17,
+      "best_markets": [
+        {
+          "title": "Over $1M committed to the Pharos public sale?",
+          "pnl": 8.93,
+          "roi": 44.63,
+          "buy": 20.0,
+          "sell": 28.93,
+          "trades": 2
+        },
+        {
+          "title": "Will France win the 2026 FIFA World Cup?",
+          "pnl": 6.83,
+          "roi": 1.84,
+          "buy": 371.17,
+          "sell": 378.0,
+          "trades": 37
+        },
+        {
+          "title": "Will MegaETH perform an airdrop by June 30? ",
+          "pnl": 5.13,
+          "roi": 4.54,
+          "buy": 112.94,
+          "sell": 118.07,
+          "trades": 14
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Over $500k committed to the Pharos public sale?",
+          "pnl": -20.0,
+          "roi": -100.0,
+          "buy": 20.0,
+          "sell": 0.0,
+          "trades": 2
+        },
+        {
+          "title": "Pharos FDV above $500M one day after launch?",
+          "pnl": -20.0,
+          "roi": -100.0,
+          "buy": 20.0,
+          "sell": 0.0,
+          "trades": 1
+        }
+      ],
+      "positions_open": 5
+    },
+    {
+      "address": "0x1f9f03e7ce52979b658b0bb75b483ff923fda025",
+      "score": 7.18,
+      "roi_pct": -38.74,
+      "win_rate_pct": 34.2,
+      "total_pnl": -12061.88,
+      "realized_pnl": 961.34,
+      "open_pnl": -2861.26,
+      "total_buy": 31138.17,
+      "total_volume": 68458.35,
+      "months_active": 1.0,
+      "days_active": 30,
+      "total_trades": 500,
+      "markets_traded": 38,
+      "wins": 13,
+      "losses": 25,
+      "std_dev": 151.02,
+      "sharpe": -0.257,
+      "best_markets": [
+        {
+          "title": "Will a Claude Mythos model be released by June 30, 2026?",
+          "pnl": 867.12,
+          "roi": 836.4,
+          "buy": 103.67,
+          "sell": 970.8,
+          "trades": 12
+        },
+        {
+          "title": "Will GPT-5.6 not be released by June 28, 2026?",
+          "pnl": 490.78,
+          "roi": 39.06,
+          "buy": 1256.39,
+          "sell": 1747.17,
+          "trades": 4
+        },
+        {
+          "title": "Will SpaceX's market cap be between $2.0T and $2.5T at market close on IPO day?",
+          "pnl": 277.41,
+          "roi": 67.48,
+          "buy": 411.07,
+          "sell": 688.48,
+          "trades": 8
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will SpaceX's market cap be between $1.0T and $1.5T at market close on IPO day?",
+          "pnl": -2614.41,
+          "roi": -74.26,
+          "buy": 3520.47,
+          "sell": 906.06,
+          "trades": 25
+        },
+        {
+          "title": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+          "pnl": -2173.42,
+          "roi": -70.51,
+          "buy": 3082.25,
+          "sell": 908.83,
+          "trades": 7
+        }
+      ],
+      "positions_open": 11
+    },
+    {
+      "address": "0x662b2994878a96ab23d615bce75ee5a4f4e4df11",
+      "score": 6.74,
+      "roi_pct": -0.19,
+      "win_rate_pct": 2.2,
+      "total_pnl": -30.4,
+      "realized_pnl": 0,
+      "open_pnl": 0,
+      "total_buy": 16408.55,
+      "total_volume": 32786.7,
+      "months_active": 1.7,
+      "days_active": 51,
+      "total_trades": 500,
+      "markets_traded": 89,
+      "wins": 2,
+      "losses": 86,
+      "std_dev": 0.08,
+      "sharpe": -2.215,
+      "best_markets": [
+        {
+          "title": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
+          "pnl": 0.05,
+          "roi": 0.04,
+          "buy": 152.15,
+          "sell": 152.21,
+          "trades": 4
+        },
+        {
+          "title": "Will Victor Wembanyama win the 2025\u20132026 NBA MVP?",
+          "pnl": 0.02,
+          "roi": 0.03,
+          "buy": 67.74,
+          "sell": 67.76,
+          "trades": 2
+        },
+        {
+          "title": "Will South Korea win the 2026 FIFA World Cup?",
+          "pnl": -0.0,
+          "roi": -0.01,
+          "buy": 57.97,
+          "sell": 57.97,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will the Texas Rangers win the 2026 World Series?",
+          "pnl": -1.16,
+          "roi": -0.4,
+          "buy": 290.13,
+          "sell": 288.97,
           "trades": 8
         },
         {
-          "title": "New Rihanna Album before GTA VI?",
-          "pnl": 0.74,
-          "roi": 7.34,
-          "buy": 10.09,
-          "sell": 10.83,
-          "trades": 7
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will Harvey Weinstein be sentenced to between 10 and 20 years in prison?",
-          "pnl": -8.57,
-          "roi": -34.26,
-          "buy": 25.0,
-          "sell": 16.43,
-          "trades": 14
-        },
-        {
-          "title": "Will the Boston Celtics win the 2026 NBA Finals?",
-          "pnl": -5.0,
-          "roi": -100.0,
-          "buy": 5.0,
-          "sell": 0.0,
-          "trades": 1
-        }
-      ],
-      "positions_open": 3
-    },
-    {
-      "address": "0x94e41f9e5a2d0e6dd524e915f5dd16ca97d9cdd9",
-      "score": 6.73,
-      "roi_pct": -46.46,
-      "win_rate_pct": 61.5,
-      "total_pnl": -105.59,
-      "realized_pnl": 0,
-      "open_pnl": 0,
-      "total_buy": 227.29,
-      "total_volume": 349.0,
-      "months_active": 1.3,
-      "days_active": 39,
-      "total_trades": 28,
-      "markets_traded": 13,
-      "wins": 8,
-      "losses": 5,
-      "std_dev": 50.88,
-      "sharpe": -0.913,
-      "best_markets": [
-        {
-          "title": "Clarity Act signed into law in 2026?",
-          "pnl": 4.15,
-          "roi": 40.43,
-          "buy": 10.27,
-          "sell": 14.42,
-          "trades": 3
-        },
-        {
-          "title": "Will Anthropic's valuation hit (HIGH) $1.5T by December 31?",
-          "pnl": 3.38,
-          "roi": 22.21,
-          "buy": 15.23,
-          "sell": 18.61,
-          "trades": 3
-        },
-        {
-          "title": "Will Elon Musk win his case against Sam Altman?",
-          "pnl": 2.91,
-          "roi": 28.76,
-          "buy": 10.14,
-          "sell": 13.05,
-          "trades": 3
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "SpaceX IPO: Closing Price Up/Down End of First Month?",
-          "pnl": -90.58,
-          "roi": -100.0,
-          "buy": 90.58,
-          "sell": 0.0,
-          "trades": 1
-        },
-        {
-          "title": "Will Magnus Carlsen win Norway Chess 2026?",
-          "pnl": -10.1,
-          "roi": -100.0,
-          "buy": 10.1,
-          "sell": 0.0,
-          "trades": 1
+          "title": "Will USA win the 2026 FIFA World Cup?",
+          "pnl": -1.09,
+          "roi": -0.18,
+          "buy": 600.08,
+          "sell": 598.99,
+          "trades": 16
         }
       ],
       "positions_open": 0
@@ -2827,23 +2827,215 @@
       "positions_open": 1
     },
     {
-      "address": "0x007f8592835b6470c25237130417f53d5e36233a",
+      "address": "0x3faa42a32442d375783f01b96cd6d71ca80eeed2",
       "score": 6.32,
-      "roi_pct": -35.68,
-      "win_rate_pct": 35.0,
-      "total_pnl": -2832.71,
-      "realized_pnl": 20.62,
-      "open_pnl": 60.88,
-      "total_buy": 7939.18,
-      "total_volume": 16715.93,
-      "months_active": 2.9,
-      "days_active": 87,
+      "roi_pct": -6.69,
+      "win_rate_pct": 11.1,
+      "total_pnl": -259.24,
+      "realized_pnl": 0.0,
+      "open_pnl": -80.38,
+      "total_buy": 3874.27,
+      "total_volume": 7608.87,
+      "months_active": 2.5,
+      "days_active": 76,
+      "total_trades": 408,
+      "markets_traded": 45,
+      "wins": 5,
+      "losses": 40,
+      "std_dev": 44.3,
+      "sharpe": -0.151,
+      "best_markets": [
+        {
+          "title": "Will Germany win on 2026-06-20?",
+          "pnl": 15.86,
+          "roi": 122.28,
+          "buy": 12.97,
+          "sell": 28.83,
+          "trades": 2
+        },
+        {
+          "title": "Over $1M committed to the Pharos public sale?",
+          "pnl": 4.51,
+          "roi": 45.11,
+          "buy": 10.0,
+          "sell": 14.51,
+          "trades": 2
+        },
+        {
+          "title": "Will Morocco win on 2026-06-19?",
+          "pnl": 3.89,
+          "roi": 29.74,
+          "buy": 13.09,
+          "sell": 16.98,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Pharos FDV above $500M one day after launch?",
+          "pnl": -30.0,
+          "roi": -100.0,
+          "buy": 30.0,
+          "sell": 0.0,
+          "trades": 1
+        },
+        {
+          "title": "Will MegaETH perform an airdrop by June 30? ",
+          "pnl": -22.0,
+          "roi": -8.36,
+          "buy": 263.25,
+          "sell": 241.24,
+          "trades": 19
+        }
+      ],
+      "positions_open": 5
+    },
+    {
+      "address": "0xcc2404b0b9b92a62ae2990d60d138e19555b8d86",
+      "score": 6.2,
+      "roi_pct": -9.0,
+      "win_rate_pct": 13.2,
+      "total_pnl": -310.6,
+      "realized_pnl": 0.0,
+      "open_pnl": -88.1,
+      "total_buy": 3451.85,
+      "total_volume": 6781.71,
+      "months_active": 2.6,
+      "days_active": 77,
+      "total_trades": 369,
+      "markets_traded": 38,
+      "wins": 5,
+      "losses": 33,
+      "std_dev": 46.76,
+      "sharpe": -0.192,
+      "best_markets": [
+        {
+          "title": "Over $1M committed to the Pharos public sale?",
+          "pnl": 9.39,
+          "roi": 46.93,
+          "buy": 20.0,
+          "sell": 29.39,
+          "trades": 2
+        },
+        {
+          "title": "Will Germany win on 2026-06-20?",
+          "pnl": 4.8,
+          "roi": 17.36,
+          "buy": 27.64,
+          "sell": 32.44,
+          "trades": 4
+        },
+        {
+          "title": "Will China invades Taiwan before GTA VI?",
+          "pnl": 3.07,
+          "roi": 1.85,
+          "buy": 165.85,
+          "sell": 168.92,
+          "trades": 25
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Pharos FDV above $800M one day after launch?",
+          "pnl": -30.0,
+          "roi": -100.0,
+          "buy": 30.0,
+          "sell": 0.0,
+          "trades": 1
+        },
+        {
+          "title": "Will MegaETH perform an airdrop by June 30? ",
+          "pnl": -25.09,
+          "roi": -8.87,
+          "buy": 282.94,
+          "sell": 257.84,
+          "trades": 28
+        }
+      ],
+      "positions_open": 6
+    },
+    {
+      "address": "0xace61ef2b0b85ab5bb6c00d750338b4d07bba1ea",
+      "score": 5.65,
+      "roi_pct": -2.47,
+      "win_rate_pct": 11.0,
+      "total_pnl": -48.25,
+      "realized_pnl": 0,
+      "open_pnl": 0,
+      "total_buy": 1954.32,
+      "total_volume": 3946.53,
+      "months_active": 1.6,
+      "days_active": 49,
       "total_trades": 500,
-      "markets_traded": 117,
-      "wins": 41,
-      "losses": 75,
-      "std_dev": 89.98,
-      "sharpe": -0.397,
+      "markets_traded": 100,
+      "wins": 11,
+      "losses": 85,
+      "std_dev": 24.84,
+      "sharpe": -0.099,
+      "best_markets": [
+        {
+          "title": "Will James Talarico win the 2028 Democratic presidential nomination?",
+          "pnl": 8.96,
+          "roi": 111.86,
+          "buy": 8.01,
+          "sell": 16.96,
+          "trades": 3
+        },
+        {
+          "title": "Will Ivanka Trump win the 2028 Republican presidential nomination?",
+          "pnl": 7.01,
+          "roi": 100.04,
+          "buy": 7.0,
+          "sell": 14.01,
+          "trades": 3
+        },
+        {
+          "title": "Netanyahu out by June 30?",
+          "pnl": 5.06,
+          "roi": 56.26,
+          "buy": 9.0,
+          "sell": 14.06,
+          "trades": 3
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will the highest temperature in Seoul be 30\u00b0C on June 27?",
+          "pnl": -25.82,
+          "roi": -51.28,
+          "buy": 50.34,
+          "sell": 24.53,
+          "trades": 2
+        },
+        {
+          "title": "Solstice FDV above $150M one day after launch?",
+          "pnl": -13.21,
+          "roi": -7.07,
+          "buy": 186.68,
+          "sell": 173.48,
+          "trades": 2
+        }
+      ],
+      "positions_open": 0
+    },
+    {
+      "address": "0x007f8592835b6470c25237130417f53d5e36233a",
+      "score": 5.5,
+      "roi_pct": -38.25,
+      "win_rate_pct": 33.9,
+      "total_pnl": -3092.73,
+      "realized_pnl": 22.61,
+      "open_pnl": -27.51,
+      "total_buy": 8085.06,
+      "total_volume": 16559.28,
+      "months_active": 3.1,
+      "days_active": 93,
+      "total_trades": 500,
+      "markets_traded": 118,
+      "wins": 40,
+      "losses": 77,
+      "std_dev": 107.27,
+      "sharpe": -0.357,
       "best_markets": [
         {
           "title": "US x Iran ceasefire by April 30?",
@@ -2854,20 +3046,20 @@
           "trades": 5
         },
         {
+          "title": "US x Iran ceasefire by April 15?",
+          "pnl": 173.47,
+          "roi": 597.34,
+          "buy": 29.04,
+          "sell": 202.51,
+          "trades": 8
+        },
+        {
           "title": "Will the Iran ceasefire continue through May 25?",
           "pnl": 115.76,
           "roi": 149.23,
           "buy": 77.57,
           "sell": 193.33,
           "trades": 2
-        },
-        {
-          "title": "US x Iran ceasefire by April 15?",
-          "pnl": 86.91,
-          "roi": 75.18,
-          "buy": 115.6,
-          "sell": 202.51,
-          "trades": 10
         }
       ],
       "worst_markets": [
@@ -2888,474 +3080,474 @@
           "trades": 2
         }
       ],
-      "positions_open": 11
+      "positions_open": 16
     },
     {
-      "address": "0x1d0105c58034571542bedd4ea69160c513c94a5c",
-      "score": 5.68,
-      "roi_pct": -24.21,
-      "win_rate_pct": 25.0,
-      "total_pnl": -33.31,
-      "realized_pnl": -2.3,
-      "open_pnl": 9.23,
-      "total_buy": 137.59,
-      "total_volume": 391.64,
-      "months_active": 3.2,
-      "days_active": 97,
-      "total_trades": 52,
-      "markets_traded": 16,
-      "wins": 4,
-      "losses": 12,
-      "std_dev": 109.31,
-      "sharpe": -0.221,
-      "best_markets": [
-        {
-          "title": "Will Belgium recognize Palestine before 2027?",
-          "pnl": 23.56,
-          "roi": 270.12,
-          "buy": 8.72,
-          "sell": 32.28,
-          "trades": 6
-        },
-        {
-          "title": "Nord Stream pipeline turned on before 2027?",
-          "pnl": 0.42,
-          "roi": 36.84,
-          "buy": 1.14,
-          "sell": 1.56,
-          "trades": 2
-        },
-        {
-          "title": "US recognizes Russian sovereignty over Ukraine before 2027?",
-          "pnl": 0.15,
-          "roi": 1.73,
-          "buy": 8.65,
-          "sell": 8.8,
-          "trades": 4
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will Japan recognize Palestine before 2027?",
-          "pnl": -28.73,
-          "roi": -100.0,
-          "buy": 28.73,
-          "sell": 0.0,
-          "trades": 4
-        },
-        {
-          "title": "Kim Jong Un out as Supreme Leader of North Korea by December 31, 2026?",
-          "pnl": -11.51,
-          "roi": -42.66,
-          "buy": 26.98,
-          "sell": 15.47,
-          "trades": 4
-        }
-      ],
-      "positions_open": 15
-    },
-    {
-      "address": "0xdb7e433dd6e7072a58cbad6e2dc98c802648558a",
-      "score": 5.58,
-      "roi_pct": -46.54,
-      "win_rate_pct": 20.7,
-      "total_pnl": -1134.62,
-      "realized_pnl": 11.4,
-      "open_pnl": -41.33,
-      "total_buy": 2438.02,
-      "total_volume": 4700.01,
-      "months_active": 7.7,
-      "days_active": 232,
-      "total_trades": 176,
-      "markets_traded": 29,
-      "wins": 6,
-      "losses": 21,
-      "std_dev": 50.4,
-      "sharpe": -0.923,
-      "best_markets": [
-        {
-          "title": "Will Bayern Munich win the 2025\u201326 Champions League?",
-          "pnl": 10.0,
-          "roi": 45.45,
-          "buy": 22.0,
-          "sell": 32.0,
-          "trades": 2
-        },
-        {
-          "title": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
-          "pnl": 6.47,
-          "roi": 9.53,
-          "buy": 67.88,
-          "sell": 74.35,
-          "trades": 2
-        },
-        {
-          "title": "Will Ivan Cepeda Castro win the 2026 Colombian presidential election?",
-          "pnl": 2.69,
-          "roi": 1.72,
-          "buy": 156.52,
-          "sell": 159.21,
-          "trades": 11
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will the United States win the most gold medals in the 2026 Winter Olympics?",
-          "pnl": -184.0,
-          "roi": -100.0,
-          "buy": 184.0,
-          "sell": 0.0,
-          "trades": 4
-        },
-        {
-          "title": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
-          "pnl": -173.52,
-          "roi": -100.0,
-          "buy": 173.52,
-          "sell": 0.0,
-          "trades": 1
-        }
-      ],
-      "positions_open": 5
-    },
-    {
-      "address": "0x349da5a06e10cffaff2a0ca02728ae7c37847697",
-      "score": 5.46,
-      "roi_pct": -48.57,
-      "win_rate_pct": 0.0,
-      "total_pnl": -89.19,
-      "realized_pnl": 0.0,
-      "open_pnl": 9.25,
-      "total_buy": 183.62,
-      "total_volume": 278.8,
-      "months_active": 13.4,
-      "days_active": 401,
-      "total_trades": 8,
-      "markets_traded": 5,
-      "wins": 0,
-      "losses": 5,
-      "std_dev": 34.07,
-      "sharpe": -1.426,
-      "best_markets": [
-        {
-          "title": "Will Nicu\u0219or Dan win the Romanian presidential election?",
-          "pnl": -5.1,
-          "roi": -100.0,
-          "buy": 5.1,
-          "sell": 0.0,
-          "trades": 2
-        },
-        {
-          "title": "Will George Simion win the Romanian presidential election?",
-          "pnl": -14.82,
-          "roi": -14.82,
-          "buy": 100.0,
-          "sell": 85.18,
-          "trades": 2
-        },
-        {
-          "title": "Will GTA 6 cost $100+?",
-          "pnl": -18.85,
-          "roi": -100.0,
-          "buy": 18.85,
-          "sell": 0.0,
-          "trades": 1
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will the Grand Theft Auto VI PS5 launch price be at least $80?",
-          "pnl": -34.05,
-          "roi": -100.0,
-          "buy": 34.05,
-          "sell": 0.0,
-          "trades": 2
-        },
-        {
-          "title": "Trump out as President before GTA VI?",
-          "pnl": -25.62,
-          "roi": -100.0,
-          "buy": 25.62,
-          "sell": 0.0,
-          "trades": 1
-        }
-      ],
-      "positions_open": 3
-    },
-    {
-      "address": "0x2aea9fefcf9fdd44d6d15fc89a3220fe0e9a68de",
-      "score": 5.24,
-      "roi_pct": -3.43,
-      "win_rate_pct": 5.2,
-      "total_pnl": -84.29,
-      "realized_pnl": -0.03,
-      "open_pnl": -0.19,
-      "total_buy": 2458.69,
-      "total_volume": 5009.4,
-      "months_active": 2.5,
-      "days_active": 76,
+      "address": "0x7d3320778860940e24bdb9fd1a93fd3365bec15f",
+      "score": 4.98,
+      "roi_pct": -36.37,
+      "win_rate_pct": 27.9,
+      "total_pnl": -813.26,
+      "realized_pnl": -16.69,
+      "open_pnl": 0.36,
+      "total_buy": 2235.83,
+      "total_volume": 4073.92,
+      "months_active": 4.3,
+      "days_active": 128,
       "total_trades": 500,
-      "markets_traded": 116,
-      "wins": 6,
-      "losses": 101,
-      "std_dev": 33.69,
-      "sharpe": -0.102,
+      "markets_traded": 165,
+      "wins": 46,
+      "losses": 118,
+      "std_dev": 56.71,
+      "sharpe": -0.641,
       "best_markets": [
         {
-          "title": "Xi Jinping out before 2027?",
-          "pnl": 8.98,
-          "roi": 179.13,
-          "buy": 5.01,
-          "sell": 14.0,
-          "trades": 3
+          "title": "Khamenei out as Supreme Leader of Iran by March 31?",
+          "pnl": 23.38,
+          "roi": 155.84,
+          "buy": 15.0,
+          "sell": 38.38,
+          "trades": 4
         },
         {
-          "title": "Will Gretchen Whitmer win the 2028 Democratic presidential nomination?",
-          "pnl": 6.94,
-          "roi": 27.73,
-          "buy": 25.01,
-          "sell": 31.95,
+          "title": "Will US or Israel strike Iran by February 28, 2026?",
+          "pnl": 16.31,
+          "roi": 326.22,
+          "buy": 5.0,
+          "sell": 21.31,
+          "trades": 2
+        },
+        {
+          "title": "Will Pizza Hut be acquired before 2027?",
+          "pnl": 13.68,
+          "roi": 66.82,
+          "buy": 20.48,
+          "sell": 34.16,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Khamenei out as Supreme Leader of Iran in 2026?",
+          "pnl": -83.71,
+          "roi": -100.0,
+          "buy": 83.71,
+          "sell": 0.0,
+          "trades": 4
+        },
+        {
+          "title": "Will the US next strike Iran before March 2026 (ET)?",
+          "pnl": -71.8,
+          "roi": -76.1,
+          "buy": 94.35,
+          "sell": 22.55,
+          "trades": 5
+        }
+      ],
+      "positions_open": 34
+    },
+    {
+      "address": "0x10e8985ba1adb162c17dd81affe9531c19c1fdaa",
+      "score": 4.86,
+      "roi_pct": -23.43,
+      "win_rate_pct": 23.2,
+      "total_pnl": -452.12,
+      "realized_pnl": 0.0,
+      "open_pnl": -12.12,
+      "total_buy": 1929.54,
+      "total_volume": 3603.86,
+      "months_active": 2.7,
+      "days_active": 82,
+      "total_trades": 500,
+      "markets_traded": 151,
+      "wins": 35,
+      "losses": 113,
+      "std_dev": 63.73,
+      "sharpe": -0.368,
+      "best_markets": [
+        {
+          "title": "France vs. Iraq: O/U 2.5",
+          "pnl": 14.09,
+          "roi": 27.94,
+          "buy": 50.44,
+          "sell": 64.53,
+          "trades": 2
+        },
+        {
+          "title": "Cristiano Ronaldo: 1+ goals",
+          "pnl": 11.75,
+          "roi": 64.52,
+          "buy": 18.22,
+          "sell": 29.97,
+          "trades": 2
+        },
+        {
+          "title": "Will Argentina win on 2026-06-22?",
+          "pnl": 11.02,
+          "roi": 45.49,
+          "buy": 24.23,
+          "sell": 35.25,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Indian Premier League: Lucknow Super Giants vs Punjab Kings",
+          "pnl": -30.01,
+          "roi": -37.65,
+          "buy": 79.71,
+          "sell": 49.7,
           "trades": 7
         },
         {
-          "title": "Will Liam Lawson be the 2026 F1 Drivers' Champion?",
-          "pnl": 4.94,
-          "roi": 9.68,
-          "buy": 51.0,
-          "sell": 55.94,
-          "trades": 15
+          "title": "Will France win the 2026 FIFA World Cup?",
+          "pnl": -27.92,
+          "roi": -100.0,
+          "buy": 27.92,
+          "sell": 0.0,
+          "trades": 2
         }
       ],
-      "worst_markets": [
+      "positions_open": 17
+    },
+    {
+      "address": "0x7fa8c4c9ed9cba68069b5101202b509457d42e16",
+      "score": 4.85,
+      "roi_pct": -0.14,
+      "win_rate_pct": 6.8,
+      "total_pnl": -2.38,
+      "realized_pnl": 0,
+      "open_pnl": 0,
+      "total_buy": 1734.51,
+      "total_volume": 3550.86,
+      "months_active": 1.5,
+      "days_active": 45,
+      "total_trades": 500,
+      "markets_traded": 88,
+      "wins": 6,
+      "losses": 80,
+      "std_dev": 16.99,
+      "sharpe": -0.008,
+      "best_markets": [
         {
-          "title": "Will Jesus Christ return before 2027?",
-          "pnl": -10.06,
-          "roi": -40.22,
-          "buy": 25.02,
-          "sell": 14.96,
+          "title": "Netanyahu out by June 30?",
+          "pnl": 8.0,
+          "roi": 159.97,
+          "buy": 5.0,
+          "sell": 13.0,
+          "trades": 3
+        },
+        {
+          "title": "Will James Talarico win the 2028 Democratic presidential nomination?",
+          "pnl": 6.94,
+          "roi": 43.33,
+          "buy": 16.01,
+          "sell": 22.95,
           "trades": 5
         },
         {
-          "title": "Spread: Chelsea FC (-2.5)",
-          "pnl": -10.01,
-          "roi": -100.0,
-          "buy": 10.01,
-          "sell": 0.0,
-          "trades": 2
-        }
-      ],
-      "positions_open": 5
-    },
-    {
-      "address": "0x49a2f56145d9859216097871115e1557ade9f1ef",
-      "score": 5.17,
-      "roi_pct": -21.88,
-      "win_rate_pct": 31.0,
-      "total_pnl": -217.0,
-      "realized_pnl": -0.84,
-      "open_pnl": -130.31,
-      "total_buy": 991.65,
-      "total_volume": 2032.24,
-      "months_active": 1.3,
-      "days_active": 40,
-      "total_trades": 500,
-      "markets_traded": 171,
-      "wins": 53,
-      "losses": 117,
-      "std_dev": 36.2,
-      "sharpe": -0.604,
-      "best_markets": [
-        {
-          "title": "Will Los Angeles Galaxy win on 2026-05-02?",
-          "pnl": 7.49,
-          "roi": 106.41,
-          "buy": 7.04,
-          "sell": 14.54,
-          "trades": 3
-        },
-        {
-          "title": "Dota 2: Vici Gaming vs Virtus.pro - Game 1 Winner",
-          "pnl": 4.37,
-          "roi": 113.97,
-          "buy": 3.84,
-          "sell": 8.21,
-          "trades": 3
-        },
-        {
-          "title": "Will Carrarese Calcio vs. Cesena FC end in a draw?",
-          "pnl": 3.8,
-          "roi": 5789.53,
-          "buy": 0.07,
-          "sell": 3.87,
-          "trades": 2
+          "title": "Trump out as President before 2027?",
+          "pnl": 4.93,
+          "roi": 37.89,
+          "buy": 13.0,
+          "sell": 17.93,
+          "trades": 5
         }
       ],
       "worst_markets": [
         {
-          "title": "Will Elon Musk post 200-219 tweets from May 15 to May 22, 2026?",
-          "pnl": -9.9,
+          "title": "Bitcoin Up or Down - June 25, 10AM ET",
+          "pnl": -9.22,
           "roi": -100.0,
-          "buy": 9.9,
+          "buy": 9.22,
           "sell": 0.0,
           "trades": 2
         },
         {
-          "title": "Will Elon Musk post 220-239 tweets from May 12 to May 19, 2026?",
-          "pnl": -9.88,
+          "title": "Will a \u22645% Uranium Enrichment Cap (1+ Year) be in a US-Iran deal in 2026?",
+          "pnl": -7.72,
+          "roi": -18.34,
+          "buy": 42.1,
+          "sell": 34.37,
+          "trades": 4
+        }
+      ],
+      "positions_open": 0
+    },
+    {
+      "address": "0x58720bcd178555e6696002c73354efa9e6d862fb",
+      "score": 4.08,
+      "roi_pct": -8.28,
+      "win_rate_pct": 5.1,
+      "total_pnl": -320.27,
+      "realized_pnl": 0.0,
+      "open_pnl": -90.94,
+      "total_buy": 3869.37,
+      "total_volume": 7535.13,
+      "months_active": 2.6,
+      "days_active": 77,
+      "total_trades": 417,
+      "markets_traded": 39,
+      "wins": 2,
+      "losses": 37,
+      "std_dev": 43.01,
+      "sharpe": -0.192,
+      "best_markets": [
+        {
+          "title": "Over $1M committed to the Pharos public sale?",
+          "pnl": 12.25,
+          "roi": 40.82,
+          "buy": 30.0,
+          "sell": 42.25,
+          "trades": 2
+        },
+        {
+          "title": "Will Spain win on 2026-06-26?",
+          "pnl": 0.87,
+          "roi": 9.77,
+          "buy": 8.87,
+          "sell": 9.73,
+          "trades": 2
+        },
+        {
+          "title": "Will China invades Taiwan before GTA VI?",
+          "pnl": -0.29,
+          "roi": -0.11,
+          "buy": 267.65,
+          "sell": 267.35,
+          "trades": 33
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Pharos FDV above $800M one day after launch?",
+          "pnl": -30.0,
           "roi": -100.0,
-          "buy": 9.88,
+          "buy": 30.0,
           "sell": 0.0,
           "trades": 1
-        }
-      ],
-      "positions_open": 31
-    },
-    {
-      "address": "0x750d7de8f99853aeed166f85078e22540cc382e5",
-      "score": 4.29,
-      "roi_pct": -39.76,
-      "win_rate_pct": 34.3,
-      "total_pnl": -91.9,
-      "realized_pnl": 0.0,
-      "open_pnl": -0.87,
-      "total_buy": 231.13,
-      "total_volume": 430.07,
-      "months_active": 3.5,
-      "days_active": 106,
-      "total_trades": 320,
-      "markets_traded": 134,
-      "wins": 46,
-      "losses": 85,
-      "std_dev": 53.53,
-      "sharpe": -0.743,
-      "best_markets": [
-        {
-          "title": "Will Bulgaria be in the top 10 at Eurovision 2026?",
-          "pnl": 3.97,
-          "roi": 43.43,
-          "buy": 9.14,
-          "sell": 13.11,
-          "trades": 4
         },
         {
-          "title": "Bitcoin Up or Down - March 8, 3:10PM-3:15PM ET",
-          "pnl": 2.5,
-          "roi": 124.77,
-          "buy": 2.0,
-          "sell": 4.5,
-          "trades": 2
-        },
-        {
-          "title": "Bitcoin Up or Down - March 8, 3:20PM-3:25PM ET",
-          "pnl": 1.74,
-          "roi": 173.73,
-          "buy": 1.0,
-          "sell": 2.74,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Bitcoin Up or Down - March 8, 1:20PM-1:25PM ET",
-          "pnl": -11.08,
+          "title": "Pharos FDV above $500M one day after launch?",
+          "pnl": -20.0,
           "roi": -100.0,
-          "buy": 11.08,
+          "buy": 20.0,
           "sell": 0.0,
-          "trades": 2
-        },
-        {
-          "title": "Will ChatGPT be #1 Free App in the US Apple App Store on May 12?",
-          "pnl": -10.05,
-          "roi": -49.99,
-          "buy": 20.11,
-          "sell": 10.06,
-          "trades": 3
-        }
-      ],
-      "positions_open": 5
-    },
-    {
-      "address": "0x1a9be099de2f48864d04a2fe15b49810c5e077b6",
-      "score": 3.54,
-      "roi_pct": -3.56,
-      "win_rate_pct": 6.4,
-      "total_pnl": -64.94,
-      "realized_pnl": -0.44,
-      "open_pnl": -0.25,
-      "total_buy": 1824.8,
-      "total_volume": 3645.75,
-      "months_active": 1.4,
-      "days_active": 42,
-      "total_trades": 500,
-      "markets_traded": 109,
-      "wins": 7,
-      "losses": 100,
-      "std_dev": 23.6,
-      "sharpe": -0.151,
-      "best_markets": [
-        {
-          "title": "Will Esteban Ocon be the 2026 F1 Drivers' Champion?",
-          "pnl": 9.97,
-          "roi": 58.63,
-          "buy": 17.0,
-          "sell": 26.97,
-          "trades": 5
-        },
-        {
-          "title": "Will Jesus Christ return before 2027?",
-          "pnl": 7.95,
-          "roi": 99.27,
-          "buy": 8.01,
-          "sell": 15.96,
-          "trades": 3
-        },
-        {
-          "title": "Will Belgium win the 2026 FIFA World Cup?",
-          "pnl": 0.05,
-          "roi": 0.65,
-          "buy": 7.0,
-          "sell": 7.05,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will Luciano Zucco win the Governor of Rio Grande do Sul election?",
-          "pnl": -10.39,
-          "roi": -23.2,
-          "buy": 44.78,
-          "sell": 34.39,
-          "trades": 2
-        },
-        {
-          "title": "Bitcoin Up or Down - June 8, 5PM ET",
-          "pnl": -9.49,
-          "roi": -100.0,
-          "buy": 9.49,
-          "sell": 0.0,
-          "trades": 2
+          "trades": 1
         }
       ],
       "positions_open": 6
     },
     {
-      "address": "0x2f633efb75256a2f2445110c8978684ab8936643",
-      "score": 2.38,
-      "roi_pct": -60.79,
-      "win_rate_pct": 27.0,
-      "total_pnl": -45598.2,
-      "realized_pnl": -0.1,
-      "open_pnl": 183.94,
-      "total_buy": 75006.08,
-      "total_volume": 176885.3,
-      "months_active": 1.5,
-      "days_active": 45,
+      "address": "0xb557dc93416e066a090e504fe9691bffad0def84",
+      "score": 3.42,
+      "roi_pct": -27.04,
+      "win_rate_pct": 24.3,
+      "total_pnl": -1335.71,
+      "realized_pnl": 28.49,
+      "open_pnl": -1082.91,
+      "total_buy": 4939.43,
+      "total_volume": 10407.23,
+      "months_active": 1.9,
+      "days_active": 58,
       "total_trades": 500,
-      "markets_traded": 137,
-      "wins": 37,
-      "losses": 100,
-      "std_dev": 91.15,
-      "sharpe": -0.667,
+      "markets_traded": 144,
+      "wins": 35,
+      "losses": 109,
+      "std_dev": 137.38,
+      "sharpe": -0.197,
+      "best_markets": [
+        {
+          "title": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+          "pnl": 322.68,
+          "roi": 253.58,
+          "buy": 127.25,
+          "sell": 449.93,
+          "trades": 13
+        },
+        {
+          "title": "Will Trump say \"Iran\" during events with Xi Jinping?",
+          "pnl": 296.05,
+          "roi": 230.9,
+          "buy": 128.22,
+          "sell": 424.27,
+          "trades": 10
+        },
+        {
+          "title": "US x Iran permanent peace deal by June 15, 2026?",
+          "pnl": 284.88,
+          "roi": 627.48,
+          "buy": 45.4,
+          "sell": 330.28,
+          "trades": 4
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Lebanon recognize Israel by June 30?",
+          "pnl": -246.43,
+          "roi": -87.9,
+          "buy": 280.36,
+          "sell": 33.93,
+          "trades": 5
+        },
+        {
+          "title": " Iran agrees to end enrichment of uranium by July 31?",
+          "pnl": -229.2,
+          "roi": -100.0,
+          "buy": 229.2,
+          "sell": 0.0,
+          "trades": 3
+        }
+      ],
+      "positions_open": 97
+    },
+    {
+      "address": "0x9c9623a2f60f9ee1805d3941a7ee5b9fe6a0451a",
+      "score": 3.07,
+      "roi_pct": -4.53,
+      "win_rate_pct": 4.8,
+      "total_pnl": -93.61,
+      "realized_pnl": -0.38,
+      "open_pnl": -19.32,
+      "total_buy": 2065.0,
+      "total_volume": 4119.24,
+      "months_active": 1.5,
+      "days_active": 46,
+      "total_trades": 500,
+      "markets_traded": 104,
+      "wins": 5,
+      "losses": 95,
+      "std_dev": 20.99,
+      "sharpe": -0.216,
+      "best_markets": [
+        {
+          "title": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
+          "pnl": 9.84,
+          "roi": 81.82,
+          "buy": 12.02,
+          "sell": 21.86,
+          "trades": 5
+        },
+        {
+          "title": "Netanyahu out by June 30?",
+          "pnl": 8.99,
+          "roi": 40.86,
+          "buy": 22.0,
+          "sell": 30.99,
+          "trades": 7
+        },
+        {
+          "title": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+          "pnl": 7.72,
+          "roi": 51.0,
+          "buy": 15.14,
+          "sell": 22.87,
+          "trades": 5
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will the highest temperature in Los Angeles be between 68-69\u00b0F on June 30?",
+          "pnl": -62.2,
+          "roi": -91.62,
+          "buy": 67.89,
+          "sell": 5.69,
+          "trades": 3
+        },
+        {
+          "title": "Haiti vs. Scotland: O/U 6.5",
+          "pnl": -7.01,
+          "roi": -100.0,
+          "buy": 7.01,
+          "sell": 0.0,
+          "trades": 2
+        }
+      ],
+      "positions_open": 1
+    },
+    {
+      "address": "0xbe6eea32b6ebddefa2cf37b903a7510d487aacf1",
+      "score": 2.91,
+      "roi_pct": -36.85,
+      "win_rate_pct": 21.5,
+      "total_pnl": -141.86,
+      "realized_pnl": 0.0,
+      "open_pnl": -23.88,
+      "total_buy": 384.95,
+      "total_volume": 747.99,
+      "months_active": 4.5,
+      "days_active": 134,
+      "total_trades": 500,
+      "markets_traded": 186,
+      "wins": 40,
+      "losses": 144,
+      "std_dev": 33.48,
+      "sharpe": -1.101,
+      "best_markets": [
+        {
+          "title": "UFC Fight Night: Israel Adesanya vs. Joe Pyfer (Middleweight, Main Card)",
+          "pnl": 6.1,
+          "roi": 121.98,
+          "buy": 5.0,
+          "sell": 11.1,
+          "trades": 2
+        },
+        {
+          "title": "Bitcoin Up or Down - February 13, 3:30PM-3:45PM ET",
+          "pnl": 3.7,
+          "roi": 32.88,
+          "buy": 11.25,
+          "sell": 14.95,
+          "trades": 14
+        },
+        {
+          "title": "Bitcoin Up or Down - February 13, 5:00PM-5:15PM ET",
+          "pnl": 3.0,
+          "roi": 24.49,
+          "buy": 12.25,
+          "sell": 15.25,
+          "trades": 11
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Bitcoin Up or Down - February 13, 7:00PM-7:15PM ET",
+          "pnl": -15.12,
+          "roi": -65.59,
+          "buy": 23.06,
+          "sell": 7.94,
+          "trades": 15
+        },
+        {
+          "title": "UFC Fight Night: Rafael Fiziev vs. Manuel Torres (Lightweight, Main Card)",
+          "pnl": -5.08,
+          "roi": -100.0,
+          "buy": 5.08,
+          "sell": 0.0,
+          "trades": 1
+        }
+      ],
+      "positions_open": 23
+    },
+    {
+      "address": "0x2f633efb75256a2f2445110c8978684ab8936643",
+      "score": 1.69,
+      "roi_pct": -67.3,
+      "win_rate_pct": 31.4,
+      "total_pnl": -58118.0,
+      "realized_pnl": -0.1,
+      "open_pnl": -2176.96,
+      "total_buy": 86358.32,
+      "total_volume": 167275.62,
+      "months_active": 1.5,
+      "days_active": 44,
+      "total_trades": 500,
+      "markets_traded": 121,
+      "wins": 38,
+      "losses": 83,
+      "std_dev": 94.15,
+      "sharpe": -0.715,
       "best_markets": [
         {
           "title": "Will the Iran ceasefire continue through May 28?",
@@ -3392,583 +3584,527 @@
           "trades": 2
         },
         {
-          "title": "Will SpaceX's public ticker be another ticker?",
-          "pnl": -4266.54,
+          "title": "Will Tesla deliver 475000 or more vehicles in Q2 2026",
+          "pnl": -7832.93,
           "roi": -100.0,
-          "buy": 4266.54,
+          "buy": 7832.93,
           "sell": 0.0,
-          "trades": 21
+          "trades": 14
         }
       ],
-      "positions_open": 10
+      "positions_open": 18
     },
     {
-      "address": "0xf9765be66e9f465a29388017af6805b473327366",
-      "score": 1.91,
-      "roi_pct": -64.54,
-      "win_rate_pct": 34.0,
-      "total_pnl": -54.69,
+      "address": "0x3dbbef8d63a4b8850d06a8b741a1250117dd6fc2",
+      "score": 1.26,
+      "roi_pct": -36.28,
+      "win_rate_pct": 21.6,
+      "total_pnl": -137.97,
       "realized_pnl": 0.0,
-      "open_pnl": -13.11,
-      "total_buy": 84.73,
-      "total_volume": 166.13,
-      "months_active": 6.6,
-      "days_active": 199,
-      "total_trades": 86,
-      "markets_traded": 47,
-      "wins": 16,
-      "losses": 30,
-      "std_dev": 8.2,
-      "sharpe": -7.871,
+      "open_pnl": -0.0,
+      "total_buy": 380.27,
+      "total_volume": 708.63,
+      "months_active": 3.4,
+      "days_active": 101,
+      "total_trades": 190,
+      "markets_traded": 37,
+      "wins": 8,
+      "losses": 26,
+      "std_dev": 66.78,
+      "sharpe": -0.543,
       "best_markets": [
         {
-          "title": "U.S. agrees to a new trade deal with \"Vietnam\" before 2027?",
-          "pnl": 0.79,
-          "roi": 77.78,
-          "buy": 1.02,
-          "sell": 1.81,
-          "trades": 2
+          "title": "Bitcoin Up or Down - June 7, 1:15AM-1:20AM ET",
+          "pnl": 26.1,
+          "roi": 225.22,
+          "buy": 11.59,
+          "sell": 37.68,
+          "trades": 4
         },
         {
-          "title": "Will Trump say \"Transgender\" this week? (December 22 - 28)",
-          "pnl": 0.69,
-          "roi": 68.83,
-          "buy": 1.0,
-          "sell": 1.69,
-          "trades": 2
-        },
-        {
-          "title": "Strait of Hormuz traffic returns to normal by end of April?",
-          "pnl": 0.61,
-          "roi": 60.84,
-          "buy": 1.0,
-          "sell": 1.61,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will Brazil win on 2026-06-19?",
-          "pnl": -3.91,
-          "roi": -100.0,
-          "buy": 3.91,
-          "sell": 0.0,
-          "trades": 2
-        },
-        {
-          "title": "Will Egypt win on 2026-06-21?",
-          "pnl": -3.54,
-          "roi": -100.0,
-          "buy": 3.54,
-          "sell": 0.0,
-          "trades": 2
-        }
-      ],
-      "positions_open": 11
-    },
-    {
-      "address": "0xedc31e6e210dcb3cb691d0d62348abda99da56eb",
-      "score": 1.82,
-      "roi_pct": -26.93,
-      "win_rate_pct": 20.0,
-      "total_pnl": -10.3,
-      "realized_pnl": 0.0,
-      "open_pnl": 2.58,
-      "total_buy": 38.24,
-      "total_volume": 63.62,
-      "months_active": 2.3,
-      "days_active": 70,
-      "total_trades": 7,
-      "markets_traded": 5,
-      "wins": 1,
-      "losses": 4,
-      "std_dev": 52.6,
-      "sharpe": -0.512,
-      "best_markets": [
-        {
-          "title": "Will Cooper Flagg win the 2025\u201326 NBA Rookie of the Year award?",
-          "pnl": 4.34,
-          "roi": 21.47,
-          "buy": 20.2,
-          "sell": 24.54,
-          "trades": 2
-        },
-        {
-          "title": "Will the highest temperature in Los Angeles be between 72-73\u00b0F on June 21?",
-          "pnl": -0.21,
-          "roi": -20.24,
-          "buy": 1.05,
-          "sell": 0.83,
-          "trades": 2
-        },
-        {
-          "title": "Will the highest temperature in San Francisco be between 66-67\u00b0F on June 21?",
-          "pnl": -5.05,
-          "roi": -100.0,
-          "buy": 5.05,
-          "sell": 0.0,
-          "trades": 1
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will bitcoin hit $1m before GTA VI?",
-          "pnl": -6.9,
-          "roi": -100.0,
-          "buy": 6.9,
-          "sell": 0.0,
-          "trades": 1
-        },
-        {
-          "title": "Will the highest temperature in San Francisco be between 66-67\u00b0F on June 21?",
-          "pnl": -5.05,
-          "roi": -100.0,
-          "buy": 5.05,
-          "sell": 0.0,
-          "trades": 1
-        }
-      ],
-      "positions_open": 3
-    },
-    {
-      "address": "0xf94fb6cac545d9414b7f9972bb7b88b9adb73472",
-      "score": 1.48,
-      "roi_pct": -84.19,
-      "win_rate_pct": 40.0,
-      "total_pnl": -374.66,
-      "realized_pnl": -0.08,
-      "open_pnl": -60.7,
-      "total_buy": 445.0,
-      "total_volume": 576.04,
-      "months_active": 8.8,
-      "days_active": 264,
-      "total_trades": 17,
-      "markets_traded": 5,
-      "wins": 2,
-      "losses": 3,
-      "std_dev": 58.27,
-      "sharpe": -1.445,
-      "best_markets": [
-        {
-          "title": "Will Israel strike Gaza on January 23, 2026?",
-          "pnl": 10.6,
-          "roi": 42.42,
-          "buy": 25.0,
-          "sell": 35.6,
-          "trades": 2
-        },
-        {
-          "title": "Will GTA 6 cost $100+?",
-          "pnl": 0.31,
-          "roi": 1.22,
-          "buy": 25.0,
-          "sell": 25.31,
-          "trades": 2
-        },
-        {
-          "title": "Bitcoin Up or Down - February 6, 4:45PM-5:00PM ET",
-          "pnl": -10.0,
-          "roi": -100.0,
-          "buy": 10.0,
-          "sell": 0.0,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will Jesus Christ return before GTA VI?",
-          "pnl": -266.89,
-          "roi": -79.19,
-          "buy": 337.02,
-          "sell": 70.13,
-          "trades": 10
-        },
-        {
-          "title": "Israel strikes Iran by October 31?",
-          "pnl": -47.98,
-          "roi": -100.0,
-          "buy": 47.98,
-          "sell": 0.0,
-          "trades": 1
-        }
-      ],
-      "positions_open": 3
-    },
-    {
-      "address": "0x40ed556a08a81e36b79bb6b9715efe1dc87a8038",
-      "score": 0.19,
-      "roi_pct": -45.8,
-      "win_rate_pct": 15.4,
-      "total_pnl": -208.7,
-      "realized_pnl": 5.53,
-      "open_pnl": -54.74,
-      "total_buy": 455.72,
-      "total_volume": 813.18,
-      "months_active": 5.5,
-      "days_active": 166,
-      "total_trades": 101,
-      "markets_traded": 13,
-      "wins": 2,
-      "losses": 10,
-      "std_dev": 46.71,
-      "sharpe": -0.98,
-      "best_markets": [
-        {
-          "title": "Will Trump acquire Greenland before 2027?",
-          "pnl": 9.75,
-          "roi": 25.0,
-          "buy": 39.0,
-          "sell": 48.75,
-          "trades": 2
-        },
-        {
-          "title": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
-          "pnl": 0.51,
-          "roi": 1.89,
-          "buy": 27.0,
-          "sell": 27.51,
-          "trades": 2
-        },
-        {
-          "title": "Will the U.S. invade Cuba in 2026?",
-          "pnl": -0.0,
-          "roi": -0.0,
-          "buy": 25.6,
-          "sell": 25.6,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will Ecuador win on 2026-06-20?",
-          "pnl": -55.13,
-          "roi": -100.0,
-          "buy": 55.13,
-          "sell": 0.0,
-          "trades": 1
-        },
-        {
-          "title": "Will France win the 2026 FIFA World Cup?",
-          "pnl": -47.85,
-          "roi": -61.29,
-          "buy": 78.07,
-          "sell": 30.22,
+          "title": "Bitcoin Up or Down - June 7, 1:10AM-1:15AM ET",
+          "pnl": 4.45,
+          "roi": 70.87,
+          "buy": 6.27,
+          "sell": 10.72,
           "trades": 3
-        }
-      ],
-      "positions_open": 2
-    },
-    {
-      "address": "0x3c772cfab6d9fb4c815f7ec38ee78a92f4e57ae8",
-      "score": 0.16,
-      "roi_pct": -36.86,
-      "win_rate_pct": 29.0,
-      "total_pnl": -159.93,
-      "realized_pnl": -6.68,
-      "open_pnl": -93.3,
-      "total_buy": 433.92,
-      "total_volume": 821.35,
-      "months_active": 1.5,
-      "days_active": 44,
-      "total_trades": 161,
-      "markets_traded": 69,
-      "wins": 20,
-      "losses": 49,
-      "std_dev": 81.28,
-      "sharpe": -0.453,
-      "best_markets": [
-        {
-          "title": "Will the highest temperature in Seoul be 20\u00b0C on May 13?",
-          "pnl": 35.86,
-          "roi": 230.73,
-          "buy": 15.54,
-          "sell": 51.4,
-          "trades": 2
         },
         {
-          "title": "Bitcoin Up or Down - May 9, 10:35AM-10:40AM ET",
-          "pnl": 13.56,
-          "roi": 240.22,
-          "buy": 5.64,
-          "sell": 19.2,
-          "trades": 5
-        },
-        {
-          "title": "Will Elon Musk post <40 tweets from May 9 to May 11, 2026?",
-          "pnl": 12.64,
-          "roi": 72.64,
-          "buy": 17.4,
-          "sell": 30.04,
-          "trades": 6
+          "title": "Bitcoin Up or Down - June 8, 10:35AM-10:40AM ET",
+          "pnl": 2.12,
+          "roi": 20.23,
+          "buy": 10.49,
+          "sell": 12.61,
+          "trades": 4
         }
       ],
       "worst_markets": [
         {
-          "title": "Will Australia win on 2026-06-19?",
-          "pnl": -22.53,
+          "title": "Will Crude Oil (CL) hit (LOW) $90 by end of March?",
+          "pnl": -31.5,
           "roi": -100.0,
-          "buy": 22.53,
+          "buy": 31.5,
           "sell": 0.0,
-          "trades": 2
-        },
-        {
-          "title": "Will the highest temperature in Seoul be 26\u00b0C on June 22?",
-          "pnl": -16.38,
-          "roi": -77.6,
-          "buy": 21.1,
-          "sell": 4.73,
           "trades": 3
-        }
-      ],
-      "positions_open": 22
-    },
-    {
-      "address": "0x2a96b864b6270a7a970bc1774413e2127bfdc6cf",
-      "score": -0.68,
-      "roi_pct": -53.25,
-      "win_rate_pct": 26.8,
-      "total_pnl": -166.7,
-      "realized_pnl": -1.78,
-      "open_pnl": -12.92,
-      "total_buy": 313.04,
-      "total_volume": 605.68,
-      "months_active": 4.3,
-      "days_active": 130,
-      "total_trades": 388,
-      "markets_traded": 157,
-      "wins": 42,
-      "losses": 114,
-      "std_dev": 57.45,
-      "sharpe": -0.927,
-      "best_markets": [
-        {
-          "title": "Bitcoin Up or Down - June 20, 6:25PM-6:30PM ET",
-          "pnl": 11.6,
-          "roi": 37.18,
-          "buy": 31.2,
-          "sell": 42.81,
-          "trades": 4
         },
         {
-          "title": "Bitcoin Up or Down - June 21, 7:00AM-7:05AM ET",
-          "pnl": 1.78,
-          "roi": 57.58,
-          "buy": 3.09,
-          "sell": 4.86,
-          "trades": 2
-        },
-        {
-          "title": "Bitcoin Up or Down - June 21, 7:20AM-7:25AM ET",
-          "pnl": 1.6,
-          "roi": 77.31,
-          "buy": 2.06,
-          "sell": 3.66,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Bitcoin Up or Down - February 16, 4:10PM-4:15PM ET",
-          "pnl": -5.84,
-          "roi": -100.0,
-          "buy": 5.84,
-          "sell": 0.0,
-          "trades": 2
-        },
-        {
-          "title": "Bitcoin Up or Down - June 21, 10:20AM-10:25AM ET",
-          "pnl": -5.17,
-          "roi": -100.0,
-          "buy": 5.17,
-          "sell": 0.0,
-          "trades": 2
-        }
-      ],
-      "positions_open": 11
-    },
-    {
-      "address": "0x7b4979b27418d4713e6196f4fe928df263006a32",
-      "score": -1.71,
-      "roi_pct": -40.54,
-      "win_rate_pct": 17.0,
-      "total_pnl": -124.98,
-      "realized_pnl": 0.0,
-      "open_pnl": -22.87,
-      "total_buy": 308.26,
-      "total_volume": 563.83,
-      "months_active": 3.2,
-      "days_active": 95,
-      "total_trades": 164,
-      "markets_traded": 88,
-      "wins": 15,
-      "losses": 73,
-      "std_dev": 87.01,
-      "sharpe": -0.466,
-      "best_markets": [
-        {
-          "title": "Will 100 Thieves qualify to a S-tier tournament by June 1 ? ",
-          "pnl": 38.31,
-          "roi": 164.85,
-          "buy": 23.24,
-          "sell": 61.55,
-          "trades": 4
-        },
-        {
-          "title": "Will Club Atl\u00e9tico de Madrid win on 2026-04-08?",
-          "pnl": 15.07,
-          "roi": 301.38,
-          "buy": 5.0,
-          "sell": 20.07,
-          "trades": 2
-        },
-        {
-          "title": "Bitcoin Up or Down - March 20, 3:10PM-3:15PM ET",
-          "pnl": 10.17,
-          "roi": 101.67,
-          "buy": 10.0,
-          "sell": 20.17,
-          "trades": 2
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Will Real Madrid CF win on 2026-04-10?",
-          "pnl": -16.23,
-          "roi": -100.0,
-          "buy": 16.23,
-          "sell": 0.0,
-          "trades": 4
-        },
-        {
-          "title": "Will Club Atl\u00e9tico de Madrid win on 2026-04-11?",
-          "pnl": -10.0,
-          "roi": -100.0,
-          "buy": 10.0,
-          "sell": 0.0,
-          "trades": 2
-        }
-      ],
-      "positions_open": 24
-    },
-    {
-      "address": "0xbb7e3537bce7a20f63e67bee30b4740be02948d3",
-      "score": -2.1,
-      "roi_pct": -38.14,
-      "win_rate_pct": 24.2,
-      "total_pnl": -449.62,
-      "realized_pnl": 0,
-      "open_pnl": 0,
-      "total_buy": 1178.74,
-      "total_volume": 2096.32,
-      "months_active": 1.1,
-      "days_active": 34,
-      "total_trades": 500,
-      "markets_traded": 153,
-      "wins": 37,
-      "losses": 116,
-      "std_dev": 67.74,
-      "sharpe": -0.563,
-      "best_markets": [
-        {
-          "title": "Bitcoin Up or Down - May 19, 10:30AM-10:45AM ET",
-          "pnl": 22.44,
-          "roi": 87.26,
-          "buy": 25.71,
-          "sell": 48.15,
-          "trades": 9
-        },
-        {
-          "title": "Bitcoin Up or Down - June 2, 8:00AM-8:05AM ET",
-          "pnl": 14.04,
-          "roi": 134.8,
-          "buy": 10.42,
-          "sell": 24.46,
+          "title": "Bitcoin Up or Down - June 7, 12:50AM-12:55AM ET",
+          "pnl": -21.87,
+          "roi": -71.84,
+          "buy": 30.45,
+          "sell": 8.57,
           "trades": 5
-        },
-        {
-          "title": "Bitcoin Up or Down - June 2, 7:50AM-7:55AM ET",
-          "pnl": 10.23,
-          "roi": 76.29,
-          "buy": 13.41,
-          "sell": 23.64,
-          "trades": 4
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "Bitcoin Up or Down - June 2, 8:00AM-8:15AM ET",
-          "pnl": -37.63,
-          "roi": -100.0,
-          "buy": 37.63,
-          "sell": 0.0,
-          "trades": 7
-        },
-        {
-          "title": "Bitcoin Up or Down - June 2, 8:30AM-8:45AM ET",
-          "pnl": -22.01,
-          "roi": -100.0,
-          "buy": 22.01,
-          "sell": 0.0,
-          "trades": 5
-        }
-      ],
-      "positions_open": 0
-    },
-    {
-      "address": "0xb2b2bb44c9286d86eb224ba23f93222c5299347f",
-      "score": -2.48,
-      "roi_pct": -14.75,
-      "win_rate_pct": 0.0,
-      "total_pnl": -87.96,
-      "realized_pnl": -9.73,
-      "open_pnl": -0.75,
-      "total_buy": 596.27,
-      "total_volume": 1138.66,
-      "months_active": 1.1,
-      "days_active": 33,
-      "total_trades": 98,
-      "markets_traded": 2,
-      "wins": 0,
-      "losses": 2,
-      "std_dev": 44.19,
-      "sharpe": -0.334,
-      "best_markets": [
-        {
-          "title": "Cavaliers vs. Knicks",
-          "pnl": -20.24,
-          "roi": -100.0,
-          "buy": 20.24,
-          "sell": 0.0,
-          "trades": 2
-        },
-        {
-          "title": "New Rihanna Album before GTA VI?",
-          "pnl": -66.97,
-          "roi": -11.63,
-          "buy": 576.03,
-          "sell": 509.06,
-          "trades": 96
-        }
-      ],
-      "worst_markets": [
-        {
-          "title": "New Rihanna Album before GTA VI?",
-          "pnl": -66.97,
-          "roi": -11.63,
-          "buy": 576.03,
-          "sell": 509.06,
-          "trades": 96
-        },
-        {
-          "title": "Cavaliers vs. Knicks",
-          "pnl": -20.24,
-          "roi": -100.0,
-          "buy": 20.24,
-          "sell": 0.0,
-          "trades": 2
         }
       ],
       "positions_open": 1
+    },
+    {
+      "address": "0xf2c7eaa702cd2781d3f0e0e77ec49ffcbad98241",
+      "score": 0.95,
+      "roi_pct": -58.53,
+      "win_rate_pct": 15.2,
+      "total_pnl": -1183.48,
+      "realized_pnl": -2.46,
+      "open_pnl": -0.29,
+      "total_buy": 2021.92,
+      "total_volume": 3844.55,
+      "months_active": 8.1,
+      "days_active": 244,
+      "total_trades": 77,
+      "markets_traded": 33,
+      "wins": 5,
+      "losses": 28,
+      "std_dev": 50.58,
+      "sharpe": -1.157,
+      "best_markets": [
+        {
+          "title": "Bitcoin Up or Down - June 28, 7:30AM-7:35AM ET",
+          "pnl": 41.82,
+          "roi": 50.56,
+          "buy": 82.71,
+          "sell": 124.53,
+          "trades": 4
+        },
+        {
+          "title": "Bitcoin Up or Down - June 27, 4:30AM-4:35AM ET",
+          "pnl": 16.09,
+          "roi": 50.2,
+          "buy": 32.06,
+          "sell": 48.15,
+          "trades": 2
+        },
+        {
+          "title": "Strait of Hormuz traffic returns to normal by end of June?",
+          "pnl": 4.31,
+          "roi": 2.24,
+          "buy": 192.4,
+          "sell": 196.71,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Starmer out by June 30, 2026?",
+          "pnl": -312.96,
+          "roi": -100.0,
+          "buy": 312.96,
+          "sell": 0.0,
+          "trades": 2
+        },
+        {
+          "title": "Bitcoin Up or Down - June 27, 9:35PM-9:40PM ET",
+          "pnl": -118.17,
+          "roi": -100.0,
+          "buy": 118.17,
+          "sell": 0.0,
+          "trades": 4
+        }
+      ],
+      "positions_open": 7
+    },
+    {
+      "address": "0x6e5045e4a603a7e96cd0ed9e48769ac293b87fee",
+      "score": 0.94,
+      "roi_pct": -46.04,
+      "win_rate_pct": 18.2,
+      "total_pnl": -1812.38,
+      "realized_pnl": 0.0,
+      "open_pnl": 4.34,
+      "total_buy": 3936.67,
+      "total_volume": 7412.02,
+      "months_active": 5.1,
+      "days_active": 154,
+      "total_trades": 79,
+      "markets_traded": 33,
+      "wins": 6,
+      "losses": 27,
+      "std_dev": 55.53,
+      "sharpe": -0.829,
+      "best_markets": [
+        {
+          "title": "Will Paraguay win on 2026-06-19?",
+          "pnl": 161.19,
+          "roi": 101.71,
+          "buy": 158.47,
+          "sell": 319.67,
+          "trades": 2
+        },
+        {
+          "title": "Will United States win on 2026-06-19?",
+          "pnl": 152.95,
+          "roi": 40.4,
+          "buy": 378.61,
+          "sell": 531.56,
+          "trades": 2
+        },
+        {
+          "title": "Will Senegal win on 2026-06-26?",
+          "pnl": 13.64,
+          "roi": 14.49,
+          "buy": 94.14,
+          "sell": 107.78,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Germany win on 2026-06-29?",
+          "pnl": -261.95,
+          "roi": -100.0,
+          "buy": 261.95,
+          "sell": 0.0,
+          "trades": 1
+        },
+        {
+          "title": "Will Brazil win on 2026-06-24?",
+          "pnl": -157.12,
+          "roi": -100.0,
+          "buy": 157.12,
+          "sell": 0.0,
+          "trades": 2
+        }
+      ],
+      "positions_open": 3
+    },
+    {
+      "address": "0x3a4f90022ab998819e2e4bc9afc295a9c5b9829e",
+      "score": 0.43,
+      "roi_pct": -88.85,
+      "win_rate_pct": 7.4,
+      "total_pnl": -22496.65,
+      "realized_pnl": 1.05,
+      "open_pnl": -2301.65,
+      "total_buy": 25318.74,
+      "total_volume": 48726.74,
+      "months_active": 13.1,
+      "days_active": 394,
+      "total_trades": 487,
+      "markets_traded": 122,
+      "wins": 9,
+      "losses": 113,
+      "std_dev": 41.91,
+      "sharpe": -2.12,
+      "best_markets": [
+        {
+          "title": "US-Iran nuclear deal in 2025?",
+          "pnl": 190.7,
+          "roi": 39.55,
+          "buy": 482.13,
+          "sell": 672.83,
+          "trades": 5
+        },
+        {
+          "title": "Will North and South Korea engage in direct talks in 2025?",
+          "pnl": 165.89,
+          "roi": 14.06,
+          "buy": 1179.62,
+          "sell": 1345.51,
+          "trades": 28
+        },
+        {
+          "title": "Will the Iranian regime fall by June 30?",
+          "pnl": 127.2,
+          "roi": 63.6,
+          "buy": 200.0,
+          "sell": 327.2,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Bitcoin reach $120K in July?",
+          "pnl": -1034.63,
+          "roi": -100.0,
+          "buy": 1034.63,
+          "sell": 0.0,
+          "trades": 5
+        },
+        {
+          "title": "Spread: Japan (-4.5)",
+          "pnl": -925.13,
+          "roi": -100.0,
+          "buy": 925.13,
+          "sell": 0.0,
+          "trades": 2
+        }
+      ],
+      "positions_open": 17
+    },
+    {
+      "address": "0xb6c6b5c8fefad28e2530bf26d1886fed77616c22",
+      "score": -0.14,
+      "roi_pct": -34.7,
+      "win_rate_pct": 26.1,
+      "total_pnl": -12.94,
+      "realized_pnl": 0.0,
+      "open_pnl": -8.0,
+      "total_buy": 37.29,
+      "total_volume": 73.78,
+      "months_active": 1.5,
+      "days_active": 44,
+      "total_trades": 42,
+      "markets_traded": 23,
+      "wins": 6,
+      "losses": 17,
+      "std_dev": 999,
+      "sharpe": -0.035,
+      "best_markets": [
+        {
+          "title": "Will the highest temperature in Seoul be 18\u00b0C on May 21?",
+          "pnl": 8.75,
+          "roi": 379.36,
+          "buy": 2.31,
+          "sell": 11.05,
+          "trades": 2
+        },
+        {
+          "title": "Will \"Backrooms\" Opening Weekend Box Office be greater than 35m?",
+          "pnl": 0.78,
+          "roi": 75.58,
+          "buy": 1.03,
+          "sell": 1.8,
+          "trades": 2
+        },
+        {
+          "title": "Will JD Vance have a diplomatic meeting with Iran by June 30, 2026?",
+          "pnl": 0.1,
+          "roi": 10.0,
+          "buy": 1.0,
+          "sell": 1.1,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will the highest temperature in Paris be 25\u00b0C on May 21?",
+          "pnl": -3.11,
+          "roi": -100.0,
+          "buy": 3.11,
+          "sell": 0.0,
+          "trades": 1
+        },
+        {
+          "title": "Will the highest temperature in Hong Kong be 31\u00b0C on May 23?",
+          "pnl": -2.04,
+          "roi": -100.0,
+          "buy": 2.04,
+          "sell": 0.0,
+          "trades": 1
+        }
+      ],
+      "positions_open": 4
+    },
+    {
+      "address": "0x8cd21ccf7a1fb87f0c36dd505bff4c1e2cdc04a0",
+      "score": -0.2,
+      "roi_pct": -52.36,
+      "win_rate_pct": 31.2,
+      "total_pnl": -4079.82,
+      "realized_pnl": 0.0,
+      "open_pnl": -496.08,
+      "total_buy": 7792.38,
+      "total_volume": 16230.91,
+      "months_active": 2.7,
+      "days_active": 81,
+      "total_trades": 230,
+      "markets_traded": 48,
+      "wins": 15,
+      "losses": 33,
+      "std_dev": 75.68,
+      "sharpe": -0.692,
+      "best_markets": [
+        {
+          "title": "Will Elon Musk post <40 tweets from June 27 to June 29, 2026?",
+          "pnl": 469.3,
+          "roi": 41.47,
+          "buy": 1131.7,
+          "sell": 1600.99,
+          "trades": 58
+        },
+        {
+          "title": "Will Rory McIlroy win the 2026 Masters tournament?",
+          "pnl": 121.38,
+          "roi": 40.7,
+          "buy": 298.2,
+          "sell": 419.58,
+          "trades": 2
+        },
+        {
+          "title": "Will Elon Musk post 300-319 tweets from April 10 to April 17, 2026?",
+          "pnl": 95.95,
+          "roi": 45.8,
+          "buy": 209.5,
+          "sell": 305.45,
+          "trades": 5
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Elon Musk post 220-239 tweets from April 14 to April 21, 2026?",
+          "pnl": -736.5,
+          "roi": -100.0,
+          "buy": 736.5,
+          "sell": 0.0,
+          "trades": 5
+        },
+        {
+          "title": "Bitcoin Up or Down - June 29, 2:30AM-2:35AM ET",
+          "pnl": -506.43,
+          "roi": -100.0,
+          "buy": 506.43,
+          "sell": 0.0,
+          "trades": 7
+        }
+      ],
+      "positions_open": 7
+    },
+    {
+      "address": "0x5b64084609636ada8e7d7beacaff53542d1bc740",
+      "score": -0.56,
+      "roi_pct": -46.54,
+      "win_rate_pct": 30.9,
+      "total_pnl": -54.23,
+      "realized_pnl": 0.0,
+      "open_pnl": -4.0,
+      "total_buy": 116.52,
+      "total_volume": 186.84,
+      "months_active": 2.5,
+      "days_active": 74,
+      "total_trades": 169,
+      "markets_traded": 68,
+      "wins": 21,
+      "losses": 47,
+      "std_dev": 68.03,
+      "sharpe": -0.684,
+      "best_markets": [
+        {
+          "title": "Bitcoin Up or Down - May 12, 11:30PM-11:35PM ET",
+          "pnl": 4.52,
+          "roi": 87.47,
+          "buy": 5.17,
+          "sell": 9.7,
+          "trades": 2
+        },
+        {
+          "title": "Bitcoin Up or Down - May 30, 12:40AM-12:45AM ET",
+          "pnl": 2.75,
+          "roi": 261.19,
+          "buy": 1.05,
+          "sell": 3.8,
+          "trades": 2
+        },
+        {
+          "title": "Bitcoin Up or Down - May 18, 2:10PM-2:15PM ET",
+          "pnl": 1.02,
+          "roi": 97.95,
+          "buy": 1.04,
+          "sell": 2.05,
+          "trades": 2
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Bitcoin Up or Down - May 12, 9:15PM-9:20PM ET",
+          "pnl": -10.48,
+          "roi": -100.0,
+          "buy": 10.48,
+          "sell": 0.0,
+          "trades": 3
+        },
+        {
+          "title": "Starmer out by April 30, 2026?",
+          "pnl": -9.1,
+          "roi": -100.0,
+          "buy": 9.1,
+          "sell": 0.0,
+          "trades": 11
+        }
+      ],
+      "positions_open": 4
+    },
+    {
+      "address": "0x8e6617b33f72c71fb92ece1e506271a3f3d1b169",
+      "score": -1.52,
+      "roi_pct": -49.87,
+      "win_rate_pct": 23.8,
+      "total_pnl": -451.5,
+      "realized_pnl": 0.13,
+      "open_pnl": -48.38,
+      "total_buy": 905.44,
+      "total_volume": 1629.22,
+      "months_active": 3.7,
+      "days_active": 111,
+      "total_trades": 304,
+      "markets_traded": 122,
+      "wins": 29,
+      "losses": 93,
+      "std_dev": 67.44,
+      "sharpe": -0.739,
+      "best_markets": [
+        {
+          "title": "Will Norway win on 2026-06-22?",
+          "pnl": 35.79,
+          "roi": 118.01,
+          "buy": 30.33,
+          "sell": 66.12,
+          "trades": 4
+        },
+        {
+          "title": "Will Sweden win on 2026-06-14?",
+          "pnl": 27.46,
+          "roi": 82.13,
+          "buy": 33.44,
+          "sell": 60.9,
+          "trades": 3
+        },
+        {
+          "title": "Norway vs. France: Both Teams to Score",
+          "pnl": 15.45,
+          "roi": 56.8,
+          "buy": 27.2,
+          "sell": 42.65,
+          "trades": 3
+        }
+      ],
+      "worst_markets": [
+        {
+          "title": "Will Sweden win on 2026-06-25?",
+          "pnl": -37.61,
+          "roi": -100.0,
+          "buy": 37.61,
+          "sell": 0.0,
+          "trades": 4
+        },
+        {
+          "title": "US x Iran ceasefire by April 15?",
+          "pnl": -37.11,
+          "roi": -88.2,
+          "buy": 42.08,
+          "sell": 4.97,
+          "trades": 7
+        }
+      ],
+      "positions_open": 8
     }
   ]
 }
